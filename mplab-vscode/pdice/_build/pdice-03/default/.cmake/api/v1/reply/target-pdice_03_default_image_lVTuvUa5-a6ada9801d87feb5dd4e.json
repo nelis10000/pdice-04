@@ -1,0 +1,354 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "/home/nelis/MPLABProjects/pdice-03/out/pdice-03/default.elf"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"include",
+			"target_link_options",
+			"pdice_03_default_link_rule",
+			"target_compile_definitions"
+		],
+		"files" : 
+		[
+			".generated/main.cmake",
+			"CMakeLists.txt",
+			".generated/rule.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 32,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 124,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 125,
+				"parent" : 4
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 11
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "pdice_03_default_default_XC8_compile::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "pdice_03_default_image_lVTuvUa5::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"backtrace" : 5,
+				"fragment" : "-Wl,-Map=mem.map",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-mcpu=12F1572",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-Wl,--defsym=__MPLAB_BUILD=1",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-mdfp=/home/nelis/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.10.270/xc8",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-fno-short-double",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-fno-short-float",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-O0",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-maddrqual=ignore",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-mwarn=-3",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-msummary=-psect,-class,+mem,-hex,-file",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-ginhx32",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-Wl,--data-init",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-mno-keep-startup",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-mno-osccal",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-mno-resetbits",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-mno-save-resetbits",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-mno-download",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-mno-stackcall",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-mno-default-config-bits",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-std=c99",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-gdwarf-3",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-mstack=compiled:auto:auto",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-Wl,--memorysummary,memoryfile.xml",
+				"role" : "flags"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "pdice_03_default_image_lVTuvUa5",
+	"nameOnDisk" : "default.elf",
+	"objectDependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "pdice_03_default_default_XC8_compile::@6890427a1f51a3e7e1df"
+		}
+	],
+	"orderDependencies" : 
+	[
+		{
+			"id" : "pdice_03_default_default_XC8_compile::@6890427a1f51a3e7e1df"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Object Libraries",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"backtraces" : 
+			[
+				3
+			],
+			"isGenerated" : true,
+			"path" : "/home/nelis/MPLABProjects/pdice-03/_build/pdice-03/default/CMakeFiles/pdice_03_default_default_XC8_compile.dir/home/nelis/MPLABProjects/pdice-03/config.mcc/main.c.p1",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"backtraces" : 
+			[
+				3
+			],
+			"isGenerated" : true,
+			"path" : "/home/nelis/MPLABProjects/pdice-03/_build/pdice-03/default/CMakeFiles/pdice_03_default_default_XC8_compile.dir/home/nelis/MPLABProjects/pdice-03/config.mcc/mcc_generated_files/pwm/src/pwm3.c.p1",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"backtraces" : 
+			[
+				3
+			],
+			"isGenerated" : true,
+			"path" : "/home/nelis/MPLABProjects/pdice-03/_build/pdice-03/default/CMakeFiles/pdice_03_default_default_XC8_compile.dir/home/nelis/MPLABProjects/pdice-03/config.mcc/mcc_generated_files/system/src/clock.c.p1",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"backtraces" : 
+			[
+				3
+			],
+			"isGenerated" : true,
+			"path" : "/home/nelis/MPLABProjects/pdice-03/_build/pdice-03/default/CMakeFiles/pdice_03_default_default_XC8_compile.dir/home/nelis/MPLABProjects/pdice-03/config.mcc/mcc_generated_files/system/src/config_bits.c.p1",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"backtraces" : 
+			[
+				3
+			],
+			"isGenerated" : true,
+			"path" : "/home/nelis/MPLABProjects/pdice-03/_build/pdice-03/default/CMakeFiles/pdice_03_default_default_XC8_compile.dir/home/nelis/MPLABProjects/pdice-03/config.mcc/mcc_generated_files/system/src/interrupt.c.p1",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"backtraces" : 
+			[
+				3
+			],
+			"isGenerated" : true,
+			"path" : "/home/nelis/MPLABProjects/pdice-03/_build/pdice-03/default/CMakeFiles/pdice_03_default_default_XC8_compile.dir/home/nelis/MPLABProjects/pdice-03/config.mcc/mcc_generated_files/system/src/pins.c.p1",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"backtraces" : 
+			[
+				3
+			],
+			"isGenerated" : true,
+			"path" : "/home/nelis/MPLABProjects/pdice-03/_build/pdice-03/default/CMakeFiles/pdice_03_default_default_XC8_compile.dir/home/nelis/MPLABProjects/pdice-03/config.mcc/mcc_generated_files/system/src/system.c.p1",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"backtraces" : 
+			[
+				3
+			],
+			"isGenerated" : true,
+			"path" : "/home/nelis/MPLABProjects/pdice-03/_build/pdice-03/default/CMakeFiles/pdice_03_default_default_XC8_compile.dir/home/nelis/MPLABProjects/pdice-03/config.mcc/mcc_generated_files/timer/src/tmr0.c.p1",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"backtraces" : 
+			[
+				3
+			],
+			"isGenerated" : true,
+			"path" : "/home/nelis/MPLABProjects/pdice-03/_build/pdice-03/default/CMakeFiles/pdice_03_default_default_XC8_compile.dir/home/nelis/MPLABProjects/pdice-03/config.mcc/mcc_generated_files/timer/src/tmr1.c.p1",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"backtraces" : 
+			[
+				3
+			],
+			"isGenerated" : true,
+			"path" : "/home/nelis/MPLABProjects/pdice-03/_build/pdice-03/default/CMakeFiles/pdice_03_default_default_XC8_compile.dir/home/nelis/MPLABProjects/pdice-03/config.mcc/music.c.p1",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"backtraces" : 
+			[
+				3
+			],
+			"isGenerated" : true,
+			"path" : "/home/nelis/MPLABProjects/pdice-03/_build/pdice-03/default/CMakeFiles/pdice_03_default_default_XC8_compile.dir/home/nelis/MPLABProjects/pdice-03/config.mcc/utils.c.p1",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

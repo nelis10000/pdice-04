@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/nelis/MPLABProjects/pdice-03/_build/pdice-03/default/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

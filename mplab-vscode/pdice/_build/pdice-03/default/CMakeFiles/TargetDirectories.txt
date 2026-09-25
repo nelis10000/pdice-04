@@ -1,0 +1,4 @@
+/home/nelis/MPLABProjects/pdice-03/_build/pdice-03/default/CMakeFiles/pdice_03_default_default_XC8_compile.dir
+/home/nelis/MPLABProjects/pdice-03/_build/pdice-03/default/CMakeFiles/pdice_03_default_image_lVTuvUa5.dir
+/home/nelis/MPLABProjects/pdice-03/_build/pdice-03/default/CMakeFiles/edit_cache.dir
+/home/nelis/MPLABProjects/pdice-03/_build/pdice-03/default/CMakeFiles/rebuild_cache.dir
