@@ -1,0 +1,834 @@
+Version 4.0 HI-TECH Software Intermediate Code
+[p mainexit ]
+"58 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/system.h
+[v _SYSTEM_Initialize `(v ~T0 @X0 0 ef ]
+[v F3140 `(v ~T0 @X0 0 tf ]
+"345 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/../timer/tmr1.h
+[v _TMR1_OverflowCallbackRegister `(v ~T0 @X0 0 ef1`*F3140 ]
+"12 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/interrupts.h
+[v _Timer1_Tick_Callback `(v ~T0 @X0 0 ef ]
+[v F3159 `(v ~T0 @X0 0 tf ]
+"260 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/../timer/tmr2.h
+[v _TMR2_PeriodMatchCallbackRegister `(v ~T0 @X0 0 ef1`*F3159 ]
+"24 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/interrupts.h
+[v _Timer2_Period_Callback `(v ~T0 @X0 0 ef ]
+[v F3065 `(v ~T0 @X0 0 tf ]
+"199 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/../system/pins.h
+[v _SWITCH_SetInterruptHandler `(v ~T0 @X0 0 ef1`*F3065 ]
+"8 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/interrupts.h
+[v _Switch_Interrupt_Callback `(v ~T0 @X0 0 ef ]
+"7338 /home/nelis/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.10.270/xc8/pic/include/proc/pic12f1572.h
+[s S386 :2 `uc 1 :2 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S386 . . MODE POL OUT OE EN ]
+"7346
+[s S387 :2 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S387 . . PWM3MODE0 PWM3MODE1 ]
+"7351
+[s S388 :2 `uc 1 :2 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S388 . . PWM3MODE PWM3POL PWM3OUT PWM3OE PWM3EN ]
+"7359
+[s S389 :2 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S389 . . MODE0 MODE1 ]
+"7337
+[u S385 `S386 1 `S387 1 `S388 1 `S389 1 ]
+[n S385 . . . . . ]
+"7365
+[v _PWM3CONbits `VS385 ~T0 @X0 0 e@3515 ]
+"2449
+[s S142 :1 `uc 1 :1 `uc 1 ]
+[n S142 . . VREGPM ]
+"2448
+[u S141 `S142 1 ]
+[n S141 . . ]
+"2454
+[v _VREGCONbits `VS141 ~T0 @X0 0 e@407 ]
+"1702
+[s S102 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S102 . LATA0 LATA1 LATA2 . LATA4 LATA5 ]
+"1710
+[s S103 :6 `uc 1 ]
+[n S103 . LATA ]
+"1701
+[u S101 `S102 1 `S103 1 ]
+[n S101 . . . ]
+"1714
+[v _LATAbits `VS101 ~T0 @X0 0 e@268 ]
+"341
+[s S31 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S31 . IOCIF INTF TMR0IF IOCIE INTE TMR0IE PEIE GIE ]
+"351
+[s S32 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S32 . . T0IF . T0IE ]
+"340
+[u S30 `S31 1 `S32 1 ]
+[n S30 . . . ]
+"358
+[v _INTCONbits `VS30 ~T0 @X0 0 e@11 ]
+"32 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.h
+[v _initRandomSeed `(v ~T0 @X0 0 ef ]
+"70 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+[v _selftest `(v ~T0 @X0 0 ef ]
+"27 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.h
+[v _introMusic_02 `(v ~T0 @X0 0 ef ]
+"115 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+[c E3172 0 1 2 .. ]
+[n E3172 _pwr_status SHUTDOWN IDLE ACTIVE  ]
+"22 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/interrupts.h
+[v _pwr_status `VE3172 ~T0 @X0 0 e ]
+"175 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/../timer/tmr2.h
+[v _TMR2_Start `(v ~T0 @X0 0 ef ]
+"111 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/../pwm/pwm3.h
+[v _PWM3_PeriodSet `(v ~T0 @X0 0 ef1`us ]
+"46 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.h
+[v _freqToPwmPeriod `(us ~T0 @X0 0 ef1`us ]
+"73 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+[v _shiftOutByte `(v ~T0 @X0 0 ef1`uc ]
+"31 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.h
+[v _delay_ms `(v ~T0 @X0 0 ef1`us ]
+"123 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+[c E3163 0 1 2 3 .. ]
+[n E3163 _sw_status OFF PRESSED PRESSED_SHORT PRESSED_LONG  ]
+"7 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/interrupts.h
+[v _sw_status `VE3163 ~T0 @X0 0 e ]
+"55 /opt/microchip/xc8/v4.00/pic/include/c99/stdlib.h
+[v _rand `(i ~T0 @X0 0 ef ]
+"72 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+[v _dice_roll `(uc ~T0 @X0 0 ef ]
+"71
+[v _dice_show `(v ~T0 @X0 0 ef1`uc ]
+[v F3205 `(v ~T0 @X0 1 tf1`us ]
+"47 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.h
+[v _buzz `TF3205 ~T0 @X0 0 e ]
+"49
+[v _buzzFreq `(v ~T0 @X0 0 ef2`us`us ]
+"419 /home/nelis/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.10.270/xc8/pic/include/proc/pic12f1572.h
+[s S34 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S34 . RA0 RA1 RA2 RA3 RA4 RA5 ]
+"427
+[s S35 :6 `uc 1 ]
+[n S35 . PORTA ]
+"418
+[u S33 `S34 1 `S35 1 ]
+[n S33 . . . ]
+"431
+[v _PORTAbits `VS33 ~T0 @X0 0 e@12 ]
+"217 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/../timer/tmr1.h
+[v _TMR1_Stop `(v ~T0 @X0 0 ef ]
+"184 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/../timer/tmr2.h
+[v _TMR2_Stop `(v ~T0 @X0 0 ef ]
+"1904 /home/nelis/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.10.270/xc8/pic/include/proc/pic12f1572.h
+[s S112 :1 `uc 1 :5 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S112 . BORRDY . BORFS SBOREN ]
+"1903
+[u S111 `S112 1 ]
+[n S111 . . ]
+"1911
+[v _BORCONbits `VS111 ~T0 @X0 0 e@278 ]
+"8 /opt/microchip/xc8/v4.00/pic/include/builtins.h
+[v ___nop `(v ~T0 @X0 0 ef ]
+[p i ___nop ]
+"208 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/../timer/tmr1.h
+[v _TMR1_Start `(v ~T0 @X0 0 ef ]
+"56 /opt/microchip/xc8/v4.00/pic/include/c99/stdlib.h
+[v _srand `(v ~T0 @X0 0 ef1`ui ]
+"167 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/../timer/tmr0.h
+[v _TMR0_CounterGet `(uc ~T0 @X0 0 ef ]
+[v F202 `(v ~T0 @X0 1 tf1`ul ]
+"20 /opt/microchip/xc8/v4.00/pic/include/builtins.h
+[v __delay `JF202 ~T0 @X0 0 e ]
+[p i __delay ]
+"13 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+[p n 520 ]
+"38 /home/nelis/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.10.270/xc8/pic/include/proc/pic12f1572.h
+[; <" INDF0 equ 00h ;# ">
+"58
+[; <" INDF1 equ 01h ;# ">
+"78
+[; <" PCL equ 02h ;# ">
+"98
+[; <" STATUS equ 03h ;# ">
+"161
+[; <" FSR0L equ 04h ;# ">
+"181
+[; <" FSR0H equ 05h ;# ">
+"205
+[; <" FSR1L equ 06h ;# ">
+"225
+[; <" FSR1H equ 07h ;# ">
+"245
+[; <" BSR equ 08h ;# ">
+"297
+[; <" WREG equ 09h ;# ">
+"317
+[; <" PCLATH equ 0Ah ;# ">
+"337
+[; <" INTCON equ 0Bh ;# ">
+"415
+[; <" PORTA equ 0Ch ;# ">
+"473
+[; <" PIR1 equ 011h ;# ">
+"524
+[; <" PIR2 equ 012h ;# ">
+"545
+[; <" PIR3 equ 013h ;# ">
+"578
+[; <" TMR0 equ 015h ;# ">
+"598
+[; <" TMR1 equ 016h ;# ">
+"605
+[; <" TMR1L equ 016h ;# ">
+"625
+[; <" TMR1H equ 017h ;# ">
+"645
+[; <" T1CON equ 018h ;# ">
+"712
+[; <" T1GCON equ 019h ;# ">
+"789
+[; <" TMR2 equ 01Ah ;# ">
+"809
+[; <" PR2 equ 01Bh ;# ">
+"829
+[; <" T2CON equ 01Ch ;# ">
+"900
+[; <" TRISA equ 08Ch ;# ">
+"958
+[; <" PIE1 equ 091h ;# ">
+"1009
+[; <" PIE2 equ 092h ;# ">
+"1030
+[; <" PIE3 equ 093h ;# ">
+"1063
+[; <" OPTION_REG equ 095h ;# ">
+"1146
+[; <" PCON equ 096h ;# ">
+"1203
+[; <" WDTCON equ 097h ;# ">
+"1262
+[; <" OSCTUNE equ 098h ;# ">
+"1320
+[; <" OSCCON equ 099h ;# ">
+"1392
+[; <" OSCSTAT equ 09Ah ;# ">
+"1448
+[; <" ADRES equ 09Bh ;# ">
+"1455
+[; <" ADRESL equ 09Bh ;# ">
+"1475
+[; <" ADRESH equ 09Ch ;# ">
+"1495
+[; <" ADCON0 equ 09Dh ;# ">
+"1584
+[; <" ADCON1 equ 09Eh ;# ">
+"1650
+[; <" ADCON2 equ 09Fh ;# ">
+"1698
+[; <" LATA equ 010Ch ;# ">
+"1751
+[; <" CM1CON0 equ 0111h ;# ">
+"1808
+[; <" CM1CON1 equ 0112h ;# ">
+"1880
+[; <" CMOUT equ 0115h ;# ">
+"1900
+[; <" BORCON equ 0116h ;# ">
+"1933
+[; <" FVRCON equ 0117h ;# ">
+"2009
+[; <" DACCON0 equ 0118h ;# ">
+"2064
+[; <" DACCON1 equ 0119h ;# ">
+"2116
+[; <" APFCON equ 011Dh ;# ">
+"2121
+[; <" APFCON0 equ 011Dh ;# ">
+"2228
+[; <" ANSELA equ 018Ch ;# ">
+"2275
+[; <" PMADR equ 0191h ;# ">
+"2282
+[; <" PMADRL equ 0191h ;# ">
+"2302
+[; <" PMADRH equ 0192h ;# ">
+"2322
+[; <" PMDAT equ 0193h ;# ">
+"2329
+[; <" PMDATL equ 0193h ;# ">
+"2349
+[; <" PMDATH equ 0194h ;# ">
+"2369
+[; <" PMCON1 equ 0195h ;# ">
+"2425
+[; <" PMCON2 equ 0196h ;# ">
+"2445
+[; <" VREGCON equ 0197h ;# ">
+"2466
+[; <" RCREG equ 0199h ;# ">
+"2486
+[; <" TXREG equ 019Ah ;# ">
+"2506
+[; <" SPBRG equ 019Bh ;# ">
+"2513
+[; <" SPBRGL equ 019Bh ;# ">
+"2533
+[; <" SPBRGH equ 019Ch ;# ">
+"2553
+[; <" RCSTA equ 019Dh ;# ">
+"2615
+[; <" TXSTA equ 019Eh ;# ">
+"2677
+[; <" BAUDCON equ 019Fh ;# ">
+"2729
+[; <" WPUA equ 020Ch ;# ">
+"2787
+[; <" ODCONA equ 028Ch ;# ">
+"2840
+[; <" SLRCONA equ 030Ch ;# ">
+"2893
+[; <" INLVLA equ 038Ch ;# ">
+"2951
+[; <" IOCAP equ 0391h ;# ">
+"3009
+[; <" IOCAN equ 0392h ;# ">
+"3067
+[; <" IOCAF equ 0393h ;# ">
+"3125
+[; <" CWG1DBR equ 0691h ;# ">
+"3183
+[; <" CWG1DBF equ 0692h ;# ">
+"3241
+[; <" CWG1CON0 equ 0693h ;# ">
+"3300
+[; <" CWG1CON1 equ 0694h ;# ">
+"3377
+[; <" CWG1CON2 equ 0695h ;# ">
+"3417
+[; <" PWMEN equ 0D8Eh ;# ">
+"3469
+[; <" PWMLD equ 0D8Fh ;# ">
+"3521
+[; <" PWMOUT equ 0D90h ;# ">
+"3573
+[; <" PWM1PH equ 0D91h ;# ">
+"3580
+[; <" PWM1PHL equ 0D91h ;# ">
+"3658
+[; <" PWM1PHH equ 0D92h ;# ">
+"3736
+[; <" PWM1DC equ 0D93h ;# ">
+"3743
+[; <" PWM1DCL equ 0D93h ;# ">
+"3821
+[; <" PWM1DCH equ 0D94h ;# ">
+"3899
+[; <" PWM1PR equ 0D95h ;# ">
+"3906
+[; <" PWM1PRL equ 0D95h ;# ">
+"3984
+[; <" PWM1PRH equ 0D96h ;# ">
+"4062
+[; <" PWM1OF equ 0D97h ;# ">
+"4069
+[; <" PWM1OFL equ 0D97h ;# ">
+"4147
+[; <" PWM1OFH equ 0D98h ;# ">
+"4225
+[; <" PWM1TMR equ 0D99h ;# ">
+"4232
+[; <" PWM1TMRL equ 0D99h ;# ">
+"4310
+[; <" PWM1TMRH equ 0D9Ah ;# ">
+"4388
+[; <" PWM1CON equ 0D9Bh ;# ">
+"4496
+[; <" PWM1INTE equ 0D9Ch ;# ">
+"4501
+[; <" PWM1INTCON equ 0D9Ch ;# ">
+"4622
+[; <" PWM1INTF equ 0D9Dh ;# ">
+"4627
+[; <" PWM1INTFLG equ 0D9Dh ;# ">
+"4748
+[; <" PWM1CLKCON equ 0D9Eh ;# ">
+"4856
+[; <" PWM1LDCON equ 0D9Fh ;# ">
+"4938
+[; <" PWM1OFCON equ 0DA0h ;# ">
+"5046
+[; <" PWM2PH equ 0DA1h ;# ">
+"5053
+[; <" PWM2PHL equ 0DA1h ;# ">
+"5131
+[; <" PWM2PHH equ 0DA2h ;# ">
+"5209
+[; <" PWM2DC equ 0DA3h ;# ">
+"5216
+[; <" PWM2DCL equ 0DA3h ;# ">
+"5294
+[; <" PWM2DCH equ 0DA4h ;# ">
+"5372
+[; <" PWM2PR equ 0DA5h ;# ">
+"5379
+[; <" PWM2PRL equ 0DA5h ;# ">
+"5457
+[; <" PWM2PRH equ 0DA6h ;# ">
+"5535
+[; <" PWM2OF equ 0DA7h ;# ">
+"5542
+[; <" PWM2OFL equ 0DA7h ;# ">
+"5620
+[; <" PWM2OFH equ 0DA8h ;# ">
+"5698
+[; <" PWM2TMR equ 0DA9h ;# ">
+"5705
+[; <" PWM2TMRL equ 0DA9h ;# ">
+"5783
+[; <" PWM2TMRH equ 0DAAh ;# ">
+"5861
+[; <" PWM2CON equ 0DABh ;# ">
+"5969
+[; <" PWM2INTE equ 0DACh ;# ">
+"5974
+[; <" PWM2INTCON equ 0DACh ;# ">
+"6095
+[; <" PWM2INTF equ 0DADh ;# ">
+"6100
+[; <" PWM2INTFLG equ 0DADh ;# ">
+"6221
+[; <" PWM2CLKCON equ 0DAEh ;# ">
+"6329
+[; <" PWM2LDCON equ 0DAFh ;# ">
+"6411
+[; <" PWM2OFCON equ 0DB0h ;# ">
+"6519
+[; <" PWM3PH equ 0DB1h ;# ">
+"6526
+[; <" PWM3PHL equ 0DB1h ;# ">
+"6604
+[; <" PWM3PHH equ 0DB2h ;# ">
+"6682
+[; <" PWM3DC equ 0DB3h ;# ">
+"6689
+[; <" PWM3DCL equ 0DB3h ;# ">
+"6767
+[; <" PWM3DCH equ 0DB4h ;# ">
+"6845
+[; <" PWM3PR equ 0DB5h ;# ">
+"6852
+[; <" PWM3PRL equ 0DB5h ;# ">
+"6930
+[; <" PWM3PRH equ 0DB6h ;# ">
+"7008
+[; <" PWM3OF equ 0DB7h ;# ">
+"7015
+[; <" PWM3OFL equ 0DB7h ;# ">
+"7093
+[; <" PWM3OFH equ 0DB8h ;# ">
+"7171
+[; <" PWM3TMR equ 0DB9h ;# ">
+"7178
+[; <" PWM3TMRL equ 0DB9h ;# ">
+"7256
+[; <" PWM3TMRH equ 0DBAh ;# ">
+"7334
+[; <" PWM3CON equ 0DBBh ;# ">
+"7442
+[; <" PWM3INTE equ 0DBCh ;# ">
+"7447
+[; <" PWM3INTCON equ 0DBCh ;# ">
+"7568
+[; <" PWM3INTF equ 0DBDh ;# ">
+"7573
+[; <" PWM3INTFLG equ 0DBDh ;# ">
+"7694
+[; <" PWM3CLKCON equ 0DBEh ;# ">
+"7802
+[; <" PWM3LDCON equ 0DBFh ;# ">
+"7884
+[; <" PWM3OFCON equ 0DC0h ;# ">
+"7992
+[; <" STATUS_SHAD equ 0FE4h ;# ">
+"8024
+[; <" WREG_SHAD equ 0FE5h ;# ">
+"8044
+[; <" BSR_SHAD equ 0FE6h ;# ">
+"8064
+[; <" PCLATH_SHAD equ 0FE7h ;# ">
+"8084
+[; <" FSR0_SHAD equ 0FE8h ;# ">
+"8091
+[; <" FSR0L_SHAD equ 0FE8h ;# ">
+"8111
+[; <" FSR0H_SHAD equ 0FE9h ;# ">
+"8131
+[; <" FSR1_SHAD equ 0FEAh ;# ">
+"8138
+[; <" FSR1L_SHAD equ 0FEAh ;# ">
+"8158
+[; <" FSR1H_SHAD equ 0FEBh ;# ">
+"8178
+[; <" STKPTR equ 0FEDh ;# ">
+"8198
+[; <" TOS equ 0FEEh ;# ">
+"8205
+[; <" TOSL equ 0FEEh ;# ">
+"8225
+[; <" TOSH equ 0FEFh ;# ">
+"57 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+[v _pattern `Cuc ~T0 @X0 -> 7 `i e ]
+[i _pattern
+:U ..
+-> -> 0 `i `uc
+-> -> 8 `i `uc
+-> + -> 4 `i -> 64 `i `uc
+-> + + -> 4 `i -> 8 `i -> 64 `i `uc
+-> + + + -> 1 `i -> 4 `i -> 64 `i -> 16 `i `uc
+-> + + + + -> 1 `i -> 4 `i -> 8 `i -> 64 `i -> 16 `i `uc
+-> + + + + + -> 1 `i -> 2 `i -> 4 `i -> 64 `i -> 32 `i -> 16 `i `uc
+..
+]
+[v $root$_main `(v ~T0 @X0 0 e ]
+"78
+[v _main `(i ~T0 @X0 1 ef ]
+"79
+{
+[e :U _main ]
+[f ]
+"80
+[v _nrolls `uc ~T0 @X0 1 a ]
+"81
+[v _dice_val `uc ~T0 @X0 1 a ]
+"82
+[v _i `uc ~T0 @X0 1 a ]
+"84
+[e ( _SYSTEM_Initialize ..  ]
+"85
+[e ( _TMR1_OverflowCallbackRegister (1 &U _Timer1_Tick_Callback ]
+"86
+[e ( _TMR2_PeriodMatchCallbackRegister (1 &U _Timer2_Period_Callback ]
+"87
+[e ( _SWITCH_SetInterruptHandler (1 &U _Switch_Interrupt_Callback ]
+"91
+[e = . . _PWM3CONbits 0 4 -> -> 1 `i `uc ]
+"94
+[e = . . _VREGCONbits 0 1 -> -> 1 `i `uc ]
+"97
+[e :U 442 ]
+{
+[e = . . _LATAbits 0 5 -> -> 1 `i `uc ]
+}
+[e :U 441 ]
+"98
+[e :U 445 ]
+{
+[e = . . _LATAbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 444 ]
+"101
+[e = . . _INTCONbits 0 6 -> -> 1 `ui `uc ]
+"102
+[e = . . _INTCONbits 0 7 -> -> 1 `ui `uc ]
+"106
+[e ( _initRandomSeed ..  ]
+"109
+[e ( _selftest ..  ]
+"112
+[e ( _introMusic_02 ..  ]
+"115
+[e = _pwr_status . `E3172 2 ]
+"116
+[e ( _TMR2_Start ..  ]
+"119
+[e ( _PWM3_PeriodSet (1 ( _freqToPwmPeriod (1 -> -> 4000 `i `us ]
+"122
+[e ( _shiftOutByte (1 -> -> 8 `i `uc ]
+"123
+[e $U 446  ]
+[e :U 447 ]
+"124
+{
+"125
+[e :U 451 ]
+{
+[e = . . _LATAbits 0 5 -> -> 0 `i `uc ]
+}
+[e :U 450 ]
+"126
+[e ( _delay_ms (1 -> -> 250 `i `us ]
+"127
+[e :U 454 ]
+{
+[e = . . _LATAbits 0 5 -> -> 1 `i `uc ]
+}
+[e :U 453 ]
+"128
+[e ( _delay_ms (1 -> -> 250 `i `us ]
+"129
+}
+[e :U 446 ]
+"123
+[e $ != -> _sw_status `ui -> . `E3163 1 `ui 447  ]
+[e :U 448 ]
+"131
+[e :U 456 ]
+"132
+{
+"133
+[e $ ! == -> _sw_status `ui -> . `E3163 1 `ui 458  ]
+{
+"136
+[e = _nrolls -> + -> 15 `i % ( _rand ..  -> 10 `i `uc ]
+"137
+{
+[e = _i -> -> 1 `i `uc ]
+[e $U 462  ]
+[e :U 459 ]
+{
+"139
+[e = _dice_val ( _dice_roll ..  ]
+"142
+[e :U 465 ]
+{
+[e = . . _LATAbits 0 5 -> -> 1 `i `uc ]
+}
+[e :U 464 ]
+"143
+[e ( _delay_ms (1 -> -> 50 `i `us ]
+"146
+[e ( _dice_show (1 _dice_val ]
+"147
+[e :U 468 ]
+{
+[e = . . _LATAbits 0 5 -> -> 0 `i `uc ]
+}
+[e :U 467 ]
+"150
+[e ( _buzz (1 -> -> 20 `i `us ]
+"153
+[e ( _delay_ms (1 -> * -> _i `i -> 10 `i `us ]
+"154
+}
+"137
+[e ++ _i -> -> 1 `i `uc ]
+[e :U 462 ]
+[e $ < -> _i `i -> _nrolls `i 459  ]
+[e :U 460 ]
+"154
+}
+"157
+[e $ ! == -> _dice_val `i -> 6 `i 469  ]
+{
+"158
+[e ( _buzzFreq (2 , -> -> 2000 `i `us -> -> 100 `i `us ]
+"159
+[e ( _buzzFreq (2 , -> -> 2400 `i `us -> -> 200 `i `us ]
+"160
+}
+[e :U 469 ]
+"162
+[e = _sw_status . `E3163 0 ]
+"163
+[e $U 470  ]
+[e :U 471 ]
+[e :U 470 ]
+[e $ == -> . . _PORTAbits 0 3 `i -> 0 `i 471  ]
+[e :U 472 ]
+"164
+[e ( _delay_ms (1 -> -> 10 `i `us ]
+"165
+}
+[e :U 458 ]
+"167
+[e $ ! == -> _pwr_status `ui -> . `E3172 0 `ui 473  ]
+"168
+{
+"169
+[e ( _buzzFreq (2 , -> -> 1000 `i `us -> -> 50 `i `us ]
+"170
+[e ( _buzzFreq (2 , -> -> 800 `i `us -> -> 50 `i `us ]
+"171
+[e :U 476 ]
+{
+[e = . . _LATAbits 0 5 -> -> 1 `i `uc ]
+}
+[e :U 475 ]
+"172
+[e ( _TMR1_Stop ..  ]
+"173
+[e ( _TMR2_Stop ..  ]
+"174
+[e = . . _INTCONbits 0 7 -> -> 0 `ui `uc ]
+"175
+[e = . . _INTCONbits 0 6 -> -> 0 `ui `uc ]
+"176
+[e = . . _BORCONbits 0 3 -> -> 0 `i `uc ]
+"177
+[; <" sleep ;# ">
+"178
+[e ( ___nop ..  ]
+"180
+[e = . . _BORCONbits 0 3 -> -> 1 `i `uc ]
+"181
+[e = . . _INTCONbits 0 6 -> -> 1 `ui `uc ]
+"182
+[e = . . _INTCONbits 0 7 -> -> 1 `ui `uc ]
+"183
+[e ( _TMR2_Start ..  ]
+"184
+[e ( _TMR1_Start ..  ]
+"185
+[e :U 479 ]
+{
+[e = . . _LATAbits 0 5 -> -> 0 `i `uc ]
+}
+[e :U 478 ]
+"186
+[e ( _buzzFreq (2 , -> -> 800 `i `us -> -> 50 `i `us ]
+"187
+[e ( _buzzFreq (2 , -> -> 1000 `i `us -> -> 50 `i `us ]
+"188
+[e = _pwr_status . `E3172 2 ]
+"189
+[e ( _delay_ms (1 -> -> 20 `i `us ]
+"190
+[e = _sw_status . `E3163 0 ]
+"191
+}
+[e :U 473 ]
+"192
+}
+[e :U 455 ]
+"131
+[e $U 456  ]
+[e :U 457 ]
+"193
+[e :UE 439 ]
+}
+"196
+[v _dice_roll `(uc ~T0 @X0 1 ef ]
+"197
+{
+[e :U _dice_roll ]
+[f ]
+"198
+[v _roll_value `uc ~T0 @X0 1 a ]
+"201
+[e ( _srand (1 -> ( _TMR0_CounterGet ..  `ui ]
+"202
+[e = _roll_value -> + % ( _rand ..  -> 6 `i -> 1 `i `uc ]
+"204
+[e ) _roll_value ]
+[e $UE 480  ]
+"205
+[e :UE 480 ]
+}
+"208
+[v _dice_show `(v ~T0 @X0 1 ef1`uc ]
+"209
+{
+[e :U _dice_show ]
+"208
+[v _dice_val `uc ~T0 @X0 1 r1 ]
+"209
+[f ]
+"210
+[e ( _shiftOutByte (1 *U + &U _pattern * -> _dice_val `ux -> -> # *U &U _pattern `ui `ux ]
+"211
+[e :UE 481 ]
+}
+"214
+[v _shiftOutByte `(v ~T0 @X0 1 ef1`uc ]
+"215
+{
+[e :U _shiftOutByte ]
+"214
+[v _val `uc ~T0 @X0 1 r1 ]
+"215
+[f ]
+"216
+[v _bit `uc ~T0 @X0 1 a ]
+"217
+[v F3233 `Cus ~T0 @X0 1 s delay_us ]
+[i F3233
+-> -> 1 `i `us
+]
+"219
+{
+[e = _bit -> -> 0 `i `uc ]
+[e $ < -> _bit `i -> 8 `i 483  ]
+[e $U 484  ]
+[e :U 483 ]
+"220
+{
+"221
+[e = . . _LATAbits 0 0 -> & -> _val `i -> 1 `i `uc ]
+"222
+[e = _val -> >> -> _val `i -> 1 `i `uc ]
+"224
+[e :U 488 ]
+{
+[e = . . _LATAbits 0 1 -> -> 1 `i `uc ]
+}
+[e :U 487 ]
+"225
+[e ( __delay (1 -> * -> -> F3233 `ui `d / -> -> 4000000 `l `d .4000000.0 `ul ]
+"226
+[e :U 491 ]
+{
+[e = . . _LATAbits 0 1 -> -> 0 `i `uc ]
+}
+[e :U 490 ]
+"227
+[e ( __delay (1 -> * -> -> F3233 `ui `d / -> -> 4000000 `l `d .4000000.0 `ul ]
+"228
+}
+"219
+[e =+ _bit -> -> 1 `i `uc ]
+[e $ < -> _bit `i -> 8 `i 483  ]
+[e :U 484 ]
+"228
+}
+"229
+[e :UE 482 ]
+}
+"260
+[v _selftest `(v ~T0 @X0 1 ef ]
+"261
+{
+[e :U _selftest ]
+[f ]
+"262
+[e :U 495 ]
+{
+[e = . . _LATAbits 0 5 -> -> 0 `i `uc ]
+}
+[e :U 494 ]
+"263
+{
+[v _val `uc ~T0 @X0 1 a ]
+[e = _val -> -> 1 `i `uc ]
+[e $ <= -> _val `i -> 6 `i 496  ]
+[e $U 497  ]
+[e :U 496 ]
+"264
+{
+"265
+[e ( _dice_show (1 _val ]
+"266
+[e ( _delay_ms (1 -> -> 250 `i `us ]
+"267
+}
+"263
+[e ++ _val -> -> 1 `i `uc ]
+[e $ <= -> _val `i -> 6 `i 496  ]
+[e :U 497 ]
+"267
+}
+"268
+[e :U 501 ]
+{
+[e = . . _LATAbits 0 5 -> -> 1 `i `uc ]
+}
+[e :U 500 ]
+"269
+[e :UE 492 ]
+}

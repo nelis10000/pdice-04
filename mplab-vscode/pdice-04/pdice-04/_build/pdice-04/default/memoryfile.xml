@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <executable name="/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.hex">
+    <memory name="program">
+      <units>words</units>
+      <length>2048</length>
+      <used>1502</used>
+      <free>546</free>
+    </memory>
+    <memory name="data">
+      <units>bytes</units>
+      <length>256</length>
+      <used>68</used>
+      <free>188</free>
+    </memory>
+  </executable>
+</project>

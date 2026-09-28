@@ -1,0 +1,10 @@
+{
+    "cmake.sourceDirectory": "/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/cmake/pdice-03/default",
+    "memory-inspector.debugTypes": [
+        "arm-debugger",
+        "embedded-debug",
+        "gdb",
+        "mcuxpresso-debug",
+        "mplab-core-da"
+    ]
+}

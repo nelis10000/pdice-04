@@ -1,0 +1,625 @@
+Version 4.0 HI-TECH Software Intermediate Code
+[v F3079 `(v ~T0 @X0 0 tf ]
+"7440 /home/nelis/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.10.270/xc8/pic/include/proc/pic12f1572.h
+[v _PWM3INTE `Vuc ~T0 @X0 0 e@3516 ]
+"7566
+[v _PWM3INTF `Vuc ~T0 @X0 0 e@3517 ]
+"7692
+[v _PWM3CLKCON `Vuc ~T0 @X0 0 e@3518 ]
+"7800
+[v _PWM3LDCON `Vuc ~T0 @X0 0 e@3519 ]
+"7882
+[v _PWM3OFCON `Vuc ~T0 @X0 0 e@3520 ]
+"6602
+[v _PWM3PHH `Vuc ~T0 @X0 0 e@3506 ]
+"6524
+[v _PWM3PHL `Vuc ~T0 @X0 0 e@3505 ]
+"6765
+[v _PWM3DCH `Vuc ~T0 @X0 0 e@3508 ]
+"6687
+[v _PWM3DCL `Vuc ~T0 @X0 0 e@3507 ]
+"6928
+[v _PWM3PRH `Vuc ~T0 @X0 0 e@3510 ]
+"6850
+[v _PWM3PRL `Vuc ~T0 @X0 0 e@3509 ]
+"7091
+[v _PWM3OFH `Vuc ~T0 @X0 0 e@3512 ]
+"7013
+[v _PWM3OFL `Vuc ~T0 @X0 0 e@3511 ]
+"7254
+[v _PWM3TMRH `Vuc ~T0 @X0 0 e@3514 ]
+"7176
+[v _PWM3TMRL `Vuc ~T0 @X0 0 e@3513 ]
+"7332
+[v _PWM3CON `Vuc ~T0 @X0 0 e@3515 ]
+"7338
+[s S386 :2 `uc 1 :2 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S386 . . MODE POL OUT OE EN ]
+"7346
+[s S387 :2 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S387 . . PWM3MODE0 PWM3MODE1 ]
+"7351
+[s S388 :2 `uc 1 :2 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S388 . . PWM3MODE PWM3POL PWM3OUT PWM3OE PWM3EN ]
+"7359
+[s S389 :2 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S389 . . MODE0 MODE1 ]
+"7337
+[u S385 `S386 1 `S387 1 `S388 1 `S389 1 ]
+[n S385 . . . . . ]
+"7365
+[v _PWM3CONbits `VS385 ~T0 @X0 0 e@3515 ]
+"7806
+[s S408 :2 `uc 1 :4 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S408 . LDS . LDT LDA ]
+"7812
+[s S409 :1 `uc 1 :1 `uc 1 ]
+[n S409 . PWM3LDS0 PWM3LDS1 ]
+"7816
+[s S410 :2 `uc 1 :4 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S410 . PWM3LDS . PWM3LDM PWM3LD ]
+"7822
+[s S411 :1 `uc 1 :1 `uc 1 ]
+[n S411 . LDS0 LDS1 ]
+"7805
+[u S407 `S408 1 `S409 1 `S410 1 `S411 1 ]
+[n S407 . . . . . ]
+"7827
+[v _PWM3LDCONbits `VS407 ~T0 @X0 0 e@3519 ]
+"7577
+[s S397 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S397 . PRIF DCIF PHIF OFIF ]
+"7583
+[s S398 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S398 . PWM3PRIF PWM3DCIF PWM3PHIF PWM3OFIF ]
+"7576
+[u S396 `S397 1 `S398 1 ]
+[n S396 . . . ]
+"7590
+[v _PWM3INTFbits `VS396 ~T0 @X0 0 e@3517 ]
+"38 /home/nelis/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.10.270/xc8/pic/include/proc/pic12f1572.h
+[; <" INDF0 equ 00h ;# ">
+"58
+[; <" INDF1 equ 01h ;# ">
+"78
+[; <" PCL equ 02h ;# ">
+"98
+[; <" STATUS equ 03h ;# ">
+"161
+[; <" FSR0L equ 04h ;# ">
+"181
+[; <" FSR0H equ 05h ;# ">
+"205
+[; <" FSR1L equ 06h ;# ">
+"225
+[; <" FSR1H equ 07h ;# ">
+"245
+[; <" BSR equ 08h ;# ">
+"297
+[; <" WREG equ 09h ;# ">
+"317
+[; <" PCLATH equ 0Ah ;# ">
+"337
+[; <" INTCON equ 0Bh ;# ">
+"415
+[; <" PORTA equ 0Ch ;# ">
+"473
+[; <" PIR1 equ 011h ;# ">
+"524
+[; <" PIR2 equ 012h ;# ">
+"545
+[; <" PIR3 equ 013h ;# ">
+"578
+[; <" TMR0 equ 015h ;# ">
+"598
+[; <" TMR1 equ 016h ;# ">
+"605
+[; <" TMR1L equ 016h ;# ">
+"625
+[; <" TMR1H equ 017h ;# ">
+"645
+[; <" T1CON equ 018h ;# ">
+"712
+[; <" T1GCON equ 019h ;# ">
+"789
+[; <" TMR2 equ 01Ah ;# ">
+"809
+[; <" PR2 equ 01Bh ;# ">
+"829
+[; <" T2CON equ 01Ch ;# ">
+"900
+[; <" TRISA equ 08Ch ;# ">
+"958
+[; <" PIE1 equ 091h ;# ">
+"1009
+[; <" PIE2 equ 092h ;# ">
+"1030
+[; <" PIE3 equ 093h ;# ">
+"1063
+[; <" OPTION_REG equ 095h ;# ">
+"1146
+[; <" PCON equ 096h ;# ">
+"1203
+[; <" WDTCON equ 097h ;# ">
+"1262
+[; <" OSCTUNE equ 098h ;# ">
+"1320
+[; <" OSCCON equ 099h ;# ">
+"1392
+[; <" OSCSTAT equ 09Ah ;# ">
+"1448
+[; <" ADRES equ 09Bh ;# ">
+"1455
+[; <" ADRESL equ 09Bh ;# ">
+"1475
+[; <" ADRESH equ 09Ch ;# ">
+"1495
+[; <" ADCON0 equ 09Dh ;# ">
+"1584
+[; <" ADCON1 equ 09Eh ;# ">
+"1650
+[; <" ADCON2 equ 09Fh ;# ">
+"1698
+[; <" LATA equ 010Ch ;# ">
+"1751
+[; <" CM1CON0 equ 0111h ;# ">
+"1808
+[; <" CM1CON1 equ 0112h ;# ">
+"1880
+[; <" CMOUT equ 0115h ;# ">
+"1900
+[; <" BORCON equ 0116h ;# ">
+"1933
+[; <" FVRCON equ 0117h ;# ">
+"2009
+[; <" DACCON0 equ 0118h ;# ">
+"2064
+[; <" DACCON1 equ 0119h ;# ">
+"2116
+[; <" APFCON equ 011Dh ;# ">
+"2121
+[; <" APFCON0 equ 011Dh ;# ">
+"2228
+[; <" ANSELA equ 018Ch ;# ">
+"2275
+[; <" PMADR equ 0191h ;# ">
+"2282
+[; <" PMADRL equ 0191h ;# ">
+"2302
+[; <" PMADRH equ 0192h ;# ">
+"2322
+[; <" PMDAT equ 0193h ;# ">
+"2329
+[; <" PMDATL equ 0193h ;# ">
+"2349
+[; <" PMDATH equ 0194h ;# ">
+"2369
+[; <" PMCON1 equ 0195h ;# ">
+"2425
+[; <" PMCON2 equ 0196h ;# ">
+"2445
+[; <" VREGCON equ 0197h ;# ">
+"2466
+[; <" RCREG equ 0199h ;# ">
+"2486
+[; <" TXREG equ 019Ah ;# ">
+"2506
+[; <" SPBRG equ 019Bh ;# ">
+"2513
+[; <" SPBRGL equ 019Bh ;# ">
+"2533
+[; <" SPBRGH equ 019Ch ;# ">
+"2553
+[; <" RCSTA equ 019Dh ;# ">
+"2615
+[; <" TXSTA equ 019Eh ;# ">
+"2677
+[; <" BAUDCON equ 019Fh ;# ">
+"2729
+[; <" WPUA equ 020Ch ;# ">
+"2787
+[; <" ODCONA equ 028Ch ;# ">
+"2840
+[; <" SLRCONA equ 030Ch ;# ">
+"2893
+[; <" INLVLA equ 038Ch ;# ">
+"2951
+[; <" IOCAP equ 0391h ;# ">
+"3009
+[; <" IOCAN equ 0392h ;# ">
+"3067
+[; <" IOCAF equ 0393h ;# ">
+"3125
+[; <" CWG1DBR equ 0691h ;# ">
+"3183
+[; <" CWG1DBF equ 0692h ;# ">
+"3241
+[; <" CWG1CON0 equ 0693h ;# ">
+"3300
+[; <" CWG1CON1 equ 0694h ;# ">
+"3377
+[; <" CWG1CON2 equ 0695h ;# ">
+"3417
+[; <" PWMEN equ 0D8Eh ;# ">
+"3469
+[; <" PWMLD equ 0D8Fh ;# ">
+"3521
+[; <" PWMOUT equ 0D90h ;# ">
+"3573
+[; <" PWM1PH equ 0D91h ;# ">
+"3580
+[; <" PWM1PHL equ 0D91h ;# ">
+"3658
+[; <" PWM1PHH equ 0D92h ;# ">
+"3736
+[; <" PWM1DC equ 0D93h ;# ">
+"3743
+[; <" PWM1DCL equ 0D93h ;# ">
+"3821
+[; <" PWM1DCH equ 0D94h ;# ">
+"3899
+[; <" PWM1PR equ 0D95h ;# ">
+"3906
+[; <" PWM1PRL equ 0D95h ;# ">
+"3984
+[; <" PWM1PRH equ 0D96h ;# ">
+"4062
+[; <" PWM1OF equ 0D97h ;# ">
+"4069
+[; <" PWM1OFL equ 0D97h ;# ">
+"4147
+[; <" PWM1OFH equ 0D98h ;# ">
+"4225
+[; <" PWM1TMR equ 0D99h ;# ">
+"4232
+[; <" PWM1TMRL equ 0D99h ;# ">
+"4310
+[; <" PWM1TMRH equ 0D9Ah ;# ">
+"4388
+[; <" PWM1CON equ 0D9Bh ;# ">
+"4496
+[; <" PWM1INTE equ 0D9Ch ;# ">
+"4501
+[; <" PWM1INTCON equ 0D9Ch ;# ">
+"4622
+[; <" PWM1INTF equ 0D9Dh ;# ">
+"4627
+[; <" PWM1INTFLG equ 0D9Dh ;# ">
+"4748
+[; <" PWM1CLKCON equ 0D9Eh ;# ">
+"4856
+[; <" PWM1LDCON equ 0D9Fh ;# ">
+"4938
+[; <" PWM1OFCON equ 0DA0h ;# ">
+"5046
+[; <" PWM2PH equ 0DA1h ;# ">
+"5053
+[; <" PWM2PHL equ 0DA1h ;# ">
+"5131
+[; <" PWM2PHH equ 0DA2h ;# ">
+"5209
+[; <" PWM2DC equ 0DA3h ;# ">
+"5216
+[; <" PWM2DCL equ 0DA3h ;# ">
+"5294
+[; <" PWM2DCH equ 0DA4h ;# ">
+"5372
+[; <" PWM2PR equ 0DA5h ;# ">
+"5379
+[; <" PWM2PRL equ 0DA5h ;# ">
+"5457
+[; <" PWM2PRH equ 0DA6h ;# ">
+"5535
+[; <" PWM2OF equ 0DA7h ;# ">
+"5542
+[; <" PWM2OFL equ 0DA7h ;# ">
+"5620
+[; <" PWM2OFH equ 0DA8h ;# ">
+"5698
+[; <" PWM2TMR equ 0DA9h ;# ">
+"5705
+[; <" PWM2TMRL equ 0DA9h ;# ">
+"5783
+[; <" PWM2TMRH equ 0DAAh ;# ">
+"5861
+[; <" PWM2CON equ 0DABh ;# ">
+"5969
+[; <" PWM2INTE equ 0DACh ;# ">
+"5974
+[; <" PWM2INTCON equ 0DACh ;# ">
+"6095
+[; <" PWM2INTF equ 0DADh ;# ">
+"6100
+[; <" PWM2INTFLG equ 0DADh ;# ">
+"6221
+[; <" PWM2CLKCON equ 0DAEh ;# ">
+"6329
+[; <" PWM2LDCON equ 0DAFh ;# ">
+"6411
+[; <" PWM2OFCON equ 0DB0h ;# ">
+"6519
+[; <" PWM3PH equ 0DB1h ;# ">
+"6526
+[; <" PWM3PHL equ 0DB1h ;# ">
+"6604
+[; <" PWM3PHH equ 0DB2h ;# ">
+"6682
+[; <" PWM3DC equ 0DB3h ;# ">
+"6689
+[; <" PWM3DCL equ 0DB3h ;# ">
+"6767
+[; <" PWM3DCH equ 0DB4h ;# ">
+"6845
+[; <" PWM3PR equ 0DB5h ;# ">
+"6852
+[; <" PWM3PRL equ 0DB5h ;# ">
+"6930
+[; <" PWM3PRH equ 0DB6h ;# ">
+"7008
+[; <" PWM3OF equ 0DB7h ;# ">
+"7015
+[; <" PWM3OFL equ 0DB7h ;# ">
+"7093
+[; <" PWM3OFH equ 0DB8h ;# ">
+"7171
+[; <" PWM3TMR equ 0DB9h ;# ">
+"7178
+[; <" PWM3TMRL equ 0DB9h ;# ">
+"7256
+[; <" PWM3TMRH equ 0DBAh ;# ">
+"7334
+[; <" PWM3CON equ 0DBBh ;# ">
+"7442
+[; <" PWM3INTE equ 0DBCh ;# ">
+"7447
+[; <" PWM3INTCON equ 0DBCh ;# ">
+"7568
+[; <" PWM3INTF equ 0DBDh ;# ">
+"7573
+[; <" PWM3INTFLG equ 0DBDh ;# ">
+"7694
+[; <" PWM3CLKCON equ 0DBEh ;# ">
+"7802
+[; <" PWM3LDCON equ 0DBFh ;# ">
+"7884
+[; <" PWM3OFCON equ 0DC0h ;# ">
+"7992
+[; <" STATUS_SHAD equ 0FE4h ;# ">
+"8024
+[; <" WREG_SHAD equ 0FE5h ;# ">
+"8044
+[; <" BSR_SHAD equ 0FE6h ;# ">
+"8064
+[; <" PCLATH_SHAD equ 0FE7h ;# ">
+"8084
+[; <" FSR0_SHAD equ 0FE8h ;# ">
+"8091
+[; <" FSR0L_SHAD equ 0FE8h ;# ">
+"8111
+[; <" FSR0H_SHAD equ 0FE9h ;# ">
+"8131
+[; <" FSR1_SHAD equ 0FEAh ;# ">
+"8138
+[; <" FSR1L_SHAD equ 0FEAh ;# ">
+"8158
+[; <" FSR1H_SHAD equ 0FEBh ;# ">
+"8178
+[; <" STKPTR equ 0FEDh ;# ">
+"8198
+[; <" TOS equ 0FEEh ;# ">
+"8205
+[; <" TOSL equ 0FEEh ;# ">
+"8225
+[; <" TOSH equ 0FEFh ;# ">
+"39 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/config.mcc/mcc_generated_files/pwm/src/pwm3.c
+[v _PWM3_Callback `*F3079 ~T0 @X0 1 s ]
+"45
+[v _PWM3_Initialize `(v ~T0 @X0 1 ef ]
+"46
+{
+[e :U _PWM3_Initialize ]
+[f ]
+"48
+[e = _PWM3INTE -> -> 0 `i `uc ]
+"51
+[e = _PWM3INTF -> -> 0 `i `uc ]
+"54
+[e = _PWM3CLKCON -> -> 0 `i `uc ]
+"57
+[e = _PWM3LDCON -> -> 0 `i `uc ]
+"60
+[e = _PWM3OFCON -> -> 0 `i `uc ]
+"63
+[e = _PWM3PHH -> -> 0 `i `uc ]
+"66
+[e = _PWM3PHL -> -> 11 `i `uc ]
+"69
+[e = _PWM3DCH -> -> 7 `i `uc ]
+"72
+[e = _PWM3DCL -> -> 224 `i `uc ]
+"75
+[e = _PWM3PRH -> -> 15 `i `uc ]
+"78
+[e = _PWM3PRL -> -> 192 `i `uc ]
+"81
+[e = _PWM3OFH -> -> 126 `i `uc ]
+"84
+[e = _PWM3OFL -> -> 2 `i `uc ]
+"87
+[e = _PWM3TMRH -> -> 0 `i `uc ]
+"90
+[e = _PWM3TMRL -> -> 0 `i `uc ]
+"96
+[e = _PWM3CON -> -> 0 `i `uc ]
+"97
+[e :UE 439 ]
+}
+"99
+[v _PWM3_Start `(v ~T0 @X0 1 ef ]
+"100
+{
+[e :U _PWM3_Start ]
+[f ]
+"101
+[e = . . _PWM3CONbits 0 5 -> -> 1 `i `uc ]
+"102
+[e :UE 440 ]
+}
+"104
+[v _PWM3_Stop `(v ~T0 @X0 1 ef ]
+"105
+{
+[e :U _PWM3_Stop ]
+[f ]
+"106
+[e = . . _PWM3CONbits 0 5 -> -> 0 `i `uc ]
+"107
+[e :UE 441 ]
+}
+"109
+[v _PWM3_CheckOutputStatus `(a ~T0 @X0 1 ef ]
+"110
+{
+[e :U _PWM3_CheckOutputStatus ]
+[f ]
+"111
+[e ) -> . . _PWM3CONbits 0 3 `a ]
+[e $UE 442  ]
+"112
+[e :UE 442 ]
+}
+"114
+[v _PWM3_LoadBufferSet `(v ~T0 @X0 1 ef ]
+"115
+{
+[e :U _PWM3_LoadBufferSet ]
+[f ]
+"116
+[e = . . _PWM3LDCONbits 0 3 -> -> 1 `i `uc ]
+"117
+[e :UE 443 ]
+}
+"119
+[v _PWM3_PhaseSet `(v ~T0 @X0 1 ef1`us ]
+"120
+{
+[e :U _PWM3_PhaseSet ]
+"119
+[v _phaseCount `us ~T0 @X0 1 r1 ]
+"120
+[f ]
+"121
+[e = _PWM3PHH -> >> -> _phaseCount `ui -> 8 `i `uc ]
+"122
+[e = _PWM3PHL -> _phaseCount `uc ]
+"123
+[e :UE 444 ]
+}
+"125
+[v _PWM3_DutyCycleSet `(v ~T0 @X0 1 ef1`us ]
+"126
+{
+[e :U _PWM3_DutyCycleSet ]
+"125
+[v _dutyCycleCount `us ~T0 @X0 1 r1 ]
+"126
+[f ]
+"127
+[e = _PWM3DCH -> >> -> _dutyCycleCount `ui -> 8 `i `uc ]
+"128
+[e = _PWM3DCL -> _dutyCycleCount `uc ]
+"129
+[e :UE 445 ]
+}
+"131
+[v _PWM3_PeriodSet `(v ~T0 @X0 1 ef1`us ]
+"132
+{
+[e :U _PWM3_PeriodSet ]
+"131
+[v _periodCount `us ~T0 @X0 1 r1 ]
+"132
+[f ]
+"133
+[e = _PWM3PRH -> >> -> _periodCount `ui -> 8 `i `uc ]
+"134
+[e = _PWM3PRL -> _periodCount `uc ]
+"135
+[e :UE 446 ]
+}
+"137
+[v _PWM3_OffsetSet `(v ~T0 @X0 1 ef1`us ]
+"138
+{
+[e :U _PWM3_OffsetSet ]
+"137
+[v _offsetCount `us ~T0 @X0 1 r1 ]
+"138
+[f ]
+"139
+[e = _PWM3OFH -> >> -> _offsetCount `ui -> 8 `i `uc ]
+"140
+[e = _PWM3OFL -> _offsetCount `uc ]
+"141
+[e :UE 447 ]
+}
+"143
+[v _PWM3_timerCountGet `(us ~T0 @X0 1 ef ]
+"144
+{
+[e :U _PWM3_timerCountGet ]
+[f ]
+"145
+[e ) -> | -> -> << -> _PWM3TMRH `i -> 8 `i `us `ui -> _PWM3TMRL `ui `us ]
+[e $UE 448  ]
+"146
+[e :UE 448 ]
+}
+"148
+[v _PWM3_IsOffsetMatchOccured `(a ~T0 @X0 1 ef ]
+"149
+{
+[e :U _PWM3_IsOffsetMatchOccured ]
+[f ]
+"150
+[e ) -> . . _PWM3INTFbits 0 3 `a ]
+[e $UE 449  ]
+"151
+[e :UE 449 ]
+}
+"153
+[v _PWM3_IsPhaseMatchOccured `(a ~T0 @X0 1 ef ]
+"154
+{
+[e :U _PWM3_IsPhaseMatchOccured ]
+[f ]
+"155
+[e ) -> . . _PWM3INTFbits 0 2 `a ]
+[e $UE 450  ]
+"156
+[e :UE 450 ]
+}
+"158
+[v _PWM3_IsDutyCycleMatchOccured `(a ~T0 @X0 1 ef ]
+"159
+{
+[e :U _PWM3_IsDutyCycleMatchOccured ]
+[f ]
+"160
+[e ) -> . . _PWM3INTFbits 0 1 `a ]
+[e $UE 451  ]
+"161
+[e :UE 451 ]
+}
+"163
+[v _PWM3_IsPeriodMatchOccured `(a ~T0 @X0 1 ef ]
+"164
+{
+[e :U _PWM3_IsPeriodMatchOccured ]
+[f ]
+"165
+[e ) -> . . _PWM3INTFbits 0 0 `a ]
+[e $UE 452  ]
+"166
+[e :UE 452 ]
+}

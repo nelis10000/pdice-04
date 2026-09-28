@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
-  <executable name="/home/nelis/MPLABProjects/pdice-03/out/pdice-03/default.hex">
+  <executable name="/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/out/pdice-03/default.hex">
     <memory name="program">
       <units>words</units>
       <length>2048</length>

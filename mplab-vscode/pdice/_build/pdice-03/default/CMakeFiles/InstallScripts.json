@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/nelis/MPLABProjects/pdice-03/_build/pdice-03/default/cmake_install.cmake"
+		"/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/_build/pdice-03/default/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

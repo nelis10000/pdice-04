@@ -3,7 +3,7 @@
 [d edition pro ]
 [d chip 12F1572 ]
 [d frameptr 6 ]
-"83 /home/nelis/MPLABProjects/pdice-03/config.mcc/main.c
+"83 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/config.mcc/main.c
 [v _main main `(i  1 e 2 0 ]
 "209
 [v _initRandomSeed initRandomSeed `(v  1 e 1 0 ]
@@ -13,7 +13,7 @@
 [v _roll_dice roll_dice `(uc  1 e 1 0 ]
 "261
 [v _selftest_1 selftest_1 `(v  1 e 1 0 ]
-"45 /home/nelis/MPLABProjects/pdice-03/config.mcc/mcc_generated_files/pwm/src/pwm3.c
+"45 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/config.mcc/mcc_generated_files/pwm/src/pwm3.c
 [v _PWM3_Initialize PWM3_Initialize `(v  1 e 1 0 ]
 "99
 [v _PWM3_Start PWM3_Start `(v  1 e 1 0 ]
@@ -21,9 +21,9 @@
 [v _PWM3_Stop PWM3_Stop `(v  1 e 1 0 ]
 "131
 [v _PWM3_PeriodSet PWM3_PeriodSet `(v  1 e 1 0 ]
-"39 /home/nelis/MPLABProjects/pdice-03/config.mcc/mcc_generated_files/system/src/clock.c
+"39 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/config.mcc/mcc_generated_files/system/src/clock.c
 [v _CLOCK_Initialize CLOCK_Initialize `(v  1 e 1 0 ]
-"40 /home/nelis/MPLABProjects/pdice-03/config.mcc/mcc_generated_files/system/src/interrupt.c
+"40 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/config.mcc/mcc_generated_files/system/src/interrupt.c
 [v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
 "59
 [v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
@@ -33,17 +33,17 @@
 [v _INT_SetInterruptHandler INT_SetInterruptHandler `(v  1 e 1 0 ]
 "101
 [v _INT_DefaultInterruptHandler INT_DefaultInterruptHandler `(v  1 e 1 0 ]
-"38 /home/nelis/MPLABProjects/pdice-03/config.mcc/mcc_generated_files/system/src/pins.c
+"38 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/config.mcc/mcc_generated_files/system/src/pins.c
 [v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
-"39 /home/nelis/MPLABProjects/pdice-03/config.mcc/mcc_generated_files/system/src/system.c
+"39 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/config.mcc/mcc_generated_files/system/src/system.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
-"75 /home/nelis/MPLABProjects/pdice-03/config.mcc/mcc_generated_files/timer/src/tmr0.c
+"75 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/config.mcc/mcc_generated_files/timer/src/tmr0.c
 [v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
 "104
 [v _TMR0_CounterGet TMR0_CounterGet `(uc  1 e 1 0 ]
 "158
 [v _TMR0_DefaultOverflowCallback TMR0_DefaultOverflowCallback `(v  1 s 1 TMR0_DefaultOverflowCallback ]
-"53 /home/nelis/MPLABProjects/pdice-03/config.mcc/mcc_generated_files/timer/src/tmr1.c
+"53 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/config.mcc/mcc_generated_files/timer/src/tmr1.c
 [v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
 "119
 [v _TMR1_CounterSet TMR1_CounterSet `(v  1 e 1 0 ]
@@ -55,11 +55,11 @@
 [v _TMR1_DefaultOverflowCallback TMR1_DefaultOverflowCallback `(v  1 s 1 TMR1_DefaultOverflowCallback ]
 "230
 [v _TMR1_DefaultGateCallback TMR1_DefaultGateCallback `(v  1 s 1 TMR1_DefaultGateCallback ]
-"7 /home/nelis/MPLABProjects/pdice-03/config.mcc/music.c
+"7 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/config.mcc/music.c
 [v _introMusic_01 introMusic_01 `(v  1 e 1 0 ]
 "33
 [v _playNote playNote `(v  1 e 1 0 ]
-"12 /home/nelis/MPLABProjects/pdice-03/config.mcc/utils.c
+"12 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/config.mcc/utils.c
 [v _Timer1_Tick_Callback Timer1_Tick_Callback `(v  1 e 1 0 ]
 "18
 [v _delay_ms delay_ms `(v  1 e 1 0 ]
@@ -376,27 +376,27 @@
 [v _PWM3LDCONbits PWM3LDCONbits `VES489  1 e 1 @3519 ]
 "7882
 [v _PWM3OFCON PWM3OFCON `VEuc  1 e 1 @3520 ]
-"59 /home/nelis/MPLABProjects/pdice-03/config.mcc/main.c
+"59 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/config.mcc/main.c
 [v _runMode runMode `uc  1 e 1 0 ]
 "60
 [v _pattern pattern `DC[7]uc  1 e 7 0 ]
-"38 /home/nelis/MPLABProjects/pdice-03/config.mcc/mcc_generated_files/system/src/interrupt.c
+"38 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/config.mcc/mcc_generated_files/system/src/interrupt.c
 [v _INT_InterruptHandler INT_InterruptHandler `*.37(v  1 e 2 0 ]
-"71 /home/nelis/MPLABProjects/pdice-03/config.mcc/mcc_generated_files/timer/src/tmr0.c
+"71 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/config.mcc/mcc_generated_files/timer/src/tmr0.c
 [v _periodCount periodCount `VEuc  1 s 1 periodCount ]
 "72
 [v _TMR0_OverflowCallback TMR0_OverflowCallback `*.37(v  1 s 2 TMR0_OverflowCallback ]
-"47 /home/nelis/MPLABProjects/pdice-03/config.mcc/mcc_generated_files/timer/src/tmr1.c
+"47 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/config.mcc/mcc_generated_files/timer/src/tmr1.c
 [v _timer1ReloadVal timer1ReloadVal `VEus  1 s 2 timer1ReloadVal ]
 "48
 [v _TMR1_OverflowCallback TMR1_OverflowCallback `*.37(v  1 s 2 TMR1_OverflowCallback ]
 "50
 [v _TMR1_GateCallback TMR1_GateCallback `*.37(v  1 s 2 TMR1_GateCallback ]
-"7 /home/nelis/MPLABProjects/pdice-03/config.mcc/utils.c
+"7 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/config.mcc/utils.c
 [v _ms_ticks ms_ticks `VEus  1 e 2 0 ]
 "4 /opt/microchip/xc8/v4.00/pic/sources/c99/common/rand.c
 [v _seed seed `ul  1 s 4 seed ]
-"83 /home/nelis/MPLABProjects/pdice-03/config.mcc/main.c
+"83 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/config.mcc/main.c
 [v _main main `(i  1 e 2 0 ]
 {
 "85
@@ -458,12 +458,12 @@
 [v ___awmod@sign sign `uc  1 a 1 19 ]
 "34
 } 0
-"104 /home/nelis/MPLABProjects/pdice-03/config.mcc/mcc_generated_files/timer/src/tmr0.c
+"104 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/config.mcc/mcc_generated_files/timer/src/tmr0.c
 [v _TMR0_CounterGet TMR0_CounterGet `(uc  1 e 1 0 ]
 {
 "107
 } 0
-"7 /home/nelis/MPLABProjects/pdice-03/config.mcc/music.c
+"7 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/config.mcc/music.c
 [v _introMusic_01 introMusic_01 `(v  1 e 1 0 ]
 {
 "21
@@ -475,7 +475,7 @@
 [v playNote@duration_ms duration_ms `us  1 p 2 4 ]
 "46
 } 0
-"18 /home/nelis/MPLABProjects/pdice-03/config.mcc/utils.c
+"18 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/config.mcc/utils.c
 [v _delay_ms delay_ms `(v  1 e 1 0 ]
 {
 [v delay_ms@milliseconds milliseconds `us  1 p 2 3 ]
@@ -483,7 +483,7 @@
 [v delay_ms@start_ticks start_ticks `us  1 a 2 0 ]
 "28
 } 0
-"104 /home/nelis/MPLABProjects/pdice-03/config.mcc/mcc_generated_files/pwm/src/pwm3.c
+"104 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/config.mcc/mcc_generated_files/pwm/src/pwm3.c
 [v _PWM3_Stop PWM3_Stop `(v  1 e 1 0 ]
 {
 "107
@@ -499,7 +499,7 @@
 [v PWM3_PeriodSet@periodCount periodCount `us  1 p 2 3 ]
 "135
 } 0
-"209 /home/nelis/MPLABProjects/pdice-03/config.mcc/main.c
+"209 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/config.mcc/main.c
 [v _initRandomSeed initRandomSeed `(v  1 e 1 0 ]
 {
 "211
@@ -512,38 +512,38 @@
 [v srand@s s `ui  1 p 2 3 ]
 "9
 } 0
-"215 /home/nelis/MPLABProjects/pdice-03/config.mcc/mcc_generated_files/timer/src/tmr1.c
+"215 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/config.mcc/mcc_generated_files/timer/src/tmr1.c
 [v _TMR1_OverflowCallbackRegister TMR1_OverflowCallbackRegister `(v  1 e 1 0 ]
 {
 [v TMR1_OverflowCallbackRegister@CallbackHandler CallbackHandler `*.37(v  1 p 2 3 ]
 "218
 } 0
-"39 /home/nelis/MPLABProjects/pdice-03/config.mcc/mcc_generated_files/system/src/system.c
+"39 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/config.mcc/mcc_generated_files/system/src/system.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
 {
 "47
 } 0
-"53 /home/nelis/MPLABProjects/pdice-03/config.mcc/mcc_generated_files/timer/src/tmr1.c
+"53 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/config.mcc/mcc_generated_files/timer/src/tmr1.c
 [v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
 {
 "78
 } 0
-"75 /home/nelis/MPLABProjects/pdice-03/config.mcc/mcc_generated_files/timer/src/tmr0.c
+"75 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/config.mcc/mcc_generated_files/timer/src/tmr0.c
 [v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
 {
 "88
 } 0
-"45 /home/nelis/MPLABProjects/pdice-03/config.mcc/mcc_generated_files/pwm/src/pwm3.c
+"45 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/config.mcc/mcc_generated_files/pwm/src/pwm3.c
 [v _PWM3_Initialize PWM3_Initialize `(v  1 e 1 0 ]
 {
 "97
 } 0
-"38 /home/nelis/MPLABProjects/pdice-03/config.mcc/mcc_generated_files/system/src/pins.c
+"38 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/config.mcc/mcc_generated_files/system/src/pins.c
 [v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
 {
 "91
 } 0
-"40 /home/nelis/MPLABProjects/pdice-03/config.mcc/mcc_generated_files/system/src/interrupt.c
+"40 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/config.mcc/mcc_generated_files/system/src/interrupt.c
 [v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
 {
 "50
@@ -554,17 +554,17 @@
 [v INT_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 3 ]
 "99
 } 0
-"39 /home/nelis/MPLABProjects/pdice-03/config.mcc/mcc_generated_files/system/src/clock.c
+"39 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/config.mcc/mcc_generated_files/system/src/clock.c
 [v _CLOCK_Initialize CLOCK_Initialize `(v  1 e 1 0 ]
 {
 "47
 } 0
-"59 /home/nelis/MPLABProjects/pdice-03/config.mcc/mcc_generated_files/system/src/interrupt.c
+"59 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/config.mcc/mcc_generated_files/system/src/interrupt.c
 [v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
 {
 "77
 } 0
-"202 /home/nelis/MPLABProjects/pdice-03/config.mcc/mcc_generated_files/timer/src/tmr1.c
+"202 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/config.mcc/mcc_generated_files/timer/src/tmr1.c
 [v _TMR1_OverflowISR TMR1_OverflowISR `(v  1 e 1 0 ]
 {
 "213
@@ -574,12 +574,12 @@
 {
 "223
 } 0
-"12 /home/nelis/MPLABProjects/pdice-03/config.mcc/utils.c
+"12 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/config.mcc/utils.c
 [v _Timer1_Tick_Callback Timer1_Tick_Callback `(v  1 e 1 0 ]
 {
 "15
 } 0
-"119 /home/nelis/MPLABProjects/pdice-03/config.mcc/mcc_generated_files/timer/src/tmr1.c
+"119 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/config.mcc/mcc_generated_files/timer/src/tmr1.c
 [v _TMR1_CounterSet TMR1_CounterSet `(v  1 e 1 0 ]
 {
 [v TMR1_CounterSet@timerVal timerVal `us  1 p 2 0 ]

@@ -1,0 +1,827 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 12F1572 ]
+[d frameptr 6 ]
+"9 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/interrupts.c
+[e E3166 _sw_status `uc
+OFF 0
+PRESSED 1
+PRESSED_SHORT 2
+PRESSED_LONG 3
+]
+"16
+[e E3175 _pwr_status `uc
+SHUTDOWN 0
+IDLE 1
+ACTIVE 2
+]
+"115 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+[e E3172 _pwr_status `uc
+SHUTDOWN 0
+IDLE 1
+ACTIVE 2
+]
+"123
+[e E3163 _sw_status `uc
+OFF 0
+PRESSED 1
+PRESSED_SHORT 2
+PRESSED_LONG 3
+]
+"10 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/interrupts.c
+[v _Switch_Interrupt_Callback Switch_Interrupt_Callback `(v  1 e 1 0 ]
+"21
+[v _Timer1_Tick_Callback Timer1_Tick_Callback `(v  1 e 1 0 ]
+"31
+[v _Timer2_Period_Callback Timer2_Period_Callback `(v  1 e 1 0 ]
+"78 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+[v _main main `(i  1 e 2 0 ]
+"196
+[v _dice_roll dice_roll `(uc  1 e 1 0 ]
+"208
+[v _dice_show dice_show `(v  1 e 1 0 ]
+"214
+[v _shiftOutByte shiftOutByte `(v  1 e 1 0 ]
+"260
+[v _selftest selftest `(v  1 e 1 0 ]
+"45 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
+[v _PWM3_Initialize PWM3_Initialize `(v  1 e 1 0 ]
+"99
+[v _PWM3_Start PWM3_Start `(v  1 e 1 0 ]
+"104
+[v _PWM3_Stop PWM3_Stop `(v  1 e 1 0 ]
+"131
+[v _PWM3_PeriodSet PWM3_PeriodSet `(v  1 e 1 0 ]
+"39 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/clock.c
+[v _CLOCK_Initialize CLOCK_Initialize `(v  1 e 1 0 ]
+"40 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/interrupt.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+"59
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+"96
+[v _INT_CallBack INT_CallBack `(v  1 e 1 0 ]
+"105
+[v _INT_SetInterruptHandler INT_SetInterruptHandler `(v  1 e 1 0 ]
+"109
+[v _INT_DefaultInterruptHandler INT_DefaultInterruptHandler `(v  1 e 1 0 ]
+"39 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"97
+[v _PIN_MANAGER_IOC PIN_MANAGER_IOC `(v  1 e 1 0 ]
+"109
+[v _SWITCH_ISR SWITCH_ISR `(v  1 e 1 0 ]
+"124
+[v _SWITCH_SetInterruptHandler SWITCH_SetInterruptHandler `(v  1 e 1 0 ]
+"131
+[v _SWITCH_DefaultInterruptHandler SWITCH_DefaultInterruptHandler `(v  1 e 1 0 ]
+"39 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/system.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"75 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+"104
+[v _TMR0_CounterGet TMR0_CounterGet `(uc  1 e 1 0 ]
+"158
+[v _TMR0_DefaultOverflowCallback TMR0_DefaultOverflowCallback `(v  1 s 1 TMR0_DefaultOverflowCallback ]
+"53 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
+[v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
+"95
+[v _TMR1_Start TMR1_Start `(v  1 e 1 0 ]
+"100
+[v _TMR1_Stop TMR1_Stop `(v  1 e 1 0 ]
+"119
+[v _TMR1_CounterSet TMR1_CounterSet `(v  1 e 1 0 ]
+"202
+[v _TMR1_OverflowISR TMR1_OverflowISR `(v  1 e 1 0 ]
+"215
+[v _TMR1_OverflowCallbackRegister TMR1_OverflowCallbackRegister `(v  1 e 1 0 ]
+"220
+[v _TMR1_DefaultOverflowCallback TMR1_DefaultOverflowCallback `(v  1 s 1 TMR1_DefaultOverflowCallback ]
+"230
+[v _TMR1_DefaultGateCallback TMR1_DefaultGateCallback `(v  1 s 1 TMR1_DefaultGateCallback ]
+"45 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+"69
+[v _TMR2_Start TMR2_Start `(v  1 e 1 0 ]
+"74
+[v _TMR2_Stop TMR2_Stop `(v  1 e 1 0 ]
+"114
+[v _TMR2_ISR TMR2_ISR `(v  1 e 1 0 ]
+"124
+[v _TMR2_PeriodMatchCallbackRegister TMR2_PeriodMatchCallbackRegister `(v  1 e 1 0 ]
+"129
+[v _TMR2_DefaultPeriodMatchCallback TMR2_DefaultPeriodMatchCallback `(v  1 s 1 TMR2_DefaultPeriodMatchCallback ]
+"25 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
+[v _introMusic_02 introMusic_02 `(v  1 e 1 0 ]
+"133
+[v _playNote playNote `(v  1 e 1 0 ]
+"152
+[v _freqToPwmPeriod freqToPwmPeriod `(us  1 e 2 0 ]
+"159
+[v _buzz buzz `T(v  1 e 1 0 ]
+"165
+[v _buzzFreq buzzFreq `(v  1 e 1 0 ]
+"181
+[v _buzzNr buzzNr `(v  1 e 1 0 ]
+"12 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
+[v _delay_ms delay_ms `(v  1 e 1 0 ]
+"25
+[v _initRandomSeed initRandomSeed `(v  1 e 1 0 ]
+"5 /opt/microchip/xc8/v4.00/pic/sources/c99/common/aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"5 /opt/microchip/xc8/v4.00/pic/sources/c99/common/awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"6 /opt/microchip/xc8/v4.00/pic/sources/c99/common/rand.c
+[v _srand srand `(v  1 e 1 0 ]
+"11
+[v _rand rand `(i  1 e 2 0 ]
+"10 /opt/microchip/xc8/v4.00/pic/sources/c99/common/sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"15 /opt/microchip/xc8/v4.00/pic/sources/c99/common/Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 /opt/microchip/xc8/v4.00/pic/sources/c99/common/Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"4 /opt/microchip/xc8/v4.00/pic/sources/c99/common/Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+[s S146 . 1 `uc 1 IOCIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 IOCIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"358 /home/nelis/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.10.270/xc8/pic/include/proc/pic12f1572.h
+[s S155 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 T0IE 1 0 :1:5 
+]
+[u S160 . 1 `S146 1 . 1 0 `S155 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES160  1 e 1 @11 ]
+[s S250 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+]
+"431
+[s S257 . 1 `uc 1 PORTA 1 0 :6:0 
+]
+[u S259 . 1 `S250 1 . 1 0 `S257 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES259  1 e 1 @12 ]
+[s S589 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 TMR1GIF 1 0 :1:7 
+]
+"487
+[u S597 . 1 `S589 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES597  1 e 1 @17 ]
+"576
+[v _TMR0 TMR0 `VEuc  1 e 1 @21 ]
+"603
+[v _TMR1L TMR1L `VEuc  1 e 1 @22 ]
+"623
+[v _TMR1H TMR1H `VEuc  1 e 1 @23 ]
+"643
+[v _T1CON T1CON `VEuc  1 e 1 @24 ]
+[s S848 . 1 `uc 1 TMR1ON 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 nT1SYNC 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 T1CKPS0 1 0 :1:4 
+`uc 1 T1CKPS1 1 0 :1:5 
+`uc 1 TMR1CS0 1 0 :1:6 
+`uc 1 TMR1CS1 1 0 :1:7 
+]
+"665
+[s S857 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 T1CKPS 1 0 :2:4 
+`uc 1 TMR1CS 1 0 :2:6 
+]
+[u S861 . 1 `S848 1 . 1 0 `S857 1 . 1 0 ]
+[v _T1CONbits T1CONbits `VES861  1 e 1 @24 ]
+"710
+[v _T1GCON T1GCON `VEuc  1 e 1 @25 ]
+[s S912 . 1 `uc 1 T1GSS0 1 0 :1:0 
+`uc 1 T1GSS1 1 0 :1:1 
+`uc 1 T1GVAL 1 0 :1:2 
+`uc 1 T1GGO_nDONE 1 0 :1:3 
+`uc 1 T1GSPM 1 0 :1:4 
+`uc 1 T1GTM 1 0 :1:5 
+`uc 1 T1GPOL 1 0 :1:6 
+`uc 1 TMR1GE 1 0 :1:7 
+]
+"732
+[s S921 . 1 `uc 1 T1GSS 1 0 :2:0 
+`uc 1 . 1 0 :1:2 
+`uc 1 T1GGO 1 0 :1:3 
+]
+[u S925 . 1 `S912 1 . 1 0 `S921 1 . 1 0 ]
+[v _T1GCONbits T1GCONbits `VES925  1 e 1 @25 ]
+"787
+[v _TMR2 TMR2 `VEuc  1 e 1 @26 ]
+"807
+[v _PR2 PR2 `VEuc  1 e 1 @27 ]
+"827
+[v _T2CON T2CON `VEuc  1 e 1 @28 ]
+[s S1034 . 1 `uc 1 T2CKPS0 1 0 :1:0 
+`uc 1 T2CKPS1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 T2OUTPS0 1 0 :1:3 
+`uc 1 T2OUTPS1 1 0 :1:4 
+`uc 1 T2OUTPS2 1 0 :1:5 
+`uc 1 T2OUTPS3 1 0 :1:6 
+]
+"848
+[s S1042 . 1 `uc 1 T2CKPS 1 0 :2:0 
+`uc 1 TMR2ON 1 0 :1:2 
+`uc 1 T2OUTPS 1 0 :4:3 
+]
+[u S1046 . 1 `S1034 1 . 1 0 `S1042 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES1046  1 e 1 @28 ]
+"898
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+[s S1144 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+]
+"916
+[s S1151 . 1 `uc 1 TRISA 1 0 :6:0 
+]
+[u S1153 . 1 `S1144 1 . 1 0 `S1151 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES1153  1 e 1 @140 ]
+[s S570 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+`uc 1 TMR1GIE 1 0 :1:7 
+]
+"972
+[u S578 . 1 `S570 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES578  1 e 1 @145 ]
+[s S524 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 TMR0SE 1 0 :1:4 
+`uc 1 TMR0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nWPUEN 1 0 :1:7 
+]
+"1084
+[s S533 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+]
+[u S538 . 1 `S524 1 . 1 0 `S533 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES538  1 e 1 @149 ]
+"1260
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @152 ]
+"1318
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"1453
+[v _ADRESL ADRESL `VEuc  1 e 1 @155 ]
+"1473
+[v _ADRESH ADRESH `VEuc  1 e 1 @156 ]
+"1493
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @157 ]
+[s S1187 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+`uc 1 CHS4 1 0 :1:6 
+]
+"1522
+[s S1195 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADGO 1 0 :1:1 
+`uc 1 CHS 1 0 :5:2 
+]
+[s S1199 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+]
+[s S1202 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[u S1205 . 1 `S1187 1 . 1 0 `S1195 1 . 1 0 `S1199 1 . 1 0 `S1202 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES1205  1 e 1 @157 ]
+"1696
+[v _LATA LATA `VEuc  1 e 1 @268 ]
+[s S124 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+]
+"1714
+[s S131 . 1 `uc 1 LATA 1 0 :6:0 
+]
+[u S133 . 1 `S124 1 . 1 0 `S131 1 . 1 0 ]
+[v _LATAbits LATAbits `VES133  1 e 1 @268 ]
+"1898
+[v _BORCON BORCON `VEuc  1 e 1 @278 ]
+[s S280 . 1 `uc 1 BORRDY 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 BORFS 1 0 :1:6 
+`uc 1 SBOREN 1 0 :1:7 
+]
+"1911
+[u S285 . 1 `S280 1 . 1 0 ]
+[v _BORCONbits BORCONbits `VES285  1 e 1 @278 ]
+"2226
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+[s S1166 . 1 `uc 1 ANSA0 1 0 :1:0 
+`uc 1 ANSA1 1 0 :1:1 
+`uc 1 ANSA2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 ANSA4 1 0 :1:4 
+]
+"2243
+[s S1172 . 1 `uc 1 ANSELA 1 0 :5:0 
+]
+[u S1174 . 1 `S1166 1 . 1 0 `S1172 1 . 1 0 ]
+[v _ANSELAbits ANSELAbits `VES1174  1 e 1 @396 ]
+[s S115 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 VREGPM 1 0 :1:1 
+]
+"2454
+[u S118 . 1 `S115 1 . 1 0 ]
+[v _VREGCONbits VREGCONbits `VES118  1 e 1 @407 ]
+"2727
+[v _WPUA WPUA `VEuc  1 e 1 @524 ]
+"2785
+[v _ODCONA ODCONA `VEuc  1 e 1 @652 ]
+"2838
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @780 ]
+"2891
+[v _INLVLA INLVLA `VEuc  1 e 1 @908 ]
+"2949
+[v _IOCAP IOCAP `VEuc  1 e 1 @913 ]
+"3007
+[v _IOCAN IOCAN `VEuc  1 e 1 @914 ]
+"3065
+[v _IOCAF IOCAF `VEuc  1 e 1 @915 ]
+[s S715 . 1 `uc 1 IOCAF0 1 0 :1:0 
+`uc 1 IOCAF1 1 0 :1:1 
+`uc 1 IOCAF2 1 0 :1:2 
+`uc 1 IOCAF3 1 0 :1:3 
+`uc 1 IOCAF4 1 0 :1:4 
+`uc 1 IOCAF5 1 0 :1:5 
+]
+"3083
+[s S722 . 1 `uc 1 IOCAF 1 0 :6:0 
+]
+[u S724 . 1 `S715 1 . 1 0 `S722 1 . 1 0 ]
+[v _IOCAFbits IOCAFbits `VES724  1 e 1 @915 ]
+"6524
+[v _PWM3PHL PWM3PHL `VEuc  1 e 1 @3505 ]
+"6602
+[v _PWM3PHH PWM3PHH `VEuc  1 e 1 @3506 ]
+"6687
+[v _PWM3DCL PWM3DCL `VEuc  1 e 1 @3507 ]
+"6765
+[v _PWM3DCH PWM3DCH `VEuc  1 e 1 @3508 ]
+"6850
+[v _PWM3PRL PWM3PRL `VEuc  1 e 1 @3509 ]
+"6928
+[v _PWM3PRH PWM3PRH `VEuc  1 e 1 @3510 ]
+"7013
+[v _PWM3OFL PWM3OFL `VEuc  1 e 1 @3511 ]
+"7091
+[v _PWM3OFH PWM3OFH `VEuc  1 e 1 @3512 ]
+"7176
+[v _PWM3TMRL PWM3TMRL `VEuc  1 e 1 @3513 ]
+"7254
+[v _PWM3TMRH PWM3TMRH `VEuc  1 e 1 @3514 ]
+"7332
+[v _PWM3CON PWM3CON `VEuc  1 e 1 @3515 ]
+[s S65 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 MODE 1 0 :2:2 
+`uc 1 POL 1 0 :1:4 
+`uc 1 OUT 1 0 :1:5 
+`uc 1 OE 1 0 :1:6 
+`uc 1 EN 1 0 :1:7 
+]
+"7365
+[s S72 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PWM3MODE0 1 0 :1:2 
+`uc 1 PWM3MODE1 1 0 :1:3 
+]
+[s S76 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PWM3MODE 1 0 :2:2 
+`uc 1 PWM3POL 1 0 :1:4 
+`uc 1 PWM3OUT 1 0 :1:5 
+`uc 1 PWM3OE 1 0 :1:6 
+`uc 1 PWM3EN 1 0 :1:7 
+]
+[s S83 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 MODE0 1 0 :1:2 
+`uc 1 MODE1 1 0 :1:3 
+]
+[u S87 . 1 `S65 1 . 1 0 `S72 1 . 1 0 `S76 1 . 1 0 `S83 1 . 1 0 ]
+[v _PWM3CONbits PWM3CONbits `VES87  1 e 1 @3515 ]
+"7440
+[v _PWM3INTE PWM3INTE `VEuc  1 e 1 @3516 ]
+"7566
+[v _PWM3INTF PWM3INTF `VEuc  1 e 1 @3517 ]
+[s S450 . 1 `uc 1 PRIF 1 0 :1:0 
+`uc 1 DCIF 1 0 :1:1 
+`uc 1 PHIF 1 0 :1:2 
+`uc 1 OFIF 1 0 :1:3 
+]
+"7590
+[s S455 . 1 `uc 1 PWM3PRIF 1 0 :1:0 
+`uc 1 PWM3DCIF 1 0 :1:1 
+`uc 1 PWM3PHIF 1 0 :1:2 
+`uc 1 PWM3OFIF 1 0 :1:3 
+]
+[u S460 . 1 `S450 1 . 1 0 `S455 1 . 1 0 ]
+[v _PWM3INTFbits PWM3INTFbits `VES460  1 e 1 @3517 ]
+"7692
+[v _PWM3CLKCON PWM3CLKCON `VEuc  1 e 1 @3518 ]
+"7800
+[v _PWM3LDCON PWM3LDCON `VEuc  1 e 1 @3519 ]
+[s S412 . 1 `uc 1 LDS 1 0 :2:0 
+`uc 1 . 1 0 :4:2 
+`uc 1 LDT 1 0 :1:6 
+`uc 1 LDA 1 0 :1:7 
+]
+"7827
+[s S417 . 1 `uc 1 PWM3LDS0 1 0 :1:0 
+`uc 1 PWM3LDS1 1 0 :1:1 
+]
+[s S420 . 1 `uc 1 PWM3LDS 1 0 :2:0 
+`uc 1 . 1 0 :4:2 
+`uc 1 PWM3LDM 1 0 :1:6 
+`uc 1 PWM3LD 1 0 :1:7 
+]
+[s S425 . 1 `uc 1 LDS0 1 0 :1:0 
+`uc 1 LDS1 1 0 :1:1 
+]
+[u S428 . 1 `S412 1 . 1 0 `S417 1 . 1 0 `S420 1 . 1 0 `S425 1 . 1 0 ]
+[v _PWM3LDCONbits PWM3LDCONbits `VES428  1 e 1 @3519 ]
+"7882
+[v _PWM3OFCON PWM3OFCON `VEuc  1 e 1 @3520 ]
+"8289
+[v _ADON ADON `VEb  1 e 0 @1256 ]
+"9 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/interrupts.c
+[v _sw_status sw_status `VEE3166  1 e 1 0 ]
+"29
+[v _pwr_status pwr_status `VEE3175  1 e 1 0 ]
+"30
+[v _Timer2_CountCallBack Timer2_CountCallBack `VEus  1 e 2 0 ]
+"57 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+[v _pattern pattern `DC[7]uc  1 e 7 0 ]
+"38 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/interrupt.c
+[v _INT_InterruptHandler INT_InterruptHandler `*.37(v  1 e 2 0 ]
+"37 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
+[v _SWITCH_InterruptHandler SWITCH_InterruptHandler `*.37(v  1 e 2 0 ]
+"71 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr0.c
+[v _periodCount periodCount `VEuc  1 s 1 periodCount ]
+"72
+[v _TMR0_OverflowCallback TMR0_OverflowCallback `*.37(v  1 s 2 TMR0_OverflowCallback ]
+"47 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
+[v _timer1ReloadVal timer1ReloadVal `VEus  1 s 2 timer1ReloadVal ]
+"48
+[v _TMR1_OverflowCallback TMR1_OverflowCallback `*.37(v  1 s 2 TMR1_OverflowCallback ]
+"50
+[v _TMR1_GateCallback TMR1_GateCallback `*.37(v  1 s 2 TMR1_GateCallback ]
+"38 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
+[v _TMR2_PeriodMatchCallback TMR2_PeriodMatchCallback `*.37(v  1 s 2 TMR2_PeriodMatchCallback ]
+"9 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
+[v _ms_ticks ms_ticks `VEul  1 e 4 0 ]
+"4 /opt/microchip/xc8/v4.00/pic/sources/c99/common/rand.c
+[v _seed seed `ul  1 s 4 seed ]
+"78 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+[v _main main `(i  1 e 2 0 ]
+{
+"80
+[v main@nrolls nrolls `uc  1 a 1 26 ]
+"81
+[v main@dice_val dice_val `uc  1 a 1 27 ]
+"82
+[v main@i i `uc  1 a 1 28 ]
+"193
+} 0
+"260
+[v _selftest selftest `(v  1 e 1 0 ]
+{
+"263
+{
+[v selftest@val val `uc  1 a 1 7 ]
+"267
+}
+"269
+} 0
+"208
+[v _dice_show dice_show `(v  1 e 1 0 ]
+{
+[v dice_show@dice_val dice_val `uc  1 p 1 wreg ]
+"210
+[v dice_show@dice_val dice_val `uc  1 p 1 6 ]
+"211
+} 1
+"214
+[v _shiftOutByte shiftOutByte `(v  1 e 1 0 ]
+{
+[v shiftOutByte@val val `uc  1 p 1 wreg ]
+"216
+[v shiftOutByte@bit bit `uc  1 a 1 5 ]
+"219
+{
+[v shiftOutByte@val val `uc  1 p 1 4 ]
+"228
+}
+"229
+} 1
+"25 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
+[v _introMusic_02 introMusic_02 `(v  1 e 1 0 ]
+{
+"36
+} 0
+"133
+[v _playNote playNote `(v  1 e 1 0 ]
+{
+[v playNote@period period `us  1 p 2 18 ]
+[v playNote@duration_ms duration_ms `us  1 p 2 20 ]
+"149
+} 0
+"25 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
+[v _initRandomSeed initRandomSeed `(v  1 e 1 0 ]
+{
+"27
+[v initRandomSeed@adcResult adcResult `us  1 a 2 5 ]
+"44
+} 0
+"196 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+[v _dice_roll dice_roll `(uc  1 e 1 0 ]
+{
+"198
+[v dice_roll@roll_value roll_value `uc  1 a 1 7 ]
+"205
+} 0
+"6 /opt/microchip/xc8/v4.00/pic/sources/c99/common/rand.c
+[v _srand srand `(v  1 e 1 0 ]
+{
+[v srand@s s `ui  1 p 2 3 ]
+"9
+} 0
+"11
+[v _rand rand `(i  1 e 2 0 ]
+{
+"15
+} 0
+"15 /opt/microchip/xc8/v4.00/pic/sources/c99/common/Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+{
+[v ___lmul@multiplier multiplier `ul  1 p 4 0 ]
+[v ___lmul@multiplicand multiplicand `ul  1 p 4 4 ]
+"17
+[v ___lmul@product product `ul  1 a 4 3 ]
+"129
+} 0
+"5 /opt/microchip/xc8/v4.00/pic/sources/c99/common/awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+[v ___awmod@divisor divisor `i  1 p 2 14 ]
+[v ___awmod@dividend dividend `i  1 p 2 16 ]
+"10
+[v ___awmod@counter counter `uc  1 a 1 18 ]
+[v ___awmod@sign sign `uc  1 a 1 19 ]
+"34
+} 0
+"104 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr0.c
+[v _TMR0_CounterGet TMR0_CounterGet `(uc  1 e 1 0 ]
+{
+"107
+} 0
+"159 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
+[v _buzz buzz `T(v  1 e 1 0 ]
+{
+[v buzz@duration_ms duration_ms `us  1 p 2 22 ]
+"163
+} 0
+"165
+[v _buzzFreq buzzFreq `(v  1 e 1 0 ]
+{
+[v buzzFreq@freq freq `us  1 p 2 18 ]
+[v buzzFreq@duration_ms duration_ms `us  1 p 2 20 ]
+"179
+} 0
+"152
+[v _freqToPwmPeriod freqToPwmPeriod `(us  1 e 2 0 ]
+{
+[v freqToPwmPeriod@freq freq `us  1 p 2 14 ]
+"157
+} 0
+"5 /opt/microchip/xc8/v4.00/pic/sources/c99/common/aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+{
+[v ___aldiv@divisor divisor `l  1 p 4 0 ]
+[v ___aldiv@dividend dividend `l  1 p 4 4 ]
+"10
+[v ___aldiv@quotient quotient `l  1 a 4 10 ]
+"11
+[v ___aldiv@counter counter `uc  1 a 1 8 ]
+[v ___aldiv@sign sign `uc  1 a 1 9 ]
+"41
+} 0
+"12 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
+[v _delay_ms delay_ms `(v  1 e 1 0 ]
+{
+[v delay_ms@milliseconds milliseconds `us  1 p 2 2 ]
+"15
+[v delay_ms@start_ticks start_ticks `ul  1 a 4 12 ]
+"22
+} 0
+"104 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
+[v _PWM3_Stop PWM3_Stop `(v  1 e 1 0 ]
+{
+"107
+} 0
+"99
+[v _PWM3_Start PWM3_Start `(v  1 e 1 0 ]
+{
+"102
+} 0
+"131
+[v _PWM3_PeriodSet PWM3_PeriodSet `(v  1 e 1 0 ]
+{
+[v PWM3_PeriodSet@periodCount periodCount `us  1 p 2 16 ]
+"135
+} 0
+"15 /opt/microchip/xc8/v4.00/pic/sources/c99/common/Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+[v ___wmul@multiplier multiplier `ui  1 p 2 3 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 5 ]
+"17
+[v ___wmul@product product `ui  1 a 2 0 ]
+"53
+} 0
+"74 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
+[v _TMR2_Stop TMR2_Stop `(v  1 e 1 0 ]
+{
+"77
+} 0
+"69
+[v _TMR2_Start TMR2_Start `(v  1 e 1 0 ]
+{
+"72
+} 0
+"124
+[v _TMR2_PeriodMatchCallbackRegister TMR2_PeriodMatchCallbackRegister `(v  1 e 1 0 ]
+{
+[v TMR2_PeriodMatchCallbackRegister@CallbackHandler CallbackHandler `*.37(v  1 p 2 3 ]
+"127
+} 0
+"100 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
+[v _TMR1_Stop TMR1_Stop `(v  1 e 1 0 ]
+{
+"103
+} 0
+"95
+[v _TMR1_Start TMR1_Start `(v  1 e 1 0 ]
+{
+"98
+} 0
+"215
+[v _TMR1_OverflowCallbackRegister TMR1_OverflowCallbackRegister `(v  1 e 1 0 ]
+{
+[v TMR1_OverflowCallbackRegister@CallbackHandler CallbackHandler `*.37(v  1 p 2 3 ]
+"218
+} 0
+"39 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/system.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"48
+} 0
+"45 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+{
+"57
+} 0
+"53 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
+[v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
+{
+"78
+} 0
+"75 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+{
+"88
+} 0
+"45 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
+[v _PWM3_Initialize PWM3_Initialize `(v  1 e 1 0 ]
+{
+"97
+} 0
+"39 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"95
+} 0
+"124
+[v _SWITCH_SetInterruptHandler SWITCH_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v SWITCH_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 3 ]
+"126
+} 0
+"40 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/interrupt.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+{
+"50
+} 0
+"105
+[v _INT_SetInterruptHandler INT_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 3 ]
+"107
+} 0
+"39 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/clock.c
+[v _CLOCK_Initialize CLOCK_Initialize `(v  1 e 1 0 ]
+{
+"47
+} 0
+"59 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/interrupt.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+{
+"85
+} 0
+"114 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
+[v _TMR2_ISR TMR2_ISR `(v  1 e 1 0 ]
+{
+"122
+} 0
+"129
+[v _TMR2_DefaultPeriodMatchCallback TMR2_DefaultPeriodMatchCallback `(v  1 s 1 TMR2_DefaultPeriodMatchCallback ]
+{
+"132
+} 0
+"31 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/interrupts.c
+[v _Timer2_Period_Callback Timer2_Period_Callback `(v  1 e 1 0 ]
+{
+"38
+} 0
+"202 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
+[v _TMR1_OverflowISR TMR1_OverflowISR `(v  1 e 1 0 ]
+{
+"213
+} 0
+"220
+[v _TMR1_DefaultOverflowCallback TMR1_DefaultOverflowCallback `(v  1 s 1 TMR1_DefaultOverflowCallback ]
+{
+"223
+} 0
+"21 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/interrupts.c
+[v _Timer1_Tick_Callback Timer1_Tick_Callback `(v  1 e 1 0 ]
+{
+"24
+} 0
+"119 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
+[v _TMR1_CounterSet TMR1_CounterSet `(v  1 e 1 0 ]
+{
+[v TMR1_CounterSet@timerVal timerVal `us  1 p 2 0 ]
+"122
+{
+"123
+[v TMR1_CounterSet@onState onState `a  1 a 1 2 ]
+"131
+}
+"137
+} 0
+"97 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
+[v _PIN_MANAGER_IOC PIN_MANAGER_IOC `(v  1 e 1 0 ]
+{
+"104
+} 0
+"109
+[v _SWITCH_ISR SWITCH_ISR `(v  1 e 1 0 ]
+{
+"119
+} 0
+"131
+[v _SWITCH_DefaultInterruptHandler SWITCH_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"134
+} 0
+"10 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/interrupts.c
+[v _Switch_Interrupt_Callback Switch_Interrupt_Callback `(v  1 e 1 0 ]
+{
+"18
+} 0

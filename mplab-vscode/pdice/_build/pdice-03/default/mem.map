@@ -4,10 +4,11 @@ Linker command line:
 
 -W-3 \
   --edf=/home/nelis/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.10.270/xc8/pic/dat/20260909110549_en.msgs \
-  -cn -h+/home/nelis/MPLABProjects/pdice-03/out/pdice-03/default.sym \
-  --cmf=/home/nelis/MPLABProjects/pdice-03/out/pdice-03/default.cmf -z \
-  -Q12F1572 -o/tmp/xcXjJfAJc/driver_tmp_3.o --defsym=__MPLAB_BUILD=1 \
-  --fixupoverflow=error -Mmem.map --md=/tmp/xcXjJfAJc/driver_tmp_0.dat -E1 \
+  -cn \
+  -h+/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/out/pdice-03/default.sym \
+  --cmf=/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/out/pdice-03/default.cmf \
+  -z -Q12F1572 -o/tmp/xcXPaHeeF/driver_tmp_3.o --defsym=__MPLAB_BUILD=1 \
+  --fixupoverflow=error -Mmem.map --md=/tmp/xcXPaHeeF/driver_tmp_0.dat -E1 \
   -ver=XC8 Compiler -ACODE=00h-07FFh -ASTRCODE=00h-07FFh \
   -ASTRING=00h-0FFhx8 -ACONST=00h-0FFhx8 -AENTRY=00h-0FFhx8 \
   -ACOMMON=070h-07Fh -ABANK0=020h-06Fh -ABANK1=0A0h-0EFh \
@@ -27,8 +28,8 @@ Linker command line:
   -ACONFIG=08007h-08008h -DCONFIG=2 -AIDLOC=08000h-08003h -DIDLOC=2 \
   -DCODE=2 -DSTRCODE=2 -DSTRING=2 -DCONST=2 -DENTRY=2 \
   -preset_vec=00h,intentry=04h,sivt,init,end_init -ppowerup=CODE \
-  -pcinit=CODE -pfunctab=ENTRY -k /tmp/xcXjJfAJc/driver_tmp_8.o \
-  /home/nelis/MPLABProjects/pdice-03/out/pdice-03/default.o 
+  -pcinit=CODE -pfunctab=ENTRY -k /tmp/xcXPaHeeF/driver_tmp_8.o \
+  /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/out/pdice-03/default.o 
 
 Object code version is 3.11
 
@@ -37,11 +38,11 @@ Machine type is 12F1572
 
 
                 Name                               Link     Load   Length Selector   Space Scale
-/tmp/xcXjJfAJc/driver_tmp_8.o
+/tmp/xcXPaHeeF/driver_tmp_8.o
                 end_init                             1D       1D        1        8       0
                 reset_vec                             0        0        1        0       0
                 config                             8007     8007        2        0       4
-/home/nelis/MPLABProjects/pdice-03/out/pdice-03/default.o
+/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/out/pdice-03/default.o
                 cinit                                1E       1E       10        8       0
                 intentry                              4        4       19        8       0
                 config                             8007     8007        2        0       4
@@ -802,14 +803,17 @@ wtemp0a                                       (abs)        0007F
 MODULE INFORMATION
 
 Module		Function		Class		Link	Load	Size
-/home/nelis/MPLABProjects/pdice-03/config.mcc/main.c
-		_main          		CODE           	002E	0000	342
-		_initRandomSeed		CODE           	0348	0000	28
-		_shiftOutByte  		CODE           	02FE	0000	39
-		_roll_dice     		CODE           	0325	0000	35
-		_selftest_1    		CODE           	01F1	0000	82
+/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/config.mcc/music.c
+		_introMusic_01 		CODE           	0184	0000	109
+		_playNote      		CODE           	03C8	0000	23
 
-/home/nelis/MPLABProjects/pdice-03/config.mcc/main.c estimated size: 526
+/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/config.mcc/music.c estimated size: 132
+
+/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/config.mcc/mcc_generated_files/timer/src/tmr0.c
+		_TMR0_CounterGet		CODE           	0469	0000	3
+		_TMR0_Initialize		CODE           	041E	0000	15
+
+/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/config.mcc/mcc_generated_files/timer/src/tmr0.c estimated size: 18
 
 /opt/microchip/xc8/v4.00/pic/sources/c99/common/rand.c
 		_srand         		CODE           	0438	0000	10
@@ -817,44 +821,36 @@ Module		Function		Class		Link	Load	Size
 
 /opt/microchip/xc8/v4.00/pic/sources/c99/common/rand.c estimated size: 63
 
-/home/nelis/MPLABProjects/pdice-03/config.mcc/mcc_generated_files/system/src/interrupt.c
+/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/config.mcc/mcc_generated_files/system/src/interrupt.c
 		_INT_SetInterruptHandler		CODE           	045D	0000	6
 		_INTERRUPT_Initialize		CODE           	042D	0000	11
 		_INTERRUPT_InterruptManager		CODE           	0004	0000	25
 
-/home/nelis/MPLABProjects/pdice-03/config.mcc/mcc_generated_files/system/src/interrupt.c estimated size: 42
+/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/config.mcc/mcc_generated_files/system/src/interrupt.c estimated size: 42
 
-/home/nelis/MPLABProjects/pdice-03/config.mcc/mcc_generated_files/pwm/src/pwm3.c
-		_PWM3_PeriodSet		CODE           	0451	0000	6
-		_PWM3_Initialize		CODE           	037E	0000	25
-		_PWM3_Stop     		CODE           	046C	0000	3
-		_PWM3_Start    		CODE           	046F	0000	3
+/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/config.mcc/mcc_generated_files/system/src/system.c
+		_SYSTEM_Initialize		CODE           	040B	0000	19
 
-/home/nelis/MPLABProjects/pdice-03/config.mcc/mcc_generated_files/pwm/src/pwm3.c estimated size: 37
+/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/config.mcc/mcc_generated_files/system/src/system.c estimated size: 19
 
-/home/nelis/MPLABProjects/pdice-03/config.mcc/mcc_generated_files/timer/src/tmr1.c
-		_TMR1_Initialize		CODE           	0364	0000	26
-		_TMR1_OverflowCallbackRegister		CODE           	0457	0000	6
-		_TMR1_DefaultOverflowCallback		CODE           	047C	0000	1
-		_TMR1_CounterSet		CODE           	03B0	0000	24
-		_TMR1_OverflowISR		CODE           	03F5	0000	22
+/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/config.mcc/mcc_generated_files/system/src/clock.c
+		_CLOCK_Initialize		CODE           	0442	0000	8
 
-/home/nelis/MPLABProjects/pdice-03/config.mcc/mcc_generated_files/timer/src/tmr1.c estimated size: 79
+/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/config.mcc/mcc_generated_files/system/src/clock.c estimated size: 8
 
 /opt/microchip/xc8/v4.00/pic/sources/c99/common/Umul32.c
 		___lmul        		CODE           	02CA	0000	52
 
 /opt/microchip/xc8/v4.00/pic/sources/c99/common/Umul32.c estimated size: 52
 
-/home/nelis/MPLABProjects/pdice-03/config.mcc/mcc_generated_files/system/src/clock.c
-		_CLOCK_Initialize		CODE           	0442	0000	8
+/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/config.mcc/mcc_generated_files/timer/src/tmr1.c
+		_TMR1_Initialize		CODE           	0364	0000	26
+		_TMR1_OverflowCallbackRegister		CODE           	0457	0000	6
+		_TMR1_DefaultOverflowCallback		CODE           	047C	0000	1
+		_TMR1_CounterSet		CODE           	03B0	0000	24
+		_TMR1_OverflowISR		CODE           	03F5	0000	22
 
-/home/nelis/MPLABProjects/pdice-03/config.mcc/mcc_generated_files/system/src/clock.c estimated size: 8
-
-/home/nelis/MPLABProjects/pdice-03/config.mcc/mcc_generated_files/system/src/pins.c
-		_PIN_MANAGER_Initialize		CODE           	0397	0000	25
-
-/home/nelis/MPLABProjects/pdice-03/config.mcc/mcc_generated_files/system/src/pins.c estimated size: 25
+/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/config.mcc/mcc_generated_files/timer/src/tmr1.c estimated size: 79
 
 shared
 		introMusic_01@l1		STRCODE        	0000	0000	0
@@ -867,31 +863,36 @@ shared
 
 shared estimated size: 20
 
-/home/nelis/MPLABProjects/pdice-03/config.mcc/utils.c
+/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/config.mcc/main.c
+		_main          		CODE           	002E	0000	342
+		_initRandomSeed		CODE           	0348	0000	28
+		_shiftOutByte  		CODE           	02FE	0000	39
+		_roll_dice     		CODE           	0325	0000	35
+		_selftest_1    		CODE           	01F1	0000	82
+
+/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/config.mcc/main.c estimated size: 526
+
+/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/config.mcc/utils.c
 		_Timer1_Tick_Callback		CODE           	0463	0000	6
 		_delay_ms      		CODE           	03DF	0000	22
 
-/home/nelis/MPLABProjects/pdice-03/config.mcc/utils.c estimated size: 28
-
-/home/nelis/MPLABProjects/pdice-03/config.mcc/mcc_generated_files/system/src/system.c
-		_SYSTEM_Initialize		CODE           	040B	0000	19
-
-/home/nelis/MPLABProjects/pdice-03/config.mcc/mcc_generated_files/system/src/system.c estimated size: 19
-
-/home/nelis/MPLABProjects/pdice-03/config.mcc/music.c
-		_introMusic_01 		CODE           	0184	0000	109
-		_playNote      		CODE           	03C8	0000	23
-
-/home/nelis/MPLABProjects/pdice-03/config.mcc/music.c estimated size: 132
-
-/home/nelis/MPLABProjects/pdice-03/config.mcc/mcc_generated_files/timer/src/tmr0.c
-		_TMR0_CounterGet		CODE           	0469	0000	3
-		_TMR0_Initialize		CODE           	041E	0000	15
-
-/home/nelis/MPLABProjects/pdice-03/config.mcc/mcc_generated_files/timer/src/tmr0.c estimated size: 18
+/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/config.mcc/utils.c estimated size: 28
 
 /opt/microchip/xc8/v4.00/pic/sources/c99/common/awmod.c
 		___awmod       		CODE           	0243	0000	82
 
 /opt/microchip/xc8/v4.00/pic/sources/c99/common/awmod.c estimated size: 82
+
+/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/config.mcc/mcc_generated_files/pwm/src/pwm3.c
+		_PWM3_PeriodSet		CODE           	0451	0000	6
+		_PWM3_Initialize		CODE           	037E	0000	25
+		_PWM3_Stop     		CODE           	046C	0000	3
+		_PWM3_Start    		CODE           	046F	0000	3
+
+/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/config.mcc/mcc_generated_files/pwm/src/pwm3.c estimated size: 37
+
+/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/config.mcc/mcc_generated_files/system/src/pins.c
+		_PIN_MANAGER_Initialize		CODE           	0397	0000	25
+
+/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/config.mcc/mcc_generated_files/system/src/pins.c estimated size: 25
 

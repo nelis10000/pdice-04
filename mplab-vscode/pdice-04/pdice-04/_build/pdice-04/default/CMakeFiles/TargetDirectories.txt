@@ -1,0 +1,4 @@
+/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/_build/pdice-04/default/CMakeFiles/pdice_04_default_default_XC8_compile.dir
+/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/_build/pdice-04/default/CMakeFiles/pdice_04_default_image_CnNvr21c.dir
+/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/_build/pdice-04/default/CMakeFiles/edit_cache.dir
+/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/_build/pdice-04/default/CMakeFiles/rebuild_cache.dir

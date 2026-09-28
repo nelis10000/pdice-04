@@ -1,0 +1,8 @@
+{
+    "cmake.sourceDirectory": "/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/cmake/pdice-04/default",
+    "mplab.clangd.compileCommandsDir": "${workspaceFolder}/_build/pdice-04/default",
+    "mplab.clangd.arguments": [
+        "--header-insertion=never"
+    ],
+    "mplab.clangd.path": "/opt/microchip/xc8/v4.00/bin/xc8-clangd"
+}

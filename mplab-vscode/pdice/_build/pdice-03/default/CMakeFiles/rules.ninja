@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /usr/bin/cmake --regenerate-during-build -S/home/nelis/MPLABProjects/pdice-03/cmake/pdice-03/default -B/home/nelis/MPLABProjects/pdice-03/_build/pdice-03/default
+  command = /usr/bin/cmake --regenerate-during-build -S/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/cmake/pdice-03/default -B/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice/_build/pdice-03/default
   description = Re-running CMake...
   generator = 1
 
@@ -59,7 +59,7 @@ rule CLEAN_ADDITIONAL
 # Rule for cleaning all built files.
 
 rule CLEAN
-  command = /home/nelis/.mplab/app-finder/apps/ninja/v1.13.2/ninja $FILE_ARG -t clean $TARGETS
+  command = /usr/bin/ninja $FILE_ARG -t clean $TARGETS
   description = Cleaning all built files...
 
 
@@ -67,6 +67,6 @@ rule CLEAN
 # Rule for printing all primary targets available.
 
 rule HELP
-  command = /home/nelis/.mplab/app-finder/apps/ninja/v1.13.2/ninja -t targets
+  command = /usr/bin/ninja -t targets
   description = All primary targets available:
 

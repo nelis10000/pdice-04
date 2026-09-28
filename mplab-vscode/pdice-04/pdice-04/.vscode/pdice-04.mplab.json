@@ -1,0 +1,107 @@
+{
+    "version": "1.9",
+    "configurations": [
+        {
+            "name": "default",
+            "id": "conf1",
+            "device": "PIC12F1572",
+            "imagePath": "./out/pdice-04/default.elf",
+            "tool": "PICkit 4",
+            "packs": [
+                {
+                    "name": "PIC12-16F1xxx_DFP",
+                    "vendor": "Microchip",
+                    "version": "1.10.270"
+                }
+            ],
+            "fileSet": "default",
+            "toolchain": "default-XC8"
+        }
+    ],
+    "propertyGroups": [
+        {
+            "name": "default-XC8",
+            "type": "toolchain",
+            "provider": "microchip.toolchains:xc8@4.00",
+            "properties": {}
+        }
+    ],
+    "fileSets": [
+        {
+            "name": "default",
+            "files": [
+                {
+                    "include": "*",
+                    "type": "headerFile"
+                },
+                {
+                    "include": "config.mcc/mcc/*",
+                    "type": "headerFile"
+                },
+                {
+                    "include": "config.mcc/mcc_generated_files/pwm/*",
+                    "type": "headerFile"
+                },
+                {
+                    "include": "config.mcc/mcc_generated_files/system/*",
+                    "type": "headerFile"
+                },
+                {
+                    "include": "config.mcc/*",
+                    "type": "sourceFile"
+                },
+                {
+                    "include": "config.mcc/mcc_generated_files/pwm/src/*",
+                    "type": "sourceFile"
+                },
+                {
+                    "include": "config.mcc/mcc_generated_files/system/src/*",
+                    "type": "sourceFile"
+                },
+                {
+                    "include": "config.mcc/mcc_generated_files/system/src/interrupt.c",
+                    "type": "headerFile"
+                },
+                {
+                    "include": "config.mcc/mcc_generated_files/system/src/clock.c",
+                    "type": "headerFile"
+                },
+                {
+                    "include": "config.mcc/mcc_generated_files/timer/src/tmr1.c",
+                    "type": "headerFile"
+                },
+                {
+                    "include": "config.mcc/mcc_generated_files/system/src/config_bits.c",
+                    "type": "headerFile"
+                },
+                {
+                    "include": "config.mcc/mcc_generated_files/system/src/system.c",
+                    "type": "headerFile"
+                },
+                {
+                    "include": "config.mcc/main.c",
+                    "type": "headerFile"
+                },
+                {
+                    "include": "config.mcc/mcc_generated_files/system/src/pins.c",
+                    "type": "headerFile"
+                },
+                {
+                    "include": "config.mcc/mcc_generated_files/pwm/src/pwm3.c",
+                    "type": "headerFile"
+                },
+                {
+                    "include": "config.mcc/mcc_generated_files/timer/src/tmr0.c",
+                    "type": "headerFile"
+                },
+                "config.mcc/mcc_generated_files/timer/tmr1.h",
+                "config.mcc/mcc_generated_files/timer/tmr0.h",
+                "config.mcc/mcc_generated_files/timer/tmr0_deprecated.h",
+                "config.mcc/mcc_generated_files/timer/tmr1_deprecated.h",
+                "config.mcc/mcc_generated_files/timer/src/tmr2.c",
+                "config.mcc/mcc_generated_files/timer/tmr2.h",
+                "config.mcc/mcc_generated_files/timer/tmr2_deprecated.h"
+            ]
+        }
+    ]
+}

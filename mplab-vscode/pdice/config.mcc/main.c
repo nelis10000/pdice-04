@@ -19,8 +19,8 @@
 //
 // Macros
 //
-#define Switch_IsPressed()    !(SWITCH_GetValue())
-#define Switch_IsNotPressed() SWITCH_GetValue()
+#define Switch_IsPressed()    (SWITCH_GetValue()==0)
+#define Switch_IsNotPressed() (SWITCH_GetValue()==1)
 
 // Dice LED layout
 // 
