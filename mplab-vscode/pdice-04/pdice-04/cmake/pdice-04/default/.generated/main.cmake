@@ -29,16 +29,16 @@ endif()
 
 
 # Main target for this project
-add_executable(pdice_04_default_image_UJ58F_rH ${pdice_04_default_library_list})
+add_executable(pdice_04_default_image_CnNvr21c ${pdice_04_default_library_list})
 
-set_target_properties(pdice_04_default_image_UJ58F_rH PROPERTIES
+set_target_properties(pdice_04_default_image_CnNvr21c PROPERTIES
     OUTPUT_NAME "default"
     SUFFIX ".elf"
     ADDITIONAL_CLEAN_FILES "${output_extensions}"
     RUNTIME_OUTPUT_DIRECTORY "${pdice_04_default_output_dir}")
-target_link_libraries(pdice_04_default_image_UJ58F_rH PRIVATE ${pdice_04_default_default_XC8_FILE_TYPE_link})
+target_link_libraries(pdice_04_default_image_CnNvr21c PRIVATE ${pdice_04_default_default_XC8_FILE_TYPE_link})
 # Add the link options from the rule file.
-pdice_04_default_link_rule( pdice_04_default_image_UJ58F_rH)
+pdice_04_default_link_rule( pdice_04_default_image_CnNvr21c)
 
 
 

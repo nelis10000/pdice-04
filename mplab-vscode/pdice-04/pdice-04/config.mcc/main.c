@@ -1,3 +1,13 @@
+/*
+    pdice-04 - Dice rolling machine with PIC12F1572 microprocessor, designed for the "Weekend van de wetenschap 2026"
+
+    Niels Althuisius 
+    Elektronica Bèta VU
+    Vrije Universiteit Amsterdam
+    n.althuisius@beta.vu.nl
+*/
+
+
 /* Pin functions
  * See "Header Files/MCC Generated Files/system/pins.h" for pin macro functions
  * 
@@ -69,13 +79,13 @@ const uint8_t pattern[7] = {        // LED patterns
 // Prototypes
 //
 void selftest(void);                // Test LEDs and buzzer at poweron
-void dice_show(uint8_t dice_val);   // Show dice value on LEDs
-uint8_t dice_roll(void);            // Roll the dice and return the number
+void diceShow(uint8_t dice_val);   // Show dice value on LEDs
+uint8_t diceRoll(void);            // Roll the dice and return the number
 
 
-/*
-    Main application
-*/
+//
+//  Main program
+//
 int main(void)
 {
     uint8_t nrolls;     // Number of rolls
@@ -113,7 +123,7 @@ int main(void)
     // Play an intro tune 
     shiftOutByte(0xff);     // All LEDs on
     LedsOn();
-    introMusic();
+    introTune();
 
 
     // Set the buzzer frequency for dice rolls
@@ -123,6 +133,10 @@ int main(void)
     run_state = INTRO;
     TMR2_Start();
 
+
+    //
+    // Start of main loop
+    // 
     while(1)
     {
         if (run_state == INTRO) {
@@ -139,34 +153,32 @@ int main(void)
                 run_state = ACTIVE;
             }
         }
+
         if( run_state == ACTIVE && sw_status == PRESSED) {
 
             // Roll 15 times, plus a another 0-9 times
             nrolls = (uint8_t)(15+(rand() % 10));
             for (i=1; i<nrolls; i++) {
                 // Get a number from a dice roll
-                dice_val = dice_roll();
+                dice_val = diceRoll();
 
                 // LEDs off between dice values
                 LedsOff();                          
                 delay_ms(50);
 
                 // Show dice value on LEDs
-                dice_show(dice_val);                
+                diceShow(dice_val);                
                 LedsOn();
 
                 // Short beep
-                buzz(BUZZDELAY_DICEROLLS);
+                buzzFreq(BUZZFREQ_DICEROLLS, BUZZDELAY_DICEROLLS);
 
                 // Roll delay
                 delay_ms(i*10);
             }
 
-            // Extra sound at 6
-            if (dice_val == 6) {
-                buzzFreq(2000,100);
-                buzzFreq(2400,200);
-            }
+            // Play a sound after dice roll 
+            dicePlaySound(dice_val);
 
             sw_status = OFF;
             while(SWITCH_GetValue()==0);
@@ -175,28 +187,34 @@ int main(void)
 
         if( run_state == SHUTDOWN )
         {
+            // Shutdown sound
             buzzFreq(2000,50);
             buzzFreq(1500,50);
         
+            // Leds off, stop Timers, disable interrupts, disable brown-out reset (saves power)
             LedsOff();
             TMR1_Stop();
             TMR2_Stop();
             INTERRUPT_GlobalInterruptDisable();
             INTERRUPT_PeripheralInterruptDisable(); 
-            BORCONbits.SBOREN = 0;      // Disable brown-out reset (saves power)
+            BORCONbits.SBOREN = 0;
             SLEEP();
             NOP();
 
-            // Zzzzzzzzzzzz
+            // Zzzzzzzzzzzz - sleep until an interrupt-on-change from the switch
             
-            BORCONbits.SBOREN = 1;      // Enable brown-out reset
+            // Waking up - re-enable everything we shut off 
+            BORCONbits.SBOREN = 1;
             INTERRUPT_PeripheralInterruptEnable();
             INTERRUPT_GlobalInterruptEnable(); 
             TMR2_Start();
             TMR1_Start();
             LedsOn();
+
+            // Wakeup sound
             buzzFreq(1500,50);
             buzzFreq(2000,50);
+
             run_state = ACTIVE;
             delay_ms(20);
             sw_status = OFF;
@@ -209,17 +227,18 @@ int main(void)
             buzzFreq(2000,50);
             run_state = INTRO;
         }
-    }
-}
+    }   // end while()
+} // end main()
 
 
-uint8_t dice_roll(void)
+// Roll the dice, seed the pseudo-random-number-generator if needed
+uint8_t diceRoll(void)
 {
     uint8_t roll_value; 
 
     // Just on the first dice roll, seed the prng with the Timer0 value, which should be random enough (value depends on the number of microseconds between power-on and keypress)
-    if (prng_needs_seeding==false) {
-        prng_needs_seeding = true;
+    if (prng_needs_seeding==true) {
+        prng_needs_seeding = false;
         srand(TMR0_CounterGet());
     }
     roll_value = (uint8_t) ( (rand() % 6) + 1);
@@ -228,7 +247,8 @@ uint8_t dice_roll(void)
 }
 
 
-void dice_show(uint8_t dice_val)
+// Show dice value on LEDs 
+void diceShow(uint8_t dice_val)
 {
     shiftOutByte(pattern[dice_val]);    // Write pattern to LED shift register
 }
@@ -236,41 +256,13 @@ void dice_show(uint8_t dice_val)
 
 
 
-#if(0)
-void selftest(void)
-{
-    const uint16_t delay = 200;
-    
-    LedsOn();
-    shiftOutByte(dot_a);
-    delay_ms(delay);
-    shiftOutByte(dot_b);
-    delay_ms(delay);
-    shiftOutByte(dot_c);
-    delay_ms(delay);
-    shiftOutByte(dot_d);
-    delay_ms(delay);
-    shiftOutByte(dot_e);
-    delay_ms(delay);
-    shiftOutByte(dot_f);
-    delay_ms(delay);
-    shiftOutByte(dot_g);
-    delay_ms(delay);
-    shiftOutByte(0x00);
-    delay_ms(delay);
-    shiftOutByte(0xff);
-    delay_ms(delay);
-    LedsOff();
-}
-#endif
-
 void selftest(void)
 {
     LedsOn();
     for (uint8_t val = 1; val<=6; val++)
     {
-        dice_show(val);
-        delay_ms(250);
+       diceShow(val);
+       delay_ms(250);
     }
     LedsOff();
 }

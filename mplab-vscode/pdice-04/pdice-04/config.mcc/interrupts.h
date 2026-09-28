@@ -7,11 +7,16 @@ enum _sw_status { OFF, PRESSED, PRESSED_SHORT, PRESSED_LONG };
 extern volatile enum _sw_status sw_status;
 void Switch_Interrupt_Callback(void);
 
+
 // Millisecond timer interupt
 extern volatile uint32_t ms_ticks;
 void Timer1_Tick_Callback(void);
 
+
 // Poweroff timer interrupt
+// NOTE: These values assume a 65.536ms overflow rate, which was the maximum rate at XTAL_OSC=16MHz. 
+//       At the current(?) 4MHz speed these are still valid but it would be "nice" if the preprocessor
+//       calculates them like the tone frequencies.
 #define TMR2_TIMEOUT_COUNT_5MIN     4578
 #define TMR2_TIMEOUT_COUNT_2MIN     1831
 #define TMR2_TIMEOUT_COUNT_1MIN     916

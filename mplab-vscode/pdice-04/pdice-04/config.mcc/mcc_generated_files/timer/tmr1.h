@@ -38,7 +38,7 @@
 
 #include <stdbool.h>
 #include <stdint.h>
-#include "tmr1_deprecated.h"
+//#include "tmr1_deprecated.h"
 
 /**
  * @misradeviation{@advisory,2.5}

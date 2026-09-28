@@ -3,40 +3,42 @@
 #include "utils.h"
 #include "interrupts.h"
 
+//
+// See tones.h for available notes and note lengths, you can also add notes there.
+//
 
 // Fur Elise: E6 DS6 E6 DS6 E6 B5 D6 C6 A5
-void introMusic_01(void)
+void tune_01(void)
 {
-    const uint16_t l1 = 50;     // Short note duration in ms
-    const uint16_t l2 = 100;     // Long note duration in ms
-
-    playNote(NOTE_E6,  l1);
-    playNote(NOTE_DS6, l1);
-    playNote(NOTE_E6,  l1);
-    playNote(NOTE_DS6, l1);
-    playNote(NOTE_E6,  l1);
-    playNote(NOTE_B5,  l1);
-    playNote(NOTE_D6,  l1);
-    playNote(NOTE_C6,  l1);
-    playNote(NOTE_A5,  l1);
+    playNote(NOTE_E6,  NOTE_L1);
+    playNote(NOTE_DS6, NOTE_L1);
+    playNote(NOTE_E6,  NOTE_L1);
+    playNote(NOTE_DS6, NOTE_L1);
+    playNote(NOTE_E6,  NOTE_L1);
+    playNote(NOTE_B5,  NOTE_L1);
+    playNote(NOTE_D6,  NOTE_L1);
+    playNote(NOTE_C6,  NOTE_L1);
+    playNote(NOTE_A5,  NOTE_L1);
 }
+
 
 // Starwars: A6 A6 A6 F6 CS6 A6 F6 CS6 A6
-void introMusic_02(void)
+void tune_02(void)
 {
-    playNote(NOTE_A5, 500/3);
-    playNote(NOTE_A5, 500/3);
-    playNote(NOTE_A5, 500/3);
-    playNote(NOTE_F5, 350/3);
-    playNote(NOTE_C6, 150/3);
-    playNote(NOTE_A5, 500/3);
-    playNote(NOTE_F5, 350/3);
-    playNote(NOTE_C6, 150/3);
-    playNote(NOTE_A5, 500/3);
+    playNote(NOTE_A5, NOTE_L1);         // 500
+    playNote(NOTE_A5, NOTE_L1);         // 500
+    playNote(NOTE_A5, NOTE_L1);         // 500
+    playNote(NOTE_F5, (uint16_t)(NOTE_L1*0.7));     // 350
+    playNote(NOTE_C6, (uint16_t)(NOTE_L1*0.3));     // 150
+    playNote(NOTE_A5, NOTE_L1);         // 500
+    playNote(NOTE_F5, (uint16_t)(NOTE_L1*0.7));     // 350
+    playNote(NOTE_C6, (uint16_t)(NOTE_L1*0.3));     // 150
+    playNote(NOTE_A5, NOTE_L1);         // 500
 }
 
-// Airwolf: A E A B C B A E G D G A     - doesn't seem right at all
-void introMusic_03(void)
+
+// Airwolf: A E A B C B A E G D G A     - doesn't sound right at all
+void tune_03(void)
 {
     playNote(NOTE_A5, 500/3);
     playNote(NOTE_E5, 500/3);
@@ -52,8 +54,9 @@ void introMusic_03(void)
     playNote(NOTE_A5, 500/3);
 }
 
+
 // Whoop Up
-void introMusic_04(void)
+void tune_04(void)
 {
     uint16_t freq = 500;
     uint16_t reload = 500;
@@ -69,8 +72,9 @@ void introMusic_04(void)
     PWM3_Stop();
 }
 
+
 // Random
-void introMusic_05(void)
+void tune_05(void)
 {
     uint16_t i;
 
@@ -83,8 +87,9 @@ void introMusic_05(void)
     PWM3_Stop();
 }
 
+
 // RandomLow
-void introMusic_06(void)
+void tune_06(void)
 {
     uint16_t i;
 
@@ -97,8 +102,9 @@ void introMusic_06(void)
     PWM3_Stop();
 }
 
+
 // RandomHigh
-void introMusic_07(void)
+void tune_07(void)
 {
     uint16_t i;
 
@@ -111,42 +117,32 @@ void introMusic_07(void)
     PWM3_Stop();
 }
 
-void diceSound_None(void)
-{
-    // Nothing to play
-}
 
-void diceSound_Play1(void)
+// Sound to play for a dice value
+void dicePlaySound(uint8_t val)
 {
-    buzzNr(1);
-}
-
-void diceSound_Play2(void)
-{
-    buzzNr(2);
-}
-
-void diceSound_Play3(void)
-{
-    buzzNr(3);
-}
-
-void diceSound_Play4(void)
-{
-    buzzNr(4);
-}
-
-void diceSound_Play5(void)
-{
-    buzzNr(5);
-}
-
-void diceSound_Play6(void)
-{
-    buzzNr(6);
+    switch (val) {
+        case 1:
+            break;      // Nothing
+        case 2:
+            break;      // Nothing
+        case 3:
+            break;      // Nothing
+        case 4:
+            break;      // Nothing
+        case 5:
+            break;      // Nothing
+        case 6: 
+            buzzFreq(2000,100);
+            buzzFreq(2400,200);
+            break;
+        default: 
+            break;
+    }
 }
 
 
+// Play a note (macros for period and duration are in music.h)
 void playNote(uint16_t period, uint16_t duration_ms)
 {
     // Set PWM reload timer period for this frequency
@@ -166,6 +162,7 @@ void playNote(uint16_t period, uint16_t duration_ms)
 }
 
 
+// Convert a frequency to PWM reload value
 uint16_t freqToPwmPeriod(uint16_t freq)
 {
     const uint8_t prescale = 1;
@@ -173,12 +170,16 @@ uint16_t freqToPwmPeriod(uint16_t freq)
     return (uint16_t) ((_XTAL_FREQ / (freq * prescale)) - 1);
 }
 
+
+// Just buzz for .. ms
 inline void buzz(uint16_t duration_ms)
 {
     buzzFreq(BUZZFREQ_DEFAULT, duration_ms);
 
 }
 
+
+// Buzz at given freq for .. ms
 void buzzFreq(uint16_t freq, uint16_t duration_ms)
 {
     // Set buzzer frequency (if we played music or other tones, the frequency may be changed)
@@ -195,13 +196,9 @@ void buzzFreq(uint16_t freq, uint16_t duration_ms)
 
 }
 
-void buzzNr(uint16_t nr)
-{
-    uint16_t i;
 
-    for (i=0; i<nr; i++)
-    {
-        buzz(50);
-        delay_ms(50);
-    }
+// Set PWM frequency for buzzer
+inline void buzzSetFreq(uint16_t freq)
+{
+    PWM3_PeriodSet(freqToPwmPeriod(freq));
 }
