@@ -30,3 +30,4 @@
 //
 void delay_ms(uint16_t milliseconds);   
 void initRandomSeed(void);              // Initialize the Pseudo Random Number Generator (PRNG)
+void shiftOutByte(uint8_t val);         // Write LED pattern to shift register

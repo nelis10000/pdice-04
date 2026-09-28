@@ -6,5 +6,10 @@
         "gdb",
         "mcuxpresso-debug",
         "mplab-core-da"
-    ]
+    ],
+    "mplab.clangd.compileCommandsDir": "${workspaceFolder}/_build/pdice-04/default",
+    "mplab.clangd.arguments": [
+        "--header-insertion=never"
+    ],
+    "mplab.clangd.path": "/opt/microchip/xc8/v4.00/bin/xc8-clangd"
 }

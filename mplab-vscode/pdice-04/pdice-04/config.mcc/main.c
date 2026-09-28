@@ -54,6 +54,7 @@
 //
 // Global variables
 //
+bool prng_needs_seeding;            // Signals that we need to seed the pseudo random number generator (on powerup, after sleep)
 const uint8_t pattern[7] = {        // LED patterns
     0,
     dot_d,
@@ -70,7 +71,7 @@ const uint8_t pattern[7] = {        // LED patterns
 void selftest(void);                // Test LEDs and buzzer at poweron
 void dice_show(uint8_t dice_val);   // Show dice value on LEDs
 uint8_t dice_roll(void);            // Roll the dice and return the number
-void shiftOutByte(uint8_t val);     // Write LED pattern to shift register
+
 
 /*
     Main application
@@ -104,33 +105,41 @@ int main(void)
     // Seed the pseudo random number generator with a random value, taken from a floating analog input. 
     // It's probably the best we can do. Also the PRNG is reseeded with the TMR0 count at every keypress.
     initRandomSeed();
+    prng_needs_seeding = true;
 
     // Run a quick selftest
     selftest();
 
-    // Play an intro tune
+    // Play an intro tune 
+    shiftOutByte(0xff);     // All LEDs on
+    LedsOn();
     introMusic();
 
-    // Start the power-off timeout timer
-    pwr_status = ACTIVE;
-    TMR2_Start();       
 
     // Set the buzzer frequency for dice rolls
     buzzSetFreq(BUZZFREQ_DICEROLLS);
 
-    // Flash an pattern to signal we're ready for the first dice roll
-    shiftOutByte(dot_d);
-    while( sw_status != PRESSED)
-    {
-        LedsOn();
-        delay_ms(250);
-        LedsOff();
-        delay_ms(250);
-    }
+    // Start the power-off timeout timer
+    run_state = INTRO;
+    TMR2_Start();
 
     while(1)
     {
-        if( sw_status == PRESSED) {
+        if (run_state == INTRO) {
+            // Flash an LED to indicate we're ready for the first dice roll
+            shiftOutByte(dot_d);
+            {
+                LedsOn();
+                __delay_ms(250);
+                LedsOff();
+                __delay_ms(250);
+            }
+            if (sw_status == PRESSED) {
+                // change status to running
+                run_state = ACTIVE;
+            }
+        }
+        if( run_state == ACTIVE && sw_status == PRESSED) {
 
             // Roll 15 times, plus a another 0-9 times
             nrolls = (uint8_t)(15+(rand() % 10));
@@ -164,18 +173,21 @@ int main(void)
             delay_ms(10);
         }
 
-        if( pwr_status == SHUTDOWN )
+        if( run_state == SHUTDOWN )
         {
-            buzzFreq(1000,50);
-            buzzFreq(800,50);
+            buzzFreq(2000,50);
+            buzzFreq(1500,50);
+        
             LedsOff();
             TMR1_Stop();
             TMR2_Stop();
             INTERRUPT_GlobalInterruptDisable();
             INTERRUPT_PeripheralInterruptDisable(); 
-            BORCONbits.SBOREN = 0;      // Disable brown-out reset
+            BORCONbits.SBOREN = 0;      // Disable brown-out reset (saves power)
             SLEEP();
             NOP();
+
+            // Zzzzzzzzzzzz
             
             BORCONbits.SBOREN = 1;      // Enable brown-out reset
             INTERRUPT_PeripheralInterruptEnable();
@@ -183,11 +195,19 @@ int main(void)
             TMR2_Start();
             TMR1_Start();
             LedsOn();
-            buzzFreq(800,50);
-            buzzFreq(1000,50);
-            pwr_status = ACTIVE;
+            buzzFreq(1500,50);
+            buzzFreq(2000,50);
+            run_state = ACTIVE;
             delay_ms(20);
             sw_status = OFF;
+            prng_needs_seeding = true;
+        }
+
+        if( run_state == SHUTDOWN_INTRO )
+        {
+            // Just beep and change runstate back to Intro
+            buzzFreq(2000,50);
+            run_state = INTRO;
         }
     }
 }
@@ -197,8 +217,11 @@ uint8_t dice_roll(void)
 {
     uint8_t roll_value; 
 
-    // Get random number, reseed the pseudo random number generator with the value of the free-running TMR0
-    srand(TMR0_CounterGet());
+    // Just on the first dice roll, seed the prng with the Timer0 value, which should be random enough (value depends on the number of microseconds between power-on and keypress)
+    if (prng_needs_seeding==false) {
+        prng_needs_seeding = true;
+        srand(TMR0_CounterGet());
+    }
     roll_value = (uint8_t) ( (rand() % 6) + 1);
 
     return roll_value;
@@ -211,22 +234,6 @@ void dice_show(uint8_t dice_val)
 }
 
 
-void shiftOutByte(uint8_t val)
-{
-    uint8_t bit;
-    const uint16_t delay_us=1;
-
-    for (bit=0; bit < 8; ++bit)
-    {
-        DAT_LAT = val & 1;
-        val = val >> 1;     // val >>= 1; does the same
-
-        CLK_SetHigh();
-        __delay_us(delay_us);
-        CLK_SetLow();
-        __delay_us(delay_us);
-    }
-}
 
 
 #if(0)

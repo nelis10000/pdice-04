@@ -13,7 +13,7 @@ void Switch_Interrupt_Callback(void)
     sw_status = PRESSED;
 
     // Reset the power-off timer by restarting Timer2
-    pwr_status = ACTIVE;
+    run_state = ACTIVE;
     Timer2_CountCallBack = 0;
 }
 
@@ -26,13 +26,20 @@ void Timer1_Tick_Callback(void)
 
 // Timer2 callback function. 
 // We get here every 65.536ms, so for a 5 minute timeout, count to 5*60/0.065536 = 4578
-volatile enum _pwr_status pwr_status;
+volatile enum _run_state run_state;
 volatile uint16_t Timer2_CountCallBack = 0;
 void Timer2_Period_Callback(void)
-{
+{ 
+    // Only shutdown when we were in Active mode since the processor doesn't remember the state after waking up. 
+    // If we shutdown in INTRO mode, we wake up in Active with '1' showing, and that should not happen. 
     if( ++Timer2_CountCallBack >= TMR2_TIMEOUT_COUNT)
     {
-        pwr_status = SHUTDOWN;
+        if (run_state == ACTIVE) {
+            run_state = SHUTDOWN;
+        }
+        if (run_state == INTRO) {
+            run_state = SHUTDOWN_INTRO;
+        }
         Timer2_CountCallBack = 0;
     }
 }

@@ -43,3 +43,20 @@ void initRandomSeed(void)
     ADON = 0;                   // Disable ADC
 }
 
+
+void shiftOutByte(uint8_t val)
+{
+    uint8_t bit;
+    const uint16_t delay_us=1;
+
+    for (bit=0; bit < 8; ++bit)
+    {
+        DAT_LAT = val & 1;
+        val = val >> 1;     // val >>= 1; does the same
+
+        CLK_SetHigh();
+        __delay_us(delay_us);
+        CLK_SetLow();
+        __delay_us(delay_us);
+    }
+}

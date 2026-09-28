@@ -18,8 +18,8 @@ void Timer1_Tick_Callback(void);
 #define TMR2_TIMEOUT_COUNT_30SEC    457
 #define TMR2_TIMEOUT_COUNT_10SEC    153
 #define TMR2_TIMEOUT_COUNT          TMR2_TIMEOUT_COUNT_30SEC
-enum _pwr_status { SHUTDOWN, IDLE, ACTIVE };
-extern volatile enum _pwr_status pwr_status;
+enum _run_state { IDLE, INTRO, ACTIVE, SHUTDOWN, SHUTDOWN_INTRO };
+extern volatile enum _run_state run_state;
 extern volatile uint16_t Timer2_CountCallBack;
 void Timer2_Period_Callback(void);
 
