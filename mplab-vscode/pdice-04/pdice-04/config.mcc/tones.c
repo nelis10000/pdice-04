@@ -35,8 +35,25 @@ void introMusic_02(void)
     playNote(NOTE_A5, 500/3);
 }
 
-// Whoop Up
+// Airwolf: A E A B C B A E G D G A     - doesn't seem right at all
 void introMusic_03(void)
+{
+    playNote(NOTE_A5, 500/3);
+    playNote(NOTE_E5, 500/3);
+    playNote(NOTE_A5, 500/3);
+    playNote(NOTE_B5, 500/3);
+    playNote(NOTE_C5, 500/3);
+    playNote(NOTE_B5, 500/3);
+    playNote(NOTE_A5, 500/3);
+    playNote(NOTE_E5, 500/3);
+    playNote(NOTE_G5, 500/3);
+    playNote(NOTE_D5, 500/3);
+    playNote(NOTE_G5, 500/3);
+    playNote(NOTE_A5, 500/3);
+}
+
+// Whoop Up
+void introMusic_04(void)
 {
     uint16_t freq = 500;
     uint16_t reload = 500;
@@ -53,7 +70,7 @@ void introMusic_03(void)
 }
 
 // Random
-void introMusic_04(void)
+void introMusic_05(void)
 {
     uint16_t i;
 
@@ -67,7 +84,7 @@ void introMusic_04(void)
 }
 
 // RandomLow
-void introMusic_05(void)
+void introMusic_06(void)
 {
     uint16_t i;
 
@@ -81,7 +98,7 @@ void introMusic_05(void)
 }
 
 // RandomHigh
-void introMusic_06(void)
+void introMusic_07(void)
 {
     uint16_t i;
 
