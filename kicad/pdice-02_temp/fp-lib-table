@@ -1,5 +1,0 @@
-(fp_lib_table
-	(version 7)
-	(lib (name "dobbelsteen") (type "KiCad") (uri "${KIPRJMOD}/dobbelsteen.pretty") (options "") (descr ""))
-	(lib (name "Keystone_2479") (type "KiCad") (uri "${KIPRJMOD}/dobbelsteen.pretty/Keystone_2479.pretty") (options "") (descr ""))
-)
