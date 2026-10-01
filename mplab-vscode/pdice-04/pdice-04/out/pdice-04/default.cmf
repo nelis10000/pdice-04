@@ -11,11 +11,11 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$/tmp/xcXPFCKmF/driver_tmp_8.o
+$/tmp/xcXpkkhmd/driver_tmp_8.o
 reset_vec CODE 0 0 0 1 2 1
 end_init CODE 0 37 37 1 2 1
 config CONFIG 4 8007 8007 2 2 1
-$/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+$/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
 cinit CODE 0 38 38 E 2 1
 text1 CODE 0 22B 22B 6D 2 1
 text2 CODE 0 45F 45F 1F 2 1
@@ -148,196 +148,196 @@ STRING 638-7FF 2
 # are in ascending order of addresses.
 # All other numeric values are in decimal.
 %LINETAB
-$/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-38 cinit CODE >4392:/tmp/xcXPFCKmF/driver_tmp_1.s
-38 cinit CODE >4395:/tmp/xcXPFCKmF/driver_tmp_1.s
-38 cinit CODE >4446:/tmp/xcXPFCKmF/driver_tmp_1.s
-39 cinit CODE >4447:/tmp/xcXPFCKmF/driver_tmp_1.s
-3A cinit CODE >4448:/tmp/xcXPFCKmF/driver_tmp_1.s
-3B cinit CODE >4452:/tmp/xcXPFCKmF/driver_tmp_1.s
-3C cinit CODE >4453:/tmp/xcXPFCKmF/driver_tmp_1.s
-3D cinit CODE >4454:/tmp/xcXPFCKmF/driver_tmp_1.s
-3E cinit CODE >4455:/tmp/xcXPFCKmF/driver_tmp_1.s
-3F cinit CODE >4456:/tmp/xcXPFCKmF/driver_tmp_1.s
-40 cinit CODE >4457:/tmp/xcXPFCKmF/driver_tmp_1.s
-43 cinit CODE >4463:/tmp/xcXPFCKmF/driver_tmp_1.s
-43 cinit CODE >4465:/tmp/xcXPFCKmF/driver_tmp_1.s
-44 cinit CODE >4466:/tmp/xcXPFCKmF/driver_tmp_1.s
-45 cinit CODE >4467:/tmp/xcXPFCKmF/driver_tmp_1.s
-4 intentry CODE >59:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/interrupt.c
-A intentry CODE >62:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/interrupt.c
-12 intentry CODE >64:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/interrupt.c
-15 intentry CODE >65:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/interrupt.c
-16 intentry CODE >66:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/interrupt.c
-1A intentry CODE >68:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/interrupt.c
-24 intentry CODE >70:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/interrupt.c
-27 intentry CODE >71:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/interrupt.c
-28 intentry CODE >72:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/interrupt.c
-32 intentry CODE >74:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/interrupt.c
-35 intentry CODE >85:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/interrupt.c
-5F0 text50 CODE >10:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/interrupts.c
-5F0 text50 CODE >13:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/interrupts.c
-5F3 text50 CODE >16:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/interrupts.c
-5F5 text50 CODE >17:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/interrupts.c
-5F7 text50 CODE >18:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/interrupts.c
-637 text49 CODE >131:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
-637 text49 CODE >134:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
-59C text48 CODE >109:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
-59C text48 CODE >114:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
-5A3 text48 CODE >116:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
-5A8 text48 CODE >118:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
-5AA text48 CODE >119:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
-5DF text47 CODE >97:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
-5DF text47 CODE >100:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
-5E4 text47 CODE >102:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
-5E7 text47 CODE >104:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
-503 text46 CODE >119:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
-503 text46 CODE >121:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
-508 text46 CODE >123:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
-50B text46 CODE >125:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
-50C text46 CODE >127:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
-50E text46 CODE >128:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
-510 text46 CODE >130:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
-511 text46 CODE >130:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
-513 text46 CODE >130:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
-515 text46 CODE >131:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
-516 text46 CODE >134:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
-518 text46 CODE >135:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
-51A text46 CODE >137:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
-5E8 text45 CODE >21:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/interrupts.c
-5E8 text45 CODE >23:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/interrupts.c
-5EF text45 CODE >24:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/interrupts.c
-636 text44 CODE >220:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
-636 text44 CODE >223:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
-548 text43 CODE >202:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
-548 text43 CODE >205:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
-54F text43 CODE >207:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
-556 text43 CODE >209:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
-55B text43 CODE >212:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
-55D text43 CODE >213:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
-43F text42 CODE >31:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/interrupts.c
-43F text42 CODE >35:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/interrupts.c
-447 text42 CODE >35:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/interrupts.c
-449 text42 CODE >35:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/interrupts.c
-44D text42 CODE >37:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/interrupts.c
-453 text42 CODE >38:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/interrupts.c
-455 text42 CODE >40:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/interrupts.c
-45A text42 CODE >41:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/interrupts.c
-45C text42 CODE >43:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/interrupts.c
-45E text42 CODE >45:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/interrupts.c
-635 text41 CODE >129:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
-635 text41 CODE >132:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
-58D text40 CODE >114:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
-58D text40 CODE >117:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
-594 text40 CODE >119:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
-599 text40 CODE >121:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
-59B text40 CODE >122:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
-5D6 text38 CODE >39:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/clock.c
-5D6 text38 CODE >41:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/clock.c
-5D9 text38 CODE >44:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/clock.c
-5DC text38 CODE >46:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/clock.c
-5DE text38 CODE >47:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/clock.c
-617 text37 CODE >105:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/interrupt.c
-617 text37 CODE >106:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/interrupt.c
-61C text37 CODE >107:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/interrupt.c
-5B8 text36 CODE >40:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/interrupt.c
-5B8 text36 CODE >44:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/interrupt.c
-5B9 text36 CODE >45:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/interrupt.c
-5BB text36 CODE >47:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/interrupt.c
-5C2 text36 CODE >50:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/interrupt.c
-611 text35 CODE >124:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
-611 text35 CODE >125:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
-616 text35 CODE >126:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
-41E text34 CODE >39:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
-41E text34 CODE >44:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
-420 text34 CODE >49:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
-423 text34 CODE >54:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
-425 text34 CODE >59:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
-428 text34 CODE >60:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
-42A text34 CODE >66:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
-42C text34 CODE >70:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
-42F text34 CODE >74:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
-432 text34 CODE >87:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
-433 text34 CODE >88:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
-435 text34 CODE >89:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
-436 text34 CODE >91:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
-43D text34 CODE >94:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
-43E text34 CODE >95:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
-4EA text33 CODE >45:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
-4EA text33 CODE >48:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
-4EC text33 CODE >51:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
-4ED text33 CODE >54:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
-4EE text33 CODE >57:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
-4EF text33 CODE >60:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
-4F0 text33 CODE >63:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
-4F1 text33 CODE >66:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
-4F3 text33 CODE >69:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
-4F5 text33 CODE >72:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
-4F7 text33 CODE >75:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
-4F9 text33 CODE >78:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
-4FB text33 CODE >81:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
-4FD text33 CODE >84:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
-4FF text33 CODE >87:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
-500 text33 CODE >90:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
-501 text33 CODE >96:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
-502 text33 CODE >97:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
-57E text32 CODE >75:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr0.c
-57E text32 CODE >77:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr0.c
-580 text32 CODE >78:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr0.c
-581 text32 CODE >79:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr0.c
-583 text32 CODE >80:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr0.c
-584 text32 CODE >82:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr0.c
-586 text32 CODE >83:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr0.c
-587 text32 CODE >85:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr0.c
-58B text32 CODE >87:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr0.c
-58C text32 CODE >88:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr0.c
-4D0 text31 CODE >53:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
-4D0 text31 CODE >55:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
-4D2 text31 CODE >57:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
-4D4 text31 CODE >58:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
-4D6 text31 CODE >60:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
-4DA text31 CODE >62:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
-4DB text31 CODE >68:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
-4DF text31 CODE >69:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
-4E3 text31 CODE >71:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
-4E4 text31 CODE >72:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
-4E6 text31 CODE >74:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
-4E9 text31 CODE >78:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
-56F text30 CODE >45:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
-56F text30 CODE >48:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
-572 text30 CODE >49:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
-573 text30 CODE >50:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
-577 text30 CODE >52:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
-578 text30 CODE >53:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
-57A text30 CODE >54:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
-57D text30 CODE >57:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
-532 text29 CODE >39:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/system.c
-532 text29 CODE >41:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/system.c
-535 text29 CODE >42:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/system.c
-538 text29 CODE >43:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/system.c
-53B text29 CODE >44:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/system.c
-53E text29 CODE >45:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/system.c
-541 text29 CODE >46:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/system.c
-544 text29 CODE >47:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/system.c
-547 text29 CODE >48:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/system.c
-60B text28 CODE >215:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
-60B text28 CODE >217:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
-610 text28 CODE >218:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
-62F text27 CODE >95:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
-62F text27 CODE >97:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
-631 text27 CODE >98:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
-62C text26 CODE >100:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
-62C text26 CODE >102:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
-62E text26 CODE >103:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
-605 text25 CODE >124:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
-605 text25 CODE >126:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
-60A text25 CODE >127:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
-629 text24 CODE >69:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
-629 text24 CODE >71:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
-62B text24 CODE >72:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
-626 text23 CODE >74:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
-626 text23 CODE >76:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
-628 text23 CODE >77:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
+$/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+38 cinit CODE >4392:/tmp/xcXpkkhmd/driver_tmp_1.s
+38 cinit CODE >4395:/tmp/xcXpkkhmd/driver_tmp_1.s
+38 cinit CODE >4446:/tmp/xcXpkkhmd/driver_tmp_1.s
+39 cinit CODE >4447:/tmp/xcXpkkhmd/driver_tmp_1.s
+3A cinit CODE >4448:/tmp/xcXpkkhmd/driver_tmp_1.s
+3B cinit CODE >4452:/tmp/xcXpkkhmd/driver_tmp_1.s
+3C cinit CODE >4453:/tmp/xcXpkkhmd/driver_tmp_1.s
+3D cinit CODE >4454:/tmp/xcXpkkhmd/driver_tmp_1.s
+3E cinit CODE >4455:/tmp/xcXpkkhmd/driver_tmp_1.s
+3F cinit CODE >4456:/tmp/xcXpkkhmd/driver_tmp_1.s
+40 cinit CODE >4457:/tmp/xcXpkkhmd/driver_tmp_1.s
+43 cinit CODE >4463:/tmp/xcXpkkhmd/driver_tmp_1.s
+43 cinit CODE >4465:/tmp/xcXpkkhmd/driver_tmp_1.s
+44 cinit CODE >4466:/tmp/xcXpkkhmd/driver_tmp_1.s
+45 cinit CODE >4467:/tmp/xcXpkkhmd/driver_tmp_1.s
+4 intentry CODE >59:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/interrupt.c
+A intentry CODE >62:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/interrupt.c
+12 intentry CODE >64:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/interrupt.c
+15 intentry CODE >65:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/interrupt.c
+16 intentry CODE >66:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/interrupt.c
+1A intentry CODE >68:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/interrupt.c
+24 intentry CODE >70:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/interrupt.c
+27 intentry CODE >71:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/interrupt.c
+28 intentry CODE >72:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/interrupt.c
+32 intentry CODE >74:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/interrupt.c
+35 intentry CODE >85:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/interrupt.c
+5F0 text50 CODE >10:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/interrupts.c
+5F0 text50 CODE >13:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/interrupts.c
+5F3 text50 CODE >16:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/interrupts.c
+5F5 text50 CODE >17:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/interrupts.c
+5F7 text50 CODE >18:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/interrupts.c
+637 text49 CODE >131:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
+637 text49 CODE >134:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
+59C text48 CODE >109:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
+59C text48 CODE >114:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
+5A3 text48 CODE >116:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
+5A8 text48 CODE >118:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
+5AA text48 CODE >119:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
+5DF text47 CODE >97:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
+5DF text47 CODE >100:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
+5E4 text47 CODE >102:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
+5E7 text47 CODE >104:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
+503 text46 CODE >119:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
+503 text46 CODE >121:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
+508 text46 CODE >123:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
+50B text46 CODE >125:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
+50C text46 CODE >127:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
+50E text46 CODE >128:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
+510 text46 CODE >130:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
+511 text46 CODE >130:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
+513 text46 CODE >130:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
+515 text46 CODE >131:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
+516 text46 CODE >134:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
+518 text46 CODE >135:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
+51A text46 CODE >137:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
+5E8 text45 CODE >21:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/interrupts.c
+5E8 text45 CODE >23:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/interrupts.c
+5EF text45 CODE >24:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/interrupts.c
+636 text44 CODE >220:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
+636 text44 CODE >223:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
+548 text43 CODE >202:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
+548 text43 CODE >205:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
+54F text43 CODE >207:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
+556 text43 CODE >209:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
+55B text43 CODE >212:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
+55D text43 CODE >213:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
+43F text42 CODE >31:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/interrupts.c
+43F text42 CODE >35:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/interrupts.c
+447 text42 CODE >35:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/interrupts.c
+449 text42 CODE >35:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/interrupts.c
+44D text42 CODE >37:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/interrupts.c
+453 text42 CODE >38:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/interrupts.c
+455 text42 CODE >40:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/interrupts.c
+45A text42 CODE >41:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/interrupts.c
+45C text42 CODE >43:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/interrupts.c
+45E text42 CODE >45:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/interrupts.c
+635 text41 CODE >129:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
+635 text41 CODE >132:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
+58D text40 CODE >114:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
+58D text40 CODE >117:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
+594 text40 CODE >119:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
+599 text40 CODE >121:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
+59B text40 CODE >122:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
+5D6 text38 CODE >39:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/clock.c
+5D6 text38 CODE >41:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/clock.c
+5D9 text38 CODE >44:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/clock.c
+5DC text38 CODE >46:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/clock.c
+5DE text38 CODE >47:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/clock.c
+617 text37 CODE >105:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/interrupt.c
+617 text37 CODE >106:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/interrupt.c
+61C text37 CODE >107:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/interrupt.c
+5B8 text36 CODE >40:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/interrupt.c
+5B8 text36 CODE >44:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/interrupt.c
+5B9 text36 CODE >45:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/interrupt.c
+5BB text36 CODE >47:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/interrupt.c
+5C2 text36 CODE >50:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/interrupt.c
+611 text35 CODE >124:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
+611 text35 CODE >125:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
+616 text35 CODE >126:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
+41E text34 CODE >39:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
+41E text34 CODE >44:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
+420 text34 CODE >49:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
+423 text34 CODE >54:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
+425 text34 CODE >59:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
+428 text34 CODE >60:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
+42A text34 CODE >66:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
+42C text34 CODE >70:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
+42F text34 CODE >74:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
+432 text34 CODE >87:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
+433 text34 CODE >88:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
+435 text34 CODE >89:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
+436 text34 CODE >91:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
+43D text34 CODE >94:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
+43E text34 CODE >95:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
+4EA text33 CODE >45:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
+4EA text33 CODE >48:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
+4EC text33 CODE >51:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
+4ED text33 CODE >54:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
+4EE text33 CODE >57:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
+4EF text33 CODE >60:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
+4F0 text33 CODE >63:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
+4F1 text33 CODE >66:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
+4F3 text33 CODE >69:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
+4F5 text33 CODE >72:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
+4F7 text33 CODE >75:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
+4F9 text33 CODE >78:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
+4FB text33 CODE >81:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
+4FD text33 CODE >84:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
+4FF text33 CODE >87:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
+500 text33 CODE >90:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
+501 text33 CODE >96:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
+502 text33 CODE >97:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
+57E text32 CODE >75:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr0.c
+57E text32 CODE >77:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr0.c
+580 text32 CODE >78:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr0.c
+581 text32 CODE >79:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr0.c
+583 text32 CODE >80:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr0.c
+584 text32 CODE >82:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr0.c
+586 text32 CODE >83:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr0.c
+587 text32 CODE >85:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr0.c
+58B text32 CODE >87:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr0.c
+58C text32 CODE >88:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr0.c
+4D0 text31 CODE >53:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
+4D0 text31 CODE >55:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
+4D2 text31 CODE >57:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
+4D4 text31 CODE >58:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
+4D6 text31 CODE >60:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
+4DA text31 CODE >62:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
+4DB text31 CODE >68:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
+4DF text31 CODE >69:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
+4E3 text31 CODE >71:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
+4E4 text31 CODE >72:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
+4E6 text31 CODE >74:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
+4E9 text31 CODE >78:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
+56F text30 CODE >45:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
+56F text30 CODE >48:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
+572 text30 CODE >49:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
+573 text30 CODE >50:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
+577 text30 CODE >52:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
+578 text30 CODE >53:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
+57A text30 CODE >54:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
+57D text30 CODE >57:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
+532 text29 CODE >39:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/system.c
+532 text29 CODE >41:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/system.c
+535 text29 CODE >42:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/system.c
+538 text29 CODE >43:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/system.c
+53B text29 CODE >44:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/system.c
+53E text29 CODE >45:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/system.c
+541 text29 CODE >46:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/system.c
+544 text29 CODE >47:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/system.c
+547 text29 CODE >48:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/system.c
+60B text28 CODE >215:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
+60B text28 CODE >217:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
+610 text28 CODE >218:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
+62F text27 CODE >95:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
+62F text27 CODE >97:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
+631 text27 CODE >98:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
+62C text26 CODE >100:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
+62C text26 CODE >102:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
+62E text26 CODE >103:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
+605 text25 CODE >124:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
+605 text25 CODE >126:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
+60A text25 CODE >127:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
+629 text24 CODE >69:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
+629 text24 CODE >71:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
+62B text24 CODE >72:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
+626 text23 CODE >74:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
+626 text23 CODE >76:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
+628 text23 CODE >77:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
 3DB text22 CODE >15:/opt/microchip/xc8/v4.00/pic/sources/c99/common/Umul16.c
 3DB text22 CODE >43:/opt/microchip/xc8/v4.00/pic/sources/c99/common/Umul16.c
 3DE text22 CODE >45:/opt/microchip/xc8/v4.00/pic/sources/c99/common/Umul16.c
@@ -347,16 +347,16 @@ A intentry CODE >62:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mp
 3F1 text22 CODE >49:/opt/microchip/xc8/v4.00/pic/sources/c99/common/Umul16.c
 3F7 text22 CODE >52:/opt/microchip/xc8/v4.00/pic/sources/c99/common/Umul16.c
 3FC text22 CODE >53:/opt/microchip/xc8/v4.00/pic/sources/c99/common/Umul16.c
-623 text21 CODE >99:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
-623 text21 CODE >101:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
-625 text21 CODE >102:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
-620 text20 CODE >104:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
-620 text20 CODE >106:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
-622 text20 CODE >107:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
-5CD text19 CODE >131:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
-5CD text19 CODE >133:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
-5D1 text19 CODE >134:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
-5D5 text19 CODE >135:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
+623 text21 CODE >99:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
+623 text21 CODE >101:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
+625 text21 CODE >102:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
+620 text20 CODE >104:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
+620 text20 CODE >106:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
+622 text20 CODE >107:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
+5CD text19 CODE >131:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
+5CD text19 CODE >133:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
+5D1 text19 CODE >134:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
+5D5 text19 CODE >135:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
 19F text18 CODE >5:/opt/microchip/xc8/v4.00/pic/sources/c99/common/aldiv.c
 19F text18 CODE >13:/opt/microchip/xc8/v4.00/pic/sources/c99/common/aldiv.c
 1A1 text18 CODE >14:/opt/microchip/xc8/v4.00/pic/sources/c99/common/aldiv.c
@@ -397,42 +397,42 @@ A intentry CODE >62:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mp
 220 text18 CODE >39:/opt/microchip/xc8/v4.00/pic/sources/c99/common/aldiv.c
 222 text18 CODE >40:/opt/microchip/xc8/v4.00/pic/sources/c99/common/aldiv.c
 22A text18 CODE >41:/opt/microchip/xc8/v4.00/pic/sources/c99/common/aldiv.c
-4B6 text17 CODE >166:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
-4B6 text17 CODE >170:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
-4CF text17 CODE >171:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
-55E text16 CODE >201:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
-55E text16 CODE >203:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
-56E text16 CODE >204:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
-383 text15 CODE >12:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
-383 text15 CODE >15:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
-38C text15 CODE >18:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
-3A0 text15 CODE >18:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
-3A4 text15 CODE >18:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
-3A8 text15 CODE >18:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
-3AC text15 CODE >18:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
-3B0 text15 CODE >22:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
-51B text14 CODE >183:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
-51B text14 CODE >186:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
-523 text14 CODE >189:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
-526 text14 CODE >192:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
-52E text14 CODE >195:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
-531 text14 CODE >197:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
-353 text13 CODE >122:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
-354 text13 CODE >124:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
-355 text13 CODE >136:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
-361 text13 CODE >137:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
-36D text13 CODE >138:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
-36E text13 CODE >124:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
-370 text13 CODE >124:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
-373 text13 CODE >124:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
-376 text13 CODE >124:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
-379 text13 CODE >124:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
-37C text13 CODE >124:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
-37F text13 CODE >124:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
-382 text13 CODE >142:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
-61D text12 CODE >104:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr0.c
-61D text12 CODE >106:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr0.c
-61F text12 CODE >107:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr0.c
+4B6 text17 CODE >166:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
+4B6 text17 CODE >170:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
+4CF text17 CODE >171:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
+55E text16 CODE >201:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
+55E text16 CODE >203:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
+56E text16 CODE >204:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
+383 text15 CODE >12:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
+383 text15 CODE >15:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
+38C text15 CODE >18:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
+3A0 text15 CODE >18:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
+3A4 text15 CODE >18:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
+3A8 text15 CODE >18:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
+3AC text15 CODE >18:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
+3B0 text15 CODE >22:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
+51B text14 CODE >183:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
+51B text14 CODE >186:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
+523 text14 CODE >189:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
+526 text14 CODE >192:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
+52E text14 CODE >195:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
+531 text14 CODE >197:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
+353 text13 CODE >122:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
+354 text13 CODE >124:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
+355 text13 CODE >136:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
+361 text13 CODE >137:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
+36D text13 CODE >138:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
+36E text13 CODE >124:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
+370 text13 CODE >124:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
+373 text13 CODE >124:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
+376 text13 CODE >124:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
+379 text13 CODE >124:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
+37C text13 CODE >124:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
+37F text13 CODE >124:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
+382 text13 CODE >142:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
+61D text12 CODE >104:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr0.c
+61D text12 CODE >106:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr0.c
+61F text12 CODE >107:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr0.c
 298 text11 CODE >5:/opt/microchip/xc8/v4.00/pic/sources/c99/common/awmod.c
 298 text11 CODE >12:/opt/microchip/xc8/v4.00/pic/sources/c99/common/awmod.c
 29A text11 CODE >13:/opt/microchip/xc8/v4.00/pic/sources/c99/common/awmod.c
@@ -476,145 +476,145 @@ A intentry CODE >62:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mp
 5C3 text8 CODE >6:/opt/microchip/xc8/v4.00/pic/sources/c99/common/rand.c
 5C3 text8 CODE >8:/opt/microchip/xc8/v4.00/pic/sources/c99/common/rand.c
 5CC text8 CODE >9:/opt/microchip/xc8/v4.00/pic/sources/c99/common/rand.c
-3B1 text7 CODE >235:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-3B1 text7 CODE >240:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-3B7 text7 CODE >241:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-3B8 text7 CODE >242:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-3C5 text7 CODE >244:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-3D9 text7 CODE >246:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-3DA text7 CODE >247:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-47E text6 CODE >25:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
-47E text6 CODE >29:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
-480 text6 CODE >30:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
-482 text6 CODE >32:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
-485 text6 CODE >33:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
-486 text6 CODE >35:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
-48A text6 CODE >37:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
-48E text6 CODE >39:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
-495 text6 CODE >41:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
-497 text6 CODE >42:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
-499 text6 CODE >43:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
-49A text6 CODE >44:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
-3FD text5 CODE >47:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
-3FD text5 CODE >52:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
-3FF text5 CODE >54:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
-408 text5 CODE >55:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
-410 text5 CODE >57:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
-411 text5 CODE >58:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
-412 text5 CODE >59:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
-414 text5 CODE >60:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
-415 text5 CODE >52:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
-419 text5 CODE >52:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
-41D text5 CODE >62:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
-5AB text4 CODE >251:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-5AB text4 CODE >253:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-5B0 text4 CODE >253:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-5B7 text4 CODE >254:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-49B text3 CODE >259:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-49B text3 CODE >261:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-49D text3 CODE >262:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-49F text3 CODE >264:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-4A3 text3 CODE >265:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-4AB text3 CODE >262:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-4AF text3 CODE >262:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-4B3 text3 CODE >267:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-4B5 text3 CODE >268:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-45F text2 CODE >146:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
-45F text2 CODE >149:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
-467 text2 CODE >152:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
-46A text2 CODE >155:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
-472 text2 CODE >158:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
-475 text2 CODE >161:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
-47D text2 CODE >162:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
-22B text1 CODE >26:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
-22B text1 CODE >28:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
-237 text1 CODE >29:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
-243 text1 CODE >30:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
-24F text1 CODE >31:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
-25B text1 CODE >32:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
-267 text1 CODE >33:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
-273 text1 CODE >34:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
-27F text1 CODE >35:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
-28B text1 CODE >36:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
-297 text1 CODE >37:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
-46 maintext CODE >89:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-46 maintext CODE >95:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-49 maintext CODE >96:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-50 maintext CODE >97:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-57 maintext CODE >98:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-5E maintext CODE >102:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-60 maintext CODE >105:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-62 maintext CODE >108:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-64 maintext CODE >109:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-65 maintext CODE >112:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-66 maintext CODE >113:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-67 maintext CODE >117:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-6A maintext CODE >118:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-6D maintext CODE >121:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-70 maintext CODE >124:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-74 maintext CODE >125:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-76 maintext CODE >126:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-79 maintext CODE >130:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-81 maintext CODE >133:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-84 maintext CODE >134:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-87 maintext CODE >142:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-8D maintext CODE >144:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-91 maintext CODE >146:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-93 maintext CODE >147:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-A0 maintext CODE >148:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-A2 maintext CODE >149:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-AF maintext CODE >151:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-B5 maintext CODE >153:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-B7 maintext CODE >157:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-C2 maintext CODE >160:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-D5 maintext CODE >161:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-D8 maintext CODE >163:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-DD maintext CODE >166:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-DF maintext CODE >167:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-E7 maintext CODE >170:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-EC maintext CODE >171:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-EE maintext CODE >174:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-FA maintext CODE >177:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-111 maintext CODE >161:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-116 maintext CODE >161:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-11A maintext CODE >181:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-11E maintext CODE >183:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-120 maintext CODE >184:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-124 maintext CODE >185:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-12B maintext CODE >188:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-132 maintext CODE >191:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-13D maintext CODE >192:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-149 maintext CODE >195:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-14B maintext CODE >196:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-14E maintext CODE >197:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-151 maintext CODE >198:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-152 maintext CODE >199:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-153 maintext CODE >200:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-155 maintext CODE >201:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-156 maintext CODE >202:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-157 maintext CODE >207:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-159 maintext CODE >208:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-15A maintext CODE >209:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-15B maintext CODE >210:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-15E maintext CODE >211:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-161 maintext CODE >212:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-163 maintext CODE >215:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-16F maintext CODE >216:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-17B maintext CODE >218:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-17E maintext CODE >219:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-185 maintext CODE >220:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-187 maintext CODE >221:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-189 maintext CODE >224:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-18F maintext CODE >227:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-19A maintext CODE >228:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
-5FF clrtext CODE >4435:/tmp/xcXPFCKmF/driver_tmp_1.s
-5FF clrtext CODE >4436:/tmp/xcXPFCKmF/driver_tmp_1.s
-600 clrtext CODE >4437:/tmp/xcXPFCKmF/driver_tmp_1.s
-600 clrtext CODE >4438:/tmp/xcXPFCKmF/driver_tmp_1.s
-601 clrtext CODE >4439:/tmp/xcXPFCKmF/driver_tmp_1.s
-602 clrtext CODE >4440:/tmp/xcXPFCKmF/driver_tmp_1.s
-603 clrtext CODE >4441:/tmp/xcXPFCKmF/driver_tmp_1.s
-604 clrtext CODE >4442:/tmp/xcXPFCKmF/driver_tmp_1.s
+3B1 text7 CODE >235:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+3B1 text7 CODE >240:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+3B7 text7 CODE >241:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+3B8 text7 CODE >242:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+3C5 text7 CODE >244:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+3D9 text7 CODE >246:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+3DA text7 CODE >247:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+47E text6 CODE >25:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
+47E text6 CODE >29:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
+480 text6 CODE >30:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
+482 text6 CODE >32:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
+485 text6 CODE >33:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
+486 text6 CODE >35:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
+48A text6 CODE >37:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
+48E text6 CODE >39:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
+495 text6 CODE >41:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
+497 text6 CODE >42:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
+499 text6 CODE >43:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
+49A text6 CODE >44:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
+3FD text5 CODE >47:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
+3FD text5 CODE >52:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
+3FF text5 CODE >54:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
+408 text5 CODE >55:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
+410 text5 CODE >57:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
+411 text5 CODE >58:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
+412 text5 CODE >59:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
+414 text5 CODE >60:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
+415 text5 CODE >52:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
+419 text5 CODE >52:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
+41D text5 CODE >62:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
+5AB text4 CODE >251:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+5AB text4 CODE >253:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+5B0 text4 CODE >253:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+5B7 text4 CODE >254:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+49B text3 CODE >259:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+49B text3 CODE >261:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+49D text3 CODE >262:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+49F text3 CODE >264:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+4A3 text3 CODE >265:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+4AB text3 CODE >262:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+4AF text3 CODE >262:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+4B3 text3 CODE >267:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+4B5 text3 CODE >268:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+45F text2 CODE >146:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
+45F text2 CODE >149:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
+467 text2 CODE >152:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
+46A text2 CODE >155:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
+472 text2 CODE >158:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
+475 text2 CODE >161:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
+47D text2 CODE >162:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
+22B text1 CODE >26:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
+22B text1 CODE >28:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
+237 text1 CODE >29:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
+243 text1 CODE >30:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
+24F text1 CODE >31:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
+25B text1 CODE >32:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
+267 text1 CODE >33:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
+273 text1 CODE >34:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
+27F text1 CODE >35:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
+28B text1 CODE >36:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
+297 text1 CODE >37:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
+46 maintext CODE >89:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+46 maintext CODE >95:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+49 maintext CODE >96:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+50 maintext CODE >97:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+57 maintext CODE >98:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+5E maintext CODE >102:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+60 maintext CODE >105:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+62 maintext CODE >108:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+64 maintext CODE >109:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+65 maintext CODE >112:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+66 maintext CODE >113:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+67 maintext CODE >117:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+6A maintext CODE >118:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+6D maintext CODE >121:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+70 maintext CODE >124:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+74 maintext CODE >125:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+76 maintext CODE >126:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+79 maintext CODE >130:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+81 maintext CODE >133:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+84 maintext CODE >134:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+87 maintext CODE >142:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+8D maintext CODE >144:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+91 maintext CODE >146:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+93 maintext CODE >147:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+A0 maintext CODE >148:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+A2 maintext CODE >149:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+AF maintext CODE >151:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+B5 maintext CODE >153:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+B7 maintext CODE >157:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+C2 maintext CODE >160:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+D5 maintext CODE >161:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+D8 maintext CODE >163:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+DD maintext CODE >166:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+DF maintext CODE >167:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+E7 maintext CODE >170:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+EC maintext CODE >171:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+EE maintext CODE >174:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+FA maintext CODE >177:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+111 maintext CODE >161:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+116 maintext CODE >161:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+11A maintext CODE >181:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+11E maintext CODE >183:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+120 maintext CODE >184:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+124 maintext CODE >185:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+12B maintext CODE >188:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+132 maintext CODE >191:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+13D maintext CODE >192:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+149 maintext CODE >195:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+14B maintext CODE >196:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+14E maintext CODE >197:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+151 maintext CODE >198:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+152 maintext CODE >199:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+153 maintext CODE >200:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+155 maintext CODE >201:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+156 maintext CODE >202:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+157 maintext CODE >207:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+159 maintext CODE >208:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+15A maintext CODE >209:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+15B maintext CODE >210:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+15E maintext CODE >211:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+161 maintext CODE >212:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+163 maintext CODE >215:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+16F maintext CODE >216:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+17B maintext CODE >218:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+17E maintext CODE >219:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+185 maintext CODE >220:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+187 maintext CODE >221:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+189 maintext CODE >224:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+18F maintext CODE >227:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+19A maintext CODE >228:/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+5FF clrtext CODE >4435:/tmp/xcXpkkhmd/driver_tmp_1.s
+5FF clrtext CODE >4436:/tmp/xcXpkkhmd/driver_tmp_1.s
+600 clrtext CODE >4437:/tmp/xcXpkkhmd/driver_tmp_1.s
+600 clrtext CODE >4438:/tmp/xcXpkkhmd/driver_tmp_1.s
+601 clrtext CODE >4439:/tmp/xcXpkkhmd/driver_tmp_1.s
+602 clrtext CODE >4440:/tmp/xcXpkkhmd/driver_tmp_1.s
+603 clrtext CODE >4441:/tmp/xcXpkkhmd/driver_tmp_1.s
+604 clrtext CODE >4442:/tmp/xcXpkkhmd/driver_tmp_1.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -627,132 +627,132 @@ FA maintext CODE >177:/home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/
 # was defined in a psect then <psect> will be "-". File-name
 # is the name of the object file in which the symbol was defined.
 %SYMTAB
-___latbits 0 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_TMR1_OverflowCallback 50 0 BANK0 1 nvBANK0 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+___latbits 0 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_TMR1_OverflowCallback 50 0 BANK0 1 nvBANK0 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
 __Hspace_0 638 0 ABS 0 - -
 __Hspace_1 7B 0 ABS 0 - -
 __Hspace_2 0 0 ABS 0 - -
 __Hspace_3 0 0 ABS 0 - -
 __Hspace_4 10010 0 ABS 0 - -
-_shiftOutByte 7FA 0 CODE 0 text5 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_PWM3CON DBB 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_PWM3DCH DB4 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_PWM3DCL DB3 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_PWM3OFH DB8 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_PWM3OFL DB7 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_PWM3PHH DB2 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_PWM3PHL DB1 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_PWM3PRH DB6 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_PWM3PRL DB5 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_shiftOutByte 7FA 0 CODE 0 text5 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_PWM3CON DBB 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_PWM3DCH DB4 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_PWM3DCL DB3 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_PWM3OFH DB8 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_PWM3OFL DB7 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_PWM3PHH DB2 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_PWM3PHL DB1 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_PWM3PRH DB6 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_PWM3PRL DB5 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
 __Heeprom_data 0 0 EEDATA 3 eeprom_data -
-__end_of_INTERRUPT_Initialize B86 0 CODE 0 text36 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_T1CONbits 18 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_PWM3LDCON DBF 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_PWM3OFCON DC0 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-SWITCH_SetInterruptHandler@InterruptHandler 73 0 COMMON 1 cstackCOMMON /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__end_of_PIN_MANAGER_IOC BD0 0 CODE 0 text47 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__end_of_INTERRUPT_Initialize B86 0 CODE 0 text36 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_T1CONbits 18 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_PWM3LDCON DBF 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_PWM3OFCON DC0 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+SWITCH_SetInterruptHandler@InterruptHandler 73 0 COMMON 1 cstackCOMMON /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__end_of_PIN_MANAGER_IOC BD0 0 CODE 0 text47 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
 __L__absolute__ 0 0 ABS 0 __absolute__ -
-TMR1_OverflowCallbackRegister@CallbackHandler 73 0 COMMON 1 cstackCOMMON /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_PWM3_Stop C40 0 CODE 0 text20 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-main@i 3C 0 BANK0 1 cstackBANK0 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+TMR1_OverflowCallbackRegister@CallbackHandler 73 0 COMMON 1 cstackCOMMON /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_PWM3_Stop C40 0 CODE 0 text20 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+main@i 3C 0 BANK0 1 cstackBANK0 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
 __Hstrings 0 0 ABS 0 strings -
-_ADON 4E8 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_LATA 10C 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_TMR0 15 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_TMR2 1A 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_WPUA 20C 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-___sp 0 0 STACK 2 stack /tmp/xcXPFCKmF/driver_tmp_8.o
-_main 8C 0 CODE 0 maintext /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_rand 5D4 0 CODE 0 text9 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_seed 48 0 BANK0 1 bssBANK0 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-btemp 7E 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-___stack_hi 0 0 STACK 2 stack /tmp/xcXPFCKmF/driver_tmp_8.o
-___stack_lo 0 0 STACK 2 stack /tmp/xcXPFCKmF/driver_tmp_8.o
-start 6E 0 CODE 0 init /tmp/xcXPFCKmF/driver_tmp_8.o
-__end_of_Timer2_Period_Callback 8BE 0 CODE 0 text42 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__end_of_TMR1_Stop C5E 0 CODE 0 text26 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_TMR1_Start C5E 0 CODE 0 text27 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_ADON 4E8 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_LATA 10C 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_TMR0 15 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_TMR2 1A 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_WPUA 20C 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+___sp 0 0 STACK 2 stack /tmp/xcXpkkhmd/driver_tmp_8.o
+_main 8C 0 CODE 0 maintext /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_rand 5D4 0 CODE 0 text9 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_seed 48 0 BANK0 1 bssBANK0 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+btemp 7E 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+___stack_hi 0 0 STACK 2 stack /tmp/xcXpkkhmd/driver_tmp_8.o
+___stack_lo 0 0 STACK 2 stack /tmp/xcXpkkhmd/driver_tmp_8.o
+start 6E 0 CODE 0 init /tmp/xcXpkkhmd/driver_tmp_8.o
+__end_of_Timer2_Period_Callback 8BE 0 CODE 0 text42 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__end_of_TMR1_Stop C5E 0 CODE 0 text26 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_TMR1_Start C5E 0 CODE 0 text27 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
 __HbssCOMMON 0 0 ABS 0 bssCOMMON -
-__end_of_TMR2_Stop C52 0 CODE 0 text23 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_TMR0_OverflowCallback 52 0 BANK0 1 nvBANK0 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_Timer2_CountCallBack 43 0 BANK0 1 bssBANK0 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-?___lmul 20 0 BANK0 1 cstackBANK0 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-?___wmul 73 0 COMMON 1 cstackCOMMON /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_OPTION_REGbits 95 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__end_of_TMR2_Stop C52 0 CODE 0 text23 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_TMR0_OverflowCallback 52 0 BANK0 1 nvBANK0 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_Timer2_CountCallBack 43 0 BANK0 1 bssBANK0 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+?___lmul 20 0 BANK0 1 cstackBANK0 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+?___wmul 73 0 COMMON 1 cstackCOMMON /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_OPTION_REGbits 95 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
 __Hpowerup 0 0 CODE 0 powerup -
-___awmod@sign 33 0 BANK0 1 cstackBANK0 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_TMR2_Initialize ADE 0 CODE 0 text30 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-main@dice_val 3B 0 BANK0 1 cstackBANK0 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_TMR1_Stop C58 0 CODE 0 text26 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_TMR2_Stop C4C 0 CODE 0 text23 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-intlevel0 0 0 ENTRY 0 functab /tmp/xcXPFCKmF/driver_tmp_8.o
-intlevel1 0 0 ENTRY 0 functab /tmp/xcXPFCKmF/driver_tmp_8.o
-intlevel2 0 0 ENTRY 0 functab /tmp/xcXPFCKmF/driver_tmp_8.o
-intlevel3 0 0 ENTRY 0 functab /tmp/xcXPFCKmF/driver_tmp_8.o
-intlevel4 0 0 ENTRY 0 functab /tmp/xcXPFCKmF/driver_tmp_8.o
-intlevel5 0 0 ENTRY 0 functab /tmp/xcXPFCKmF/driver_tmp_8.o
-_tune_02 456 0 CODE 0 text1 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+___awmod@sign 33 0 BANK0 1 cstackBANK0 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_TMR2_Initialize ADE 0 CODE 0 text30 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+main@dice_val 3B 0 BANK0 1 cstackBANK0 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_TMR1_Stop C58 0 CODE 0 text26 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_TMR2_Stop C4C 0 CODE 0 text23 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+intlevel0 0 0 ENTRY 0 functab /tmp/xcXpkkhmd/driver_tmp_8.o
+intlevel1 0 0 ENTRY 0 functab /tmp/xcXpkkhmd/driver_tmp_8.o
+intlevel2 0 0 ENTRY 0 functab /tmp/xcXpkkhmd/driver_tmp_8.o
+intlevel3 0 0 ENTRY 0 functab /tmp/xcXpkkhmd/driver_tmp_8.o
+intlevel4 0 0 ENTRY 0 functab /tmp/xcXpkkhmd/driver_tmp_8.o
+intlevel5 0 0 ENTRY 0 functab /tmp/xcXpkkhmd/driver_tmp_8.o
+_tune_02 456 0 CODE 0 text1 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
 __LbssCOMMON 0 0 ABS 0 bssCOMMON -
-delay_ms@milliseconds 22 0 BANK0 1 cstackBANK0 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-buzzFreq@freq 34 0 BANK0 1 cstackBANK0 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-___aldiv@divisor 20 0 BANK0 1 cstackBANK0 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-wtemp0 7E 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-TMR1_CounterSet@timerVal 70 0 COMMON 1 cstackCOMMON /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+delay_ms@milliseconds 22 0 BANK0 1 cstackBANK0 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+buzzFreq@freq 34 0 BANK0 1 cstackBANK0 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+___aldiv@divisor 20 0 BANK0 1 cstackBANK0 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+wtemp0 7E 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+TMR1_CounterSet@timerVal 70 0 COMMON 1 cstackCOMMON /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
 __Hfunctab 0 0 ENTRY 0 functab -
-_PIN_MANAGER_IOC BBE 0 CODE 0 text47 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__end_of_TMR1_OverflowCallbackRegister C22 0 CODE 0 text28 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__end_of_Timer1_Tick_Callback BE0 0 CODE 0 text45 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-___aldiv@sign 29 0 BANK0 1 cstackBANK0 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_initRandomSeed 8FC 0 CODE 0 text6 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_PIN_MANAGER_IOC BBE 0 CODE 0 text47 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__end_of_TMR1_OverflowCallbackRegister C22 0 CODE 0 text28 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__end_of_Timer1_Tick_Callback BE0 0 CODE 0 text45 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+___aldiv@sign 29 0 BANK0 1 cstackBANK0 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_initRandomSeed 8FC 0 CODE 0 text6 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
 __Hclrtext 0 0 ABS 0 clrtext -
-__end_of_shiftOutByte 83C 0 CODE 0 text5 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-___wmul@multiplicand 75 0 COMMON 1 cstackCOMMON /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_ADCON0 9D 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_ADRESH 9C 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_ADRESL 9B 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_ANSELA 18C 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__end_of_TMR1_DefaultOverflowCallback C6E 0 CODE 0 text44 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_BORCON 116 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__end_of_TMR1_Start C64 0 CODE 0 text27 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__end_of_INTERRUPT_InterruptManager 6E 0 CODE 0 intentry /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_TMR0_DefaultOverflowCallback 0 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__end_of___lmul 6A6 0 CODE 0 text10 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__end_of___wmul 7FA 0 CODE 0 text22 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_Switch_Interrupt_Callback BE0 0 CODE 0 text50 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__end_of_shiftOutByte 83C 0 CODE 0 text5 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+___wmul@multiplicand 75 0 COMMON 1 cstackCOMMON /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_ADCON0 9D 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_ADRESH 9C 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_ADRESL 9B 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_ANSELA 18C 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__end_of_TMR1_DefaultOverflowCallback C6E 0 CODE 0 text44 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_BORCON 116 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__end_of_TMR1_Start C64 0 CODE 0 text27 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__end_of_INTERRUPT_InterruptManager 6E 0 CODE 0 intentry /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_TMR0_DefaultOverflowCallback 0 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__end_of___lmul 6A6 0 CODE 0 text10 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__end_of___wmul 7FA 0 CODE 0 text22 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_Switch_Interrupt_Callback BE0 0 CODE 0 text50 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
 __Lmaintext 0 0 ABS 0 maintext -
-_ms_ticks 3D 0 BANK0 1 bssBANK0 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_ms_ticks 3D 0 BANK0 1 bssBANK0 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
 __LnvBANK0 0 0 ABS 0 nvBANK0 -
-_TMR2_PeriodMatchCallbackRegister C0A 0 CODE 0 text25 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__end_of___aldiv 456 0 CODE 0 text18 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__end_of___awmod 5D4 0 CODE 0 text11 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_INLVLA 38C 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-___stackhi 0 0 ABS 0 - /tmp/xcXPFCKmF/driver_tmp_8.o
-___stacklo 0 0 ABS 0 - /tmp/xcXPFCKmF/driver_tmp_8.o
-__end_of_initRandomSeed 936 0 CODE 0 text6 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_SWITCH_InterruptHandler 54 0 BANK0 1 nvBANK0 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_TMR1_OverflowISR A90 0 CODE 0 text43 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_PWM3CLKCON DBE 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_TMR1_DefaultGateCallback 0 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_PIN_MANAGER_Initialize 83C 0 CODE 0 text34 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-playNote@duration_ms 34 0 BANK0 1 cstackBANK0 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-start_initialization 70 0 CODE 0 cinit /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_ODCONA 28C 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_OSCCON 99 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_TRISAbits 8C 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-___aldiv@quotient 2A 0 BANK0 1 cstackBANK0 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__end_of_TMR0_CounterGet C40 0 CODE 0 text12 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_PWM3_PeriodSet B9A 0 CODE 0 text19 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__end_of_SYSTEM_Initialize A90 0 CODE 0 text29 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_TMR2_PeriodMatchCallback 4C 0 BANK0 1 nvBANK0 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_TMR2_DefaultPeriodMatchCallback C6A 0 CODE 0 text41 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-clear_ram0 BFE 0 CODE 0 clrtext /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__pcstackBANK0 20 0 BANK0 1 cstackBANK0 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_T1GCON 19 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-diceRoll@roll_value 77 0 COMMON 1 cstackCOMMON /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_TMR2_Start C52 0 CODE 0 text24 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__end_of_pattern BFE 0 STRCODE 0 stringtext1 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-___int_sp 0 0 STACK 2 stack /tmp/xcXPFCKmF/driver_tmp_8.o
-__end_of_PWM3_Initialize A06 0 CODE 0 text33 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_TMR2_PeriodMatchCallbackRegister C0A 0 CODE 0 text25 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__end_of___aldiv 456 0 CODE 0 text18 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__end_of___awmod 5D4 0 CODE 0 text11 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_INLVLA 38C 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+___stackhi 0 0 ABS 0 - /tmp/xcXpkkhmd/driver_tmp_8.o
+___stacklo 0 0 ABS 0 - /tmp/xcXpkkhmd/driver_tmp_8.o
+__end_of_initRandomSeed 936 0 CODE 0 text6 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_SWITCH_InterruptHandler 54 0 BANK0 1 nvBANK0 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_TMR1_OverflowISR A90 0 CODE 0 text43 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_PWM3CLKCON DBE 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_TMR1_DefaultGateCallback 0 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_PIN_MANAGER_Initialize 83C 0 CODE 0 text34 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+playNote@duration_ms 34 0 BANK0 1 cstackBANK0 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+start_initialization 70 0 CODE 0 cinit /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_ODCONA 28C 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_OSCCON 99 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_TRISAbits 8C 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+___aldiv@quotient 2A 0 BANK0 1 cstackBANK0 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__end_of_TMR0_CounterGet C40 0 CODE 0 text12 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_PWM3_PeriodSet B9A 0 CODE 0 text19 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__end_of_SYSTEM_Initialize A90 0 CODE 0 text29 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_TMR2_PeriodMatchCallback 4C 0 BANK0 1 nvBANK0 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_TMR2_DefaultPeriodMatchCallback C6A 0 CODE 0 text41 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+clear_ram0 BFE 0 CODE 0 clrtext /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__pcstackBANK0 20 0 BANK0 1 cstackBANK0 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_T1GCON 19 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+diceRoll@roll_value 77 0 COMMON 1 cstackCOMMON /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_TMR2_Start C52 0 CODE 0 text24 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__end_of_pattern BFE 0 STRCODE 0 stringtext1 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+___int_sp 0 0 STACK 2 stack /tmp/xcXpkkhmd/driver_tmp_8.o
+__end_of_PWM3_Initialize A06 0 CODE 0 text33 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
 __Hbank0 0 0 ABS 0 bank0 -
 __Hbank1 0 0 ABS 0 bank1 -
 __Hbank2 0 0 ABS 0 bank2 -
@@ -764,7 +764,7 @@ __Hbank7 0 0 BANK7 1 bank7 -
 __Hbank8 0 0 BANK8 1 bank8 -
 __Hbank9 0 0 BANK9 1 bank9 -
 __Hcinit 8C 0 CODE 0 cinit -
-_INT_DefaultInterruptHandler 0 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_INT_DefaultInterruptHandler 0 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
 __Hsfr10 0 0 ABS 0 sfr10 -
 __Hsfr11 0 0 ABS 0 sfr11 -
 __Hsfr12 0 0 ABS 0 sfr12 -
@@ -788,7 +788,7 @@ __Hsfr29 0 0 ABS 0 sfr29 -
 __Hsfr30 0 0 ABS 0 sfr30 -
 __Hsfr31 0 0 ABS 0 sfr31 -
 __Hstack 0 0 STACK 2 stack -
-_VREGCONbits 197 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_VREGCONbits 197 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
 __Hbank10 0 0 BANK10 1 bank10 -
 __Hbank11 0 0 BANK11 1 bank11 -
 __Hbank12 0 0 BANK12 1 bank12 -
@@ -813,7 +813,7 @@ __Hbank30 0 0 BANK30 1 bank30 -
 __Hbank31 0 0 BANK31 1 bank31 -
 __Hbigram 0 0 ABS 0 bigram -
 __Hmaintext 0 0 ABS 0 maintext -
-_buzzSetFreq ABC 0 CODE 0 text16 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_buzzSetFreq ABC 0 CODE 0 text16 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
 __Hcommon 0 0 ABS 0 common -
 __Hconfig 10012 0 CONFIG 4 config -
 __Lbank0 0 0 ABS 0 bank0 -
@@ -827,7 +827,7 @@ __Lbank7 0 0 BANK7 1 bank7 -
 __Lbank8 0 0 BANK8 1 bank8 -
 __Lbank9 0 0 BANK9 1 bank9 -
 __Lcinit 70 0 CODE 0 cinit -
-_T1GCONbits 19 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_T1GCONbits 19 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
 __Lsfr10 0 0 ABS 0 sfr10 -
 __Lsfr11 0 0 ABS 0 sfr11 -
 __Lsfr12 0 0 ABS 0 sfr12 -
@@ -851,14 +851,14 @@ __Lsfr29 0 0 ABS 0 sfr29 -
 __Lsfr30 0 0 ABS 0 sfr30 -
 __Lsfr31 0 0 ABS 0 sfr31 -
 __Lstack 0 0 STACK 2 stack -
-_prng_needs_seeding 45 0 BANK0 1 bssBANK0 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__end_of_SWITCH_SetInterruptHandler C2E 0 CODE 0 text35 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_PORTAbits C 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__end_of_TMR1_OverflowISR ABC 0 CODE 0 text43 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__end_offreqToPwmPeriod@prescale C6A 0 STRCODE 0 stringtext2 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_INTCONbits B 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_TMR0_CounterGet C3A 0 CODE 0 text12 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_INTERRUPT_Initialize B70 0 CODE 0 text36 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_prng_needs_seeding 45 0 BANK0 1 bssBANK0 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__end_of_SWITCH_SetInterruptHandler C2E 0 CODE 0 text35 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_PORTAbits C 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__end_of_TMR1_OverflowISR ABC 0 CODE 0 text43 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__end_offreqToPwmPeriod@prescale C6A 0 STRCODE 0 stringtext2 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_INTCONbits B 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_TMR0_CounterGet C3A 0 CODE 0 text12 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_INTERRUPT_Initialize B70 0 CODE 0 text36 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
 __Habs1 0 0 ABS 0 abs1 -
 __Hcode 0 0 ABS 0 code -
 __Hheap 0 0 HEAP 7 heap -
@@ -875,7 +875,7 @@ __Hsfr8 0 0 ABS 0 sfr8 -
 __Hsfr9 0 0 ABS 0 sfr9 -
 __Hsivt 6E 0 CODE 0 sivt -
 __Htext 0 0 ABS 0 text -
-PWM3_PeriodSet@periodCount 30 0 BANK0 1 cstackBANK0 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+PWM3_PeriodSet@periodCount 30 0 BANK0 1 cstackBANK0 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
 __Labs1 0 0 ABS 0 abs1 -
 __Lcode 0 0 ABS 0 code -
 __Lheap 0 0 HEAP 7 heap -
@@ -892,96 +892,96 @@ __Lsfr8 0 0 ABS 0 sfr8 -
 __Lsfr9 0 0 ABS 0 sfr9 -
 __Lsivt 6E 0 CODE 0 sivt -
 __Ltext 0 0 ABS 0 text -
-__end_of_PWM3_PeriodSet BAC 0 CODE 0 text19 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__pstringtext1 BF0 0 STRCODE 0 stringtext1 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__pstringtext2 C68 0 STRCODE 0 stringtext2 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__pstringtext3 C64 0 STRCODE 0 stringtext3 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__pnvBANK0 4C 0 BANK0 1 nvBANK0 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-___lmul 63E 0 CODE 0 text10 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-___wmul 7B6 0 CODE 0 text22 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__end_of_PWM3_PeriodSet BAC 0 CODE 0 text19 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__pstringtext1 BF0 0 STRCODE 0 stringtext1 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__pstringtext2 C68 0 STRCODE 0 stringtext2 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__pstringtext3 C64 0 STRCODE 0 stringtext3 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__pnvBANK0 4C 0 BANK0 1 nvBANK0 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+___lmul 63E 0 CODE 0 text10 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+___wmul 7B6 0 CODE 0 text22 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
 __LcstackBANK0 0 0 ABS 0 cstackBANK0 -
-int$flags 7E 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+int$flags 7E 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
 __HcstackCOMMON 0 0 ABS 0 cstackCOMMON -
-_PR2 1B 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_PR2 1B 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
 __S0 638 0 ABS 0 - -
 __S1 7B 0 ABS 0 - -
-_CLOCK_Initialize BAC 0 CODE 0 text38 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__end_of_TMR2_Start C58 0 CODE 0 text24 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_sw_status 46 0 BANK0 1 bssBANK0 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_PWM3_Initialize 9D4 0 CODE 0 text33 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_PWM3INTFbits DBD 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_run_state 47 0 BANK0 1 bssBANK0 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_periodCount 7A 0 COMMON 1 bssCOMMON /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_SYSTEM_Initialize A64 0 CODE 0 text29 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__end_of_SWITCH_DefaultInterruptHandler C70 0 CODE 0 text49 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__end_of_TMR1_CounterSet A36 0 CODE 0 text46 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_PWM3_Start C46 0 CODE 0 text21 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_PWM3CONbits DBB 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_CLOCK_Initialize BAC 0 CODE 0 text38 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__end_of_TMR2_Start C58 0 CODE 0 text24 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_sw_status 46 0 BANK0 1 bssBANK0 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_PWM3_Initialize 9D4 0 CODE 0 text33 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_PWM3INTFbits DBD 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_run_state 47 0 BANK0 1 bssBANK0 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_periodCount 7A 0 COMMON 1 bssCOMMON /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_SYSTEM_Initialize A64 0 CODE 0 text29 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__end_of_SWITCH_DefaultInterruptHandler C70 0 CODE 0 text49 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__end_of_TMR1_CounterSet A36 0 CODE 0 text46 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_PWM3_Start C46 0 CODE 0 text21 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_PWM3CONbits DBB 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
 __HnvBANK0 0 0 ABS 0 nvBANK0 -
 __Lintentry 8 0 CODE 0 intentry -
-reset_vec 0 0 CODE 0 reset_vec /tmp/xcXPFCKmF/driver_tmp_8.o
-_SWITCH_ISR B38 0 CODE 0 text48 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-selftest@val 77 0 COMMON 1 cstackCOMMON /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-ltemp0a 80 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+reset_vec 0 0 CODE 0 reset_vec /tmp/xcXpkkhmd/driver_tmp_8.o
+_SWITCH_ISR B38 0 CODE 0 text48 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+selftest@val 77 0 COMMON 1 cstackCOMMON /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+ltemp0a 80 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
 __LbssBANK0 0 0 ABS 0 bssBANK0 -
 __Lstringtext1 0 0 ABS 0 stringtext1 -
 __Lstringtext2 0 0 ABS 0 stringtext2 -
 __Lstringtext3 0 0 ABS 0 stringtext3 -
-_INT_InterruptHandler 56 0 BANK0 1 nvBANK0 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_TMR1_GateCallback 4E 0 BANK0 1 nvBANK0 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_Timer1_Tick_Callback BD0 0 CODE 0 text45 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_INTERRUPT_InterruptManager 8 0 CODE 0 intentry /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-diceShow@dice_val 76 0 COMMON 1 cstackCOMMON /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_IOCAFbits 393 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-___awmod@counter 32 0 BANK0 1 cstackBANK0 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_PIE1bits 91 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-delay_ms@start_ticks 2C 0 BANK0 1 cstackBANK0 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_TMR2_ISR B1A 0 CODE 0 text40 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__ptext10 63E 0 CODE 0 text10 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__ptext11 530 0 CODE 0 text11 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__ptext12 C3A 0 CODE 0 text12 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__ptext13 6A6 0 CODE 0 text13 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__ptext14 A36 0 CODE 0 text14 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__ptext15 706 0 CODE 0 text15 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__ptext16 ABC 0 CODE 0 text16 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__ptext17 96C 0 CODE 0 text17 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__ptext18 33E 0 CODE 0 text18 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__ptext19 B9A 0 CODE 0 text19 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__ptext20 C40 0 CODE 0 text20 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__ptext21 C46 0 CODE 0 text21 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__ptext22 7B6 0 CODE 0 text22 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__ptext23 C4C 0 CODE 0 text23 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__ptext24 C52 0 CODE 0 text24 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__ptext25 C0A 0 CODE 0 text25 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__ptext26 C58 0 CODE 0 text26 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__ptext27 C5E 0 CODE 0 text27 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__ptext28 C16 0 CODE 0 text28 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__ptext29 A64 0 CODE 0 text29 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__ptext30 ADE 0 CODE 0 text30 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__ptext31 9A0 0 CODE 0 text31 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__ptext32 AFC 0 CODE 0 text32 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__ptext33 9D4 0 CODE 0 text33 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__ptext34 83C 0 CODE 0 text34 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__ptext35 C22 0 CODE 0 text35 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__ptext36 B70 0 CODE 0 text36 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__ptext37 C2E 0 CODE 0 text37 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__ptext38 BAC 0 CODE 0 text38 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__ptext40 B1A 0 CODE 0 text40 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__ptext41 C6A 0 CODE 0 text41 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__ptext42 87E 0 CODE 0 text42 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__ptext43 A90 0 CODE 0 text43 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__ptext44 C6C 0 CODE 0 text44 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__ptext45 BD0 0 CODE 0 text45 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__ptext46 A06 0 CODE 0 text46 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__ptext47 BBE 0 CODE 0 text47 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__ptext48 B38 0 CODE 0 text48 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__ptext49 C6E 0 CODE 0 text49 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__ptext50 BE0 0 CODE 0 text50 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__end_of_PIN_MANAGER_Initialize 87E 0 CODE 0 text34 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-___aldiv 33E 0 CODE 0 text18 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-___awmod 530 0 CODE 0 text11 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__end_of_TMR0_Initialize B1A 0 CODE 0 text32 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_PWM3LDCONbits DBF 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_INT_InterruptHandler 56 0 BANK0 1 nvBANK0 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_TMR1_GateCallback 4E 0 BANK0 1 nvBANK0 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_Timer1_Tick_Callback BD0 0 CODE 0 text45 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_INTERRUPT_InterruptManager 8 0 CODE 0 intentry /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+diceShow@dice_val 76 0 COMMON 1 cstackCOMMON /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_IOCAFbits 393 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+___awmod@counter 32 0 BANK0 1 cstackBANK0 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_PIE1bits 91 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+delay_ms@start_ticks 2C 0 BANK0 1 cstackBANK0 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_TMR2_ISR B1A 0 CODE 0 text40 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__ptext10 63E 0 CODE 0 text10 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__ptext11 530 0 CODE 0 text11 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__ptext12 C3A 0 CODE 0 text12 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__ptext13 6A6 0 CODE 0 text13 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__ptext14 A36 0 CODE 0 text14 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__ptext15 706 0 CODE 0 text15 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__ptext16 ABC 0 CODE 0 text16 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__ptext17 96C 0 CODE 0 text17 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__ptext18 33E 0 CODE 0 text18 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__ptext19 B9A 0 CODE 0 text19 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__ptext20 C40 0 CODE 0 text20 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__ptext21 C46 0 CODE 0 text21 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__ptext22 7B6 0 CODE 0 text22 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__ptext23 C4C 0 CODE 0 text23 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__ptext24 C52 0 CODE 0 text24 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__ptext25 C0A 0 CODE 0 text25 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__ptext26 C58 0 CODE 0 text26 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__ptext27 C5E 0 CODE 0 text27 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__ptext28 C16 0 CODE 0 text28 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__ptext29 A64 0 CODE 0 text29 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__ptext30 ADE 0 CODE 0 text30 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__ptext31 9A0 0 CODE 0 text31 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__ptext32 AFC 0 CODE 0 text32 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__ptext33 9D4 0 CODE 0 text33 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__ptext34 83C 0 CODE 0 text34 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__ptext35 C22 0 CODE 0 text35 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__ptext36 B70 0 CODE 0 text36 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__ptext37 C2E 0 CODE 0 text37 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__ptext38 BAC 0 CODE 0 text38 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__ptext40 B1A 0 CODE 0 text40 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__ptext41 C6A 0 CODE 0 text41 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__ptext42 87E 0 CODE 0 text42 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__ptext43 A90 0 CODE 0 text43 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__ptext44 C6C 0 CODE 0 text44 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__ptext45 BD0 0 CODE 0 text45 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__ptext46 A06 0 CODE 0 text46 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__ptext47 BBE 0 CODE 0 text47 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__ptext48 B38 0 CODE 0 text48 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__ptext49 C6E 0 CODE 0 text49 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__ptext50 BE0 0 CODE 0 text50 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__end_of_PIN_MANAGER_Initialize 87E 0 CODE 0 text34 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+___aldiv 33E 0 CODE 0 text18 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+___awmod 530 0 CODE 0 text11 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__end_of_TMR0_Initialize B1A 0 CODE 0 text32 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_PWM3LDCONbits DBF 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
 __Lbank10 0 0 BANK10 1 bank10 -
 __Lbank11 0 0 BANK11 1 bank11 -
 __Lbank12 0 0 BANK12 1 bank12 -
@@ -1004,149 +1004,149 @@ __Lbank28 0 0 BANK28 1 bank28 -
 __Lbank29 0 0 BANK29 1 bank29 -
 __Lbank30 0 0 BANK30 1 bank30 -
 __Lbank31 0 0 BANK31 1 bank31 -
-__pmaintext 8C 0 CODE 0 maintext /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__pmaintext 8C 0 CODE 0 maintext /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
 __Lbigram 0 0 ABS 0 bigram -
-___lmul@multiplier 20 0 BANK0 1 cstackBANK0 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-?_rand 28 0 BANK0 1 cstackBANK0 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+___lmul@multiplier 20 0 BANK0 1 cstackBANK0 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+?_rand 28 0 BANK0 1 cstackBANK0 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
 __Lcommon 0 0 ABS 0 common -
 __Lconfig 0 0 CONFIG 4 config -
-__end_of_TMR2_ISR B38 0 CODE 0 text40 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-___wmul@multiplier 73 0 COMMON 1 cstackCOMMON /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_LATAbits 10C 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_dicePlaySound 6A6 0 CODE 0 text13 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_TMR1_CounterSet A06 0 CODE 0 text46 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-srand@s 73 0 COMMON 1 cstackCOMMON /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__end_of_CLOCK_Initialize BBE 0 CODE 0 text38 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-dicePlaySound@val 77 0 COMMON 1 cstackCOMMON /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__end_of_PWM3_Start C4C 0 CODE 0 text21 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_OSCTUNE 98 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_selftest 936 0 CODE 0 text3 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_ADCON0bits 9D 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__end_of_SWITCH_ISR B56 0 CODE 0 text48 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__end_of_TMR2_ISR B38 0 CODE 0 text40 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+___wmul@multiplier 73 0 COMMON 1 cstackCOMMON /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_LATAbits 10C 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_dicePlaySound 6A6 0 CODE 0 text13 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_TMR1_CounterSet A06 0 CODE 0 text46 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+srand@s 73 0 COMMON 1 cstackCOMMON /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__end_of_CLOCK_Initialize BBE 0 CODE 0 text38 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+dicePlaySound@val 77 0 COMMON 1 cstackCOMMON /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__end_of_PWM3_Start C4C 0 CODE 0 text21 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_OSCTUNE 98 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_selftest 936 0 CODE 0 text3 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_ADCON0bits 9D 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__end_of_SWITCH_ISR B56 0 CODE 0 text48 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
 __Lspace_0 0 0 ABS 0 - -
 __Lspace_1 0 0 ABS 0 - -
 __Lspace_2 0 0 ABS 0 - -
 __Lspace_3 0 0 ABS 0 - -
 __Lspace_4 0 0 ABS 0 - -
-__pbssCOMMON 78 0 COMMON 1 bssCOMMON /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__pbssCOMMON 78 0 COMMON 1 bssCOMMON /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
 __HcstackBANK0 0 0 ABS 0 cstackBANK0 -
-__end_of_TMR2_PeriodMatchCallbackRegister C16 0 CODE 0 text25 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_PIR1bits 11 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__end_of_selftest 96C 0 CODE 0 text3 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__end_of_TMR2_PeriodMatchCallbackRegister C16 0 CODE 0 text25 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_PIR1bits 11 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__end_of_selftest 96C 0 CODE 0 text3 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
 __Lend_init 6E 0 CODE 0 end_init -
 __LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
-end_of_initialization 86 0 CODE 0 cinit /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_TMR0_Initialize AFC 0 CODE 0 text32 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+end_of_initialization 86 0 CODE 0 cinit /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_TMR0_Initialize AFC 0 CODE 0 text32 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
 __Hintentry 6E 0 CODE 0 intentry -
 __Lstrings 0 0 ABS 0 strings -
-?___aldiv 20 0 BANK0 1 cstackBANK0 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-?___awmod 2E 0 BANK0 1 cstackBANK0 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_pattern BF0 0 STRCODE 0 stringtext1 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+?___aldiv 20 0 BANK0 1 cstackBANK0 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+?___awmod 2E 0 BANK0 1 cstackBANK0 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_pattern BF0 0 STRCODE 0 stringtext1 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
 __Hreset_vec 2 0 CODE 0 reset_vec -
-_INT_SetInterruptHandler C2E 0 CODE 0 text37 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_INT_SetInterruptHandler C2E 0 CODE 0 text37 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
 __HbssBANK0 0 0 ABS 0 bssBANK0 -
-___awmod@dividend 30 0 BANK0 1 cstackBANK0 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_Timer2_Period_Callback 87E 0 CODE 0 text42 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_SWITCH_DefaultInterruptHandler C6E 0 CODE 0 text49 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-?_freqToPwmPeriod 2E 0 BANK0 1 cstackBANK0 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__end_of_INT_SetInterruptHandler C3A 0 CODE 0 text37 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__end_of_tune_02 530 0 CODE 0 text1 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__ptext1 456 0 CODE 0 text1 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__ptext2 8BE 0 CODE 0 text2 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__ptext3 936 0 CODE 0 text3 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__ptext4 B56 0 CODE 0 text4 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__ptext5 7FA 0 CODE 0 text5 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__ptext6 8FC 0 CODE 0 text6 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__ptext7 762 0 CODE 0 text7 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__ptext8 B86 0 CODE 0 text8 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__ptext9 5D4 0 CODE 0 text9 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__end_of_freqToPwmPeriod 9A0 0 CODE 0 text17 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-___aldiv@dividend 24 0 BANK0 1 cstackBANK0 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+___awmod@dividend 30 0 BANK0 1 cstackBANK0 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_Timer2_Period_Callback 87E 0 CODE 0 text42 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_SWITCH_DefaultInterruptHandler C6E 0 CODE 0 text49 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+?_freqToPwmPeriod 2E 0 BANK0 1 cstackBANK0 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__end_of_INT_SetInterruptHandler C3A 0 CODE 0 text37 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__end_of_tune_02 530 0 CODE 0 text1 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__ptext1 456 0 CODE 0 text1 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__ptext2 8BE 0 CODE 0 text2 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__ptext3 936 0 CODE 0 text3 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__ptext4 B56 0 CODE 0 text4 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__ptext5 7FA 0 CODE 0 text5 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__ptext6 8FC 0 CODE 0 text6 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__ptext7 762 0 CODE 0 text7 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__ptext8 B86 0 CODE 0 text8 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__ptext9 5D4 0 CODE 0 text9 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__end_of_freqToPwmPeriod 9A0 0 CODE 0 text17 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+___aldiv@dividend 24 0 BANK0 1 cstackBANK0 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
 __Lpowerup 0 0 CODE 0 powerup -
 __Leeprom_data 0 0 EEDATA 3 eeprom_data -
-_TMR1_OverflowCallbackRegister C16 0 CODE 0 text28 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_TMR1_OverflowCallbackRegister C16 0 CODE 0 text28 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
 __H__absolute__ 0 0 ABS 0 __absolute__ -
-initRandomSeed@adcResult 75 0 COMMON 1 cstackCOMMON /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-main@nrolls 3A 0 BANK0 1 cstackBANK0 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__end_of_TMR1_Initialize 9D4 0 CODE 0 text31 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-TMR1_CounterSet@onState 72 0 COMMON 1 cstackCOMMON /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+initRandomSeed@adcResult 75 0 COMMON 1 cstackCOMMON /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+main@nrolls 3A 0 BANK0 1 cstackBANK0 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__end_of_TMR1_Initialize 9D4 0 CODE 0 text31 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+TMR1_CounterSet@onState 72 0 COMMON 1 cstackCOMMON /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
 __Lreset_vec 0 0 CODE 0 reset_vec -
 __Hstringtext1 0 0 ABS 0 stringtext1 -
 __Hstringtext2 0 0 ABS 0 stringtext2 -
 __Hstringtext3 0 0 ABS 0 stringtext3 -
-__end_of_buzzSetFreq ADE 0 CODE 0 text16 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-shiftOutByte@bit 75 0 COMMON 1 cstackCOMMON /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-shiftOutByte@val 74 0 COMMON 1 cstackCOMMON /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_SLRCONA 30C 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-___heap_hi 0 0 ABS 0 - /tmp/xcXPFCKmF/driver_tmp_8.o
-___heap_lo 0 0 ABS 0 - /tmp/xcXPFCKmF/driver_tmp_8.o
-_SWITCH_SetInterruptHandler C22 0 CODE 0 text35 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__end_of__initialization 86 0 CODE 0 cinit /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-___awmod@divisor 2E 0 BANK0 1 cstackBANK0 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_delay_ms 706 0 CODE 0 text15 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__end_of_buzzSetFreq ADE 0 CODE 0 text16 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+shiftOutByte@bit 75 0 COMMON 1 cstackCOMMON /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+shiftOutByte@val 74 0 COMMON 1 cstackCOMMON /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_SLRCONA 30C 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+___heap_hi 0 0 ABS 0 - /tmp/xcXpkkhmd/driver_tmp_8.o
+___heap_lo 0 0 ABS 0 - /tmp/xcXpkkhmd/driver_tmp_8.o
+_SWITCH_SetInterruptHandler C22 0 CODE 0 text35 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__end_of__initialization 86 0 CODE 0 cinit /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+___awmod@divisor 2E 0 BANK0 1 cstackBANK0 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_delay_ms 706 0 CODE 0 text15 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
 __Lfunctab 0 0 ENTRY 0 functab -
-__end_of_Switch_Interrupt_Callback BF0 0 CODE 0 text50 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__end_of_Switch_Interrupt_Callback BF0 0 CODE 0 text50 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
 __Lclrtext 0 0 ABS 0 clrtext -
-_timer1ReloadVal 78 0 COMMON 1 bssCOMMON /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-___lmul@product 73 0 COMMON 1 cstackCOMMON /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-INT_SetInterruptHandler@InterruptHandler 73 0 COMMON 1 cstackCOMMON /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__end_of_delay_ms 762 0 CODE 0 text15 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-___lmul@multiplicand 24 0 BANK0 1 cstackBANK0 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_PWM3INTE DBC 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_PWM3INTF DBD 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_PWM3TMRH DBA 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_PWM3TMRL DB9 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__pcstackCOMMON 70 0 COMMON 1 cstackCOMMON /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-wtemp0a 7F 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_TMR1_DefaultOverflowCallback C6C 0 CODE 0 text44 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__end_ofshiftOutByte@delay_us C68 0 STRCODE 0 stringtext3 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-buzzSetFreq@freq 32 0 BANK0 1 cstackBANK0 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_timer1ReloadVal 78 0 COMMON 1 bssCOMMON /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+___lmul@product 73 0 COMMON 1 cstackCOMMON /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+INT_SetInterruptHandler@InterruptHandler 73 0 COMMON 1 cstackCOMMON /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__end_of_delay_ms 762 0 CODE 0 text15 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+___lmul@multiplicand 24 0 BANK0 1 cstackBANK0 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_PWM3INTE DBC 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_PWM3INTF DBD 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_PWM3TMRH DBA 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_PWM3TMRL DB9 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__pcstackCOMMON 70 0 COMMON 1 cstackCOMMON /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+wtemp0a 7F 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_TMR1_DefaultOverflowCallback C6C 0 CODE 0 text44 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__end_ofshiftOutByte@delay_us C68 0 STRCODE 0 stringtext3 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+buzzSetFreq@freq 32 0 BANK0 1 cstackBANK0 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
 __Hend_init 70 0 CODE 0 end_init -
-___aldiv@counter 28 0 BANK0 1 cstackBANK0 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_freqToPwmPeriod 96C 0 CODE 0 text17 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-freqToPwmPeriod@freq 2E 0 BANK0 1 cstackBANK0 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__end_of_main 33E 0 CODE 0 maintext /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__end_of_rand 63E 0 CODE 0 text9 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-playNote@period 32 0 BANK0 1 cstackBANK0 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_IOCAF 393 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_IOCAN 392 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_IOCAP 391 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-TMR2_PeriodMatchCallbackRegister@CallbackHandler 73 0 COMMON 1 cstackCOMMON /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_T1CON 18 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_T2CON 1C 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_TMR1H 17 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_TMR1L 16 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_TRISA 8C 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__end_of_srand B9A 0 CODE 0 text8 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+___aldiv@counter 28 0 BANK0 1 cstackBANK0 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_freqToPwmPeriod 96C 0 CODE 0 text17 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+freqToPwmPeriod@freq 2E 0 BANK0 1 cstackBANK0 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__end_of_main 33E 0 CODE 0 maintext /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__end_of_rand 63E 0 CODE 0 text9 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+playNote@period 32 0 BANK0 1 cstackBANK0 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_IOCAF 393 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_IOCAN 392 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_IOCAP 391 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+TMR2_PeriodMatchCallbackRegister@CallbackHandler 73 0 COMMON 1 cstackCOMMON /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_T1CON 18 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_T2CON 1C 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_TMR1H 17 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_TMR1L 16 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_TRISA 8C 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__end_of_srand B9A 0 CODE 0 text8 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
 __Hram 0 0 ABS 0 ram -
 __Lram 0 0 ABS 0 ram -
-_TMR1_Initialize 9A0 0 CODE 0 text31 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_playNote 8BE 0 CODE 0 text2 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__end_of_dicePlaySound 706 0 CODE 0 text13 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_srand B86 0 CODE 0 text8 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__pintentry 8 0 CODE 0 intentry /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_buzzFreq A36 0 CODE 0 text14 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__initialization 70 0 CODE 0 cinit /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-btemp0 7E 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-btemp1 7F 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__end_of_playNote 8FC 0 CODE 0 text2 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__pbssBANK0 3D 0 BANK0 1 bssBANK0 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_BORCONbits 116 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_T2CONbits 1C 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_diceRoll 762 0 CODE 0 text7 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_diceShow B56 0 CODE 0 text4 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__end_of_buzzFreq A64 0 CODE 0 text14 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-___wmul@product 20 0 BANK0 1 cstackBANK0 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-buzzFreq@duration_ms 36 0 BANK0 1 cstackBANK0 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__end_of_TMR2_DefaultPeriodMatchCallback C6C 0 CODE 0 text41 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-ttemp0a 7F 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-_ANSELAbits 18C 0 ABS 0 - /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__end_of_PWM3_Stop C46 0 CODE 0 text20 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__end_of_diceRoll 7B6 0 CODE 0 text7 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-__end_of_diceShow B70 0 CODE 0 text4 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-___int_stack_hi 0 0 STACK 2 stack /tmp/xcXPFCKmF/driver_tmp_8.o
-___int_stack_lo 0 0 STACK 2 stack /tmp/xcXPFCKmF/driver_tmp_8.o
-__end_of_TMR2_Initialize AFC 0 CODE 0 text30 /home/nelis/Projects/2026/elebetavu/dobbelsteen/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_TMR1_Initialize 9A0 0 CODE 0 text31 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_playNote 8BE 0 CODE 0 text2 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__end_of_dicePlaySound 706 0 CODE 0 text13 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_srand B86 0 CODE 0 text8 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__pintentry 8 0 CODE 0 intentry /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_buzzFreq A36 0 CODE 0 text14 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__initialization 70 0 CODE 0 cinit /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+btemp0 7E 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+btemp1 7F 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__end_of_playNote 8FC 0 CODE 0 text2 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__pbssBANK0 3D 0 BANK0 1 bssBANK0 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_BORCONbits 116 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_T2CONbits 1C 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_diceRoll 762 0 CODE 0 text7 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_diceShow B56 0 CODE 0 text4 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__end_of_buzzFreq A64 0 CODE 0 text14 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+___wmul@product 20 0 BANK0 1 cstackBANK0 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+buzzFreq@duration_ms 36 0 BANK0 1 cstackBANK0 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__end_of_TMR2_DefaultPeriodMatchCallback C6C 0 CODE 0 text41 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+ttemp0a 7F 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+_ANSELAbits 18C 0 ABS 0 - /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__end_of_PWM3_Stop C46 0 CODE 0 text20 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__end_of_diceRoll 7B6 0 CODE 0 text7 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+__end_of_diceShow B70 0 CODE 0 text4 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+___int_stack_hi 0 0 STACK 2 stack /tmp/xcXpkkhmd/driver_tmp_8.o
+___int_stack_lo 0 0 STACK 2 stack /tmp/xcXpkkhmd/driver_tmp_8.o
+__end_of_TMR2_Initialize AFC 0 CODE 0 text30 /home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
 # %SPLITSTAB Section
 # This section enumerates all the psect splits performed by the assembler.
 # The beginning of the section is indicated by %SPLITSTAB.
