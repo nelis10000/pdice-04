@@ -528,8 +528,8 @@ clrtext BFE C63 CODE BFE 0
 stringtext3 C64 C69 STRCODE C64 0
 text41 C6A C6F CODE C6A 0
 %locals
-/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
-/tmp/xcXpkkhmd/driver_tmp_1.s
+/home/nelis/Projects/2026/elebetavu/dobbelsteen/github.com/pdice-04/mplab-vscode/pdice-04/pdice-04/out/pdice-04/default.o
+/tmp/xcXDckcLE/driver_tmp_1.s
 4392 38 0 CODE 0
 4395 38 0 CODE 0
 4446 38 0 CODE 0
@@ -553,7 +553,7 @@ text41 C6A C6F CODE C6A 0
 4440 602 0 CODE 0
 4441 603 0 CODE 0
 4442 604 0 CODE 0
-/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+/home/nelis/Projects/2026/elebetavu/dobbelsteen/github.com/pdice-04/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
 89 46 0 CODE 0
 95 46 0 CODE 0
 96 49 0 CODE 0
@@ -624,7 +624,7 @@ text41 C6A C6F CODE C6A 0
 224 189 0 CODE 0
 227 18F 0 CODE 0
 228 19A 0 CODE 0
-/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
+/home/nelis/Projects/2026/elebetavu/dobbelsteen/github.com/pdice-04/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
 26 22B 0 CODE 0
 28 22B 0 CODE 0
 29 237 0 CODE 0
@@ -636,14 +636,14 @@ text41 C6A C6F CODE C6A 0
 35 27F 0 CODE 0
 36 28B 0 CODE 0
 37 297 0 CODE 0
-146 45F 0 CODE 0
-149 45F 0 CODE 0
-152 467 0 CODE 0
-155 46A 0 CODE 0
-158 472 0 CODE 0
-161 475 0 CODE 0
-162 47D 0 CODE 0
-/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+190 45F 0 CODE 0
+193 45F 0 CODE 0
+196 467 0 CODE 0
+199 46A 0 CODE 0
+202 472 0 CODE 0
+205 475 0 CODE 0
+206 47D 0 CODE 0
+/home/nelis/Projects/2026/elebetavu/dobbelsteen/github.com/pdice-04/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
 259 49B 0 CODE 0
 261 49B 0 CODE 0
 262 49D 0 CODE 0
@@ -657,7 +657,7 @@ text41 C6A C6F CODE C6A 0
 253 5AB 0 CODE 0
 253 5B0 0 CODE 0
 254 5B7 0 CODE 0
-/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
+/home/nelis/Projects/2026/elebetavu/dobbelsteen/github.com/pdice-04/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
 47 3FD 0 CODE 0
 52 3FD 0 CODE 0
 54 3FF 0 CODE 0
@@ -681,7 +681,7 @@ text41 C6A C6F CODE C6A 0
 42 497 0 CODE 0
 43 499 0 CODE 0
 44 49A 0 CODE 0
-/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
+/home/nelis/Projects/2026/elebetavu/dobbelsteen/github.com/pdice-04/mplab-vscode/pdice-04/pdice-04/config.mcc/main.c
 235 3B1 0 CODE 0
 240 3B1 0 CODE 0
 241 3B7 0 CODE 0
@@ -735,31 +735,31 @@ text41 C6A C6F CODE C6A 0
 32 2E3 0 CODE 0
 33 2E5 0 CODE 0
 34 2E9 0 CODE 0
-/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr0.c
+/home/nelis/Projects/2026/elebetavu/dobbelsteen/github.com/pdice-04/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr0.c
 104 61D 0 CODE 0
 106 61D 0 CODE 0
 107 61F 0 CODE 0
-/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
-122 353 0 CODE 0
-124 354 0 CODE 0
-136 355 0 CODE 0
-137 361 0 CODE 0
-138 36D 0 CODE 0
-124 36E 0 CODE 0
-124 370 0 CODE 0
-124 373 0 CODE 0
-124 376 0 CODE 0
-124 379 0 CODE 0
-124 37C 0 CODE 0
-124 37F 0 CODE 0
-142 382 0 CODE 0
-183 51B 0 CODE 0
-186 51B 0 CODE 0
-189 523 0 CODE 0
-192 526 0 CODE 0
-195 52E 0 CODE 0
-197 531 0 CODE 0
-/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
+/home/nelis/Projects/2026/elebetavu/dobbelsteen/github.com/pdice-04/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
+166 353 0 CODE 0
+168 354 0 CODE 0
+180 355 0 CODE 0
+181 361 0 CODE 0
+182 36D 0 CODE 0
+168 36E 0 CODE 0
+168 370 0 CODE 0
+168 373 0 CODE 0
+168 376 0 CODE 0
+168 379 0 CODE 0
+168 37C 0 CODE 0
+168 37F 0 CODE 0
+186 382 0 CODE 0
+227 51B 0 CODE 0
+230 51B 0 CODE 0
+233 523 0 CODE 0
+236 526 0 CODE 0
+239 52E 0 CODE 0
+241 531 0 CODE 0
+/home/nelis/Projects/2026/elebetavu/dobbelsteen/github.com/pdice-04/mplab-vscode/pdice-04/pdice-04/config.mcc/utils.c
 12 383 0 CODE 0
 15 383 0 CODE 0
 18 38C 0 CODE 0
@@ -768,13 +768,13 @@ text41 C6A C6F CODE C6A 0
 18 3A8 0 CODE 0
 18 3AC 0 CODE 0
 22 3B0 0 CODE 0
-/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
-201 55E 0 CODE 0
-203 55E 0 CODE 0
-204 56E 0 CODE 0
-166 4B6 0 CODE 0
-170 4B6 0 CODE 0
-171 4CF 0 CODE 0
+/home/nelis/Projects/2026/elebetavu/dobbelsteen/github.com/pdice-04/mplab-vscode/pdice-04/pdice-04/config.mcc/tones.c
+245 55E 0 CODE 0
+247 55E 0 CODE 0
+248 56E 0 CODE 0
+210 4B6 0 CODE 0
+214 4B6 0 CODE 0
+215 4CF 0 CODE 0
 /opt/microchip/xc8/v4.00/pic/sources/c99/common/aldiv.c
 5 19F 0 CODE 0
 13 19F 0 CODE 0
@@ -816,7 +816,7 @@ text41 C6A C6F CODE C6A 0
 39 220 0 CODE 0
 40 222 0 CODE 0
 41 22A 0 CODE 0
-/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
+/home/nelis/Projects/2026/elebetavu/dobbelsteen/github.com/pdice-04/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
 131 5CD 0 CODE 0
 133 5CD 0 CODE 0
 134 5D1 0 CODE 0
@@ -837,7 +837,7 @@ text41 C6A C6F CODE C6A 0
 49 3F1 0 CODE 0
 52 3F7 0 CODE 0
 53 3FC 0 CODE 0
-/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
+/home/nelis/Projects/2026/elebetavu/dobbelsteen/github.com/pdice-04/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
 74 626 0 CODE 0
 76 626 0 CODE 0
 77 628 0 CODE 0
@@ -847,7 +847,7 @@ text41 C6A C6F CODE C6A 0
 124 605 0 CODE 0
 126 605 0 CODE 0
 127 60A 0 CODE 0
-/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
+/home/nelis/Projects/2026/elebetavu/dobbelsteen/github.com/pdice-04/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
 100 62C 0 CODE 0
 102 62C 0 CODE 0
 103 62E 0 CODE 0
@@ -857,7 +857,7 @@ text41 C6A C6F CODE C6A 0
 215 60B 0 CODE 0
 217 60B 0 CODE 0
 218 610 0 CODE 0
-/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/system.c
+/home/nelis/Projects/2026/elebetavu/dobbelsteen/github.com/pdice-04/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/system.c
 39 532 0 CODE 0
 41 532 0 CODE 0
 42 535 0 CODE 0
@@ -867,7 +867,7 @@ text41 C6A C6F CODE C6A 0
 46 541 0 CODE 0
 47 544 0 CODE 0
 48 547 0 CODE 0
-/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
+/home/nelis/Projects/2026/elebetavu/dobbelsteen/github.com/pdice-04/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
 45 56F 0 CODE 0
 48 56F 0 CODE 0
 49 572 0 CODE 0
@@ -876,7 +876,7 @@ text41 C6A C6F CODE C6A 0
 53 578 0 CODE 0
 54 57A 0 CODE 0
 57 57D 0 CODE 0
-/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
+/home/nelis/Projects/2026/elebetavu/dobbelsteen/github.com/pdice-04/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
 53 4D0 0 CODE 0
 55 4D0 0 CODE 0
 57 4D2 0 CODE 0
@@ -889,7 +889,7 @@ text41 C6A C6F CODE C6A 0
 72 4E4 0 CODE 0
 74 4E6 0 CODE 0
 78 4E9 0 CODE 0
-/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr0.c
+/home/nelis/Projects/2026/elebetavu/dobbelsteen/github.com/pdice-04/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr0.c
 75 57E 0 CODE 0
 77 57E 0 CODE 0
 78 580 0 CODE 0
@@ -900,7 +900,7 @@ text41 C6A C6F CODE C6A 0
 85 587 0 CODE 0
 87 58B 0 CODE 0
 88 58C 0 CODE 0
-/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
+/home/nelis/Projects/2026/elebetavu/dobbelsteen/github.com/pdice-04/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/pwm/src/pwm3.c
 45 4EA 0 CODE 0
 48 4EA 0 CODE 0
 51 4EC 0 CODE 0
@@ -919,7 +919,7 @@ text41 C6A C6F CODE C6A 0
 90 500 0 CODE 0
 96 501 0 CODE 0
 97 502 0 CODE 0
-/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
+/home/nelis/Projects/2026/elebetavu/dobbelsteen/github.com/pdice-04/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
 39 41E 0 CODE 0
 44 41E 0 CODE 0
 49 420 0 CODE 0
@@ -938,7 +938,7 @@ text41 C6A C6F CODE C6A 0
 124 611 0 CODE 0
 125 611 0 CODE 0
 126 616 0 CODE 0
-/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/interrupt.c
+/home/nelis/Projects/2026/elebetavu/dobbelsteen/github.com/pdice-04/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/interrupt.c
 40 5B8 0 CODE 0
 44 5B8 0 CODE 0
 45 5B9 0 CODE 0
@@ -947,13 +947,13 @@ text41 C6A C6F CODE C6A 0
 105 617 0 CODE 0
 106 617 0 CODE 0
 107 61C 0 CODE 0
-/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/clock.c
+/home/nelis/Projects/2026/elebetavu/dobbelsteen/github.com/pdice-04/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/clock.c
 39 5D6 0 CODE 0
 41 5D6 0 CODE 0
 44 5D9 0 CODE 0
 46 5DC 0 CODE 0
 47 5DE 0 CODE 0
-/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/interrupt.c
+/home/nelis/Projects/2026/elebetavu/dobbelsteen/github.com/pdice-04/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/interrupt.c
 59 4 0 CODE 0
 62 A 0 CODE 0
 64 12 0 CODE 0
@@ -965,7 +965,7 @@ text41 C6A C6F CODE C6A 0
 72 28 0 CODE 0
 74 32 0 CODE 0
 85 35 0 CODE 0
-/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
+/home/nelis/Projects/2026/elebetavu/dobbelsteen/github.com/pdice-04/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr2.c
 114 58D 0 CODE 0
 117 58D 0 CODE 0
 119 594 0 CODE 0
@@ -973,7 +973,7 @@ text41 C6A C6F CODE C6A 0
 122 59B 0 CODE 0
 129 635 0 CODE 0
 132 635 0 CODE 0
-/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/interrupts.c
+/home/nelis/Projects/2026/elebetavu/dobbelsteen/github.com/pdice-04/mplab-vscode/pdice-04/pdice-04/config.mcc/interrupts.c
 31 43F 0 CODE 0
 35 43F 0 CODE 0
 35 447 0 CODE 0
@@ -984,7 +984,7 @@ text41 C6A C6F CODE C6A 0
 41 45A 0 CODE 0
 43 45C 0 CODE 0
 45 45E 0 CODE 0
-/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
+/home/nelis/Projects/2026/elebetavu/dobbelsteen/github.com/pdice-04/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
 202 548 0 CODE 0
 205 548 0 CODE 0
 207 54F 0 CODE 0
@@ -993,11 +993,11 @@ text41 C6A C6F CODE C6A 0
 213 55D 0 CODE 0
 220 636 0 CODE 0
 223 636 0 CODE 0
-/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/interrupts.c
+/home/nelis/Projects/2026/elebetavu/dobbelsteen/github.com/pdice-04/mplab-vscode/pdice-04/pdice-04/config.mcc/interrupts.c
 21 5E8 0 CODE 0
 23 5E8 0 CODE 0
 24 5EF 0 CODE 0
-/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
+/home/nelis/Projects/2026/elebetavu/dobbelsteen/github.com/pdice-04/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/timer/src/tmr1.c
 119 503 0 CODE 0
 121 503 0 CODE 0
 123 508 0 CODE 0
@@ -1011,7 +1011,7 @@ text41 C6A C6F CODE C6A 0
 134 516 0 CODE 0
 135 518 0 CODE 0
 137 51A 0 CODE 0
-/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
+/home/nelis/Projects/2026/elebetavu/dobbelsteen/github.com/pdice-04/mplab-vscode/pdice-04/pdice-04/config.mcc/mcc_generated_files/system/src/pins.c
 97 5DF 0 CODE 0
 100 5DF 0 CODE 0
 102 5E4 0 CODE 0
@@ -1023,7 +1023,7 @@ text41 C6A C6F CODE C6A 0
 119 5AA 0 CODE 0
 131 637 0 CODE 0
 134 637 0 CODE 0
-/home/mplab/Projects/pdice.git/mplab-vscode/pdice-04/pdice-04/config.mcc/interrupts.c
+/home/nelis/Projects/2026/elebetavu/dobbelsteen/github.com/pdice-04/mplab-vscode/pdice-04/pdice-04/config.mcc/interrupts.c
 10 5F0 0 CODE 0
 13 5F0 0 CODE 0
 16 5F3 0 CODE 0

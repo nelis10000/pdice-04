@@ -50,8 +50,57 @@ void tune_03(void)
 }
 
 
-// Whoop Up
+// I love rock&roll
 void tune_04(void)
+{
+    playNote(NOTE_E4, NOTE_L4);
+    playNote(NOTE_E4, NOTE_L4);
+    playNote(NOTE_GS4, NOTE_L2);
+    playNote(NOTE_A4, NOTE_L4);
+    playNote(NOTE_A4, NOTE_L1);
+}
+
+// Take on me
+void tune_05(void)
+{
+    playNote(NOTE_FS4, NOTE_L2);
+    playNote(NOTE_FS4, NOTE_L2);
+    playNote(NOTE_D4, NOTE_L2);
+    playNote(NOTE_B3, NOTE_L2);
+    playNote(NOTE_B3, NOTE_L2);
+    playNote(NOTE_E4, NOTE_L2);
+}
+
+
+// Jolene
+void tune_06(void)
+{
+    playNote(NOTE_D3, NOTE_L4);
+    playNote(NOTE_D3, NOTE_L2);
+    playNote(NOTE_F3, NOTE_L4);
+    playNote(NOTE_F3, NOTE_L2);
+    playNote(NOTE_G3, NOTE_L4);
+    playNote(NOTE_G3, NOTE_L2);
+    playNote(NOTE_C4, NOTE_L2);
+    playNote(NOTE_D4, NOTE_L4);
+    playNote(NOTE_C4, NOTE_L2);
+    playNote(NOTE_A3, NOTE_L1);
+}
+
+
+// 9 to 5
+void tune_07(void)
+{
+    playNote(NOTE_C4, NOTE_L2);
+    playNote(NOTE_G4, NOTE_L2);
+    playNote(NOTE_AS4, NOTE_L2);
+    playNote(NOTE_A4, NOTE_L2);
+    playNote(NOTE_G4, NOTE_L1);
+}
+
+
+// Whoop Up
+void tune_08(void)
 {
     uint16_t freq = 500;
     uint16_t reload = 500;
@@ -69,7 +118,7 @@ void tune_04(void)
 
 
 // Random
-void tune_05(void)
+void tune_09(void)
 {
     uint16_t i;
 
@@ -84,7 +133,7 @@ void tune_05(void)
 
 
 // RandomLow
-void tune_06(void)
+void tune_10(void)
 {
     uint16_t i;
 
@@ -99,7 +148,7 @@ void tune_06(void)
 
 
 // RandomHigh
-void tune_07(void)
+void tune_11(void)
 {
     uint16_t i;
 

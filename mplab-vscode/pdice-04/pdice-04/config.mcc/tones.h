@@ -110,13 +110,15 @@ inline void buzzSetFreq(uint16_t freq);                 // Set PWM frequency for
 
 void dicePlaySound(uint8_t val);        // Play a sound after dice roll, depending on dice value.
 
-void tune_01(void);               // Plays a melody (Beethoven)
-void tune_02(void);               // Plays a melody (Star Wars)
-void tune_03(void);               // Whoop up
-void tune_04(void);               // Random
-void tune_05(void);               // ?
-void tune_06(void);               // ?
-void tune_07(void);               // ?
-void tune_08(void);               // ?
-void tune_09(void);               // ?
-void tune_10(void);               // ?
+// Play a simple tune 
+void tune_01(void);               // Fur Elise
+void tune_02(void);               // Star Wars
+void tune_03(void);               // Seven Nation Army
+void tune_04(void);               // I love rock&roll
+void tune_05(void);               // Take on me
+void tune_06(void);               // Jolene
+void tune_07(void);               // 9 to 5
+void tune_08(void);               // Whoop Up
+void tune_09(void);               // Random
+void tune_10(void);               // RandomLow
+void tune_10(void);               // RandomHigh
