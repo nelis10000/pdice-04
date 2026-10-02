@@ -29,10 +29,23 @@
     
     PeriodCount = Fosc / (freq*prescaler) - 1 
     
-    NOTE_C5 = 4000000/(523.25*1) - 1 = 7645
+    NOTE_C3 = 4000000/(130.81*1) - 1 = 30578
     ...
     NOTE_B7 = 4000000/(3951.066*1) - 1 = 1012
 */
+#define NOTE_C3     (uint16_t)((_XTAL_FREQ / (130.81 * 1)) - 1)
+#define NOTE_CS3	(uint16_t)((_XTAL_FREQ / (138.59 * 1)) - 1)
+#define NOTE_D3  	(uint16_t)((_XTAL_FREQ / (146.83 * 1)) - 1)
+#define NOTE_DS3	(uint16_t)((_XTAL_FREQ / (155.56 * 1)) - 1)
+#define NOTE_E3  	(uint16_t)((_XTAL_FREQ / (164.81 * 1)) - 1)
+#define NOTE_F3  	(uint16_t)((_XTAL_FREQ / (174.61 * 1)) - 1)
+#define NOTE_FS3	(uint16_t)((_XTAL_FREQ / (185.00 * 1)) - 1)
+#define NOTE_G3  	(uint16_t)((_XTAL_FREQ / (196.00 * 1)) - 1)
+#define NOTE_GS3	(uint16_t)((_XTAL_FREQ / (207.65 * 1)) - 1)
+#define NOTE_A3  	(uint16_t)((_XTAL_FREQ / (220.00 * 1)) - 1)
+#define NOTE_AS3	(uint16_t)((_XTAL_FREQ / (233.08 * 1)) - 1)
+#define NOTE_B3  	(uint16_t)((_XTAL_FREQ / (246.94 * 1)) - 1)
+
 #define NOTE_C4     (uint16_t)((_XTAL_FREQ / (261.63 * 1)) - 1)
 #define NOTE_CS4	(uint16_t)((_XTAL_FREQ / (277.18 * 1)) - 1)
 #define NOTE_D4  	(uint16_t)((_XTAL_FREQ / (293.66 * 1)) - 1)
