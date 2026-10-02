@@ -37,21 +37,16 @@ void tune_02(void)
 }
 
 
-// Airwolf: A E A B C B A E G D G A     - doesn't sound right at all
+// Seven Nation Army
 void tune_03(void)
 {
-    playNote(NOTE_A5, 500/3);
-    playNote(NOTE_E5, 500/3);
-    playNote(NOTE_A5, 500/3);
-    playNote(NOTE_B5, 500/3);
-    playNote(NOTE_C5, 500/3);
-    playNote(NOTE_B5, 500/3);
-    playNote(NOTE_A5, 500/3);
-    playNote(NOTE_E5, 500/3);
-    playNote(NOTE_G5, 500/3);
-    playNote(NOTE_D5, 500/3);
-    playNote(NOTE_G5, 500/3);
-    playNote(NOTE_A5, 500/3);
+    playNote(NOTE_G4, NOTE_L1);
+    playNote(NOTE_G4, NOTE_L2);
+    playNote(NOTE_A4, NOTE_L2);
+    playNote(NOTE_G4, NOTE_L1);
+    playNote(NOTE_E4, NOTE_L2);
+    playNote(NOTE_D4, NOTE_L2);
+    playNote(NOTE_C4, NOTE_L1);
 }
 
 

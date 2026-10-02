@@ -33,7 +33,19 @@
     ...
     NOTE_B7 = 4000000/(3951.066*1) - 1 = 1012
 */
-#define NOTE_C5     (uint16_t)((_XTAL_FREQ / (523.250 * 1)) - 1)
+#define NOTE_C4     (uint16_t)((_XTAL_FREQ / (261.63 * 1)) - 1)
+#define NOTE_CS4	(uint16_t)((_XTAL_FREQ / (277.18 * 1)) - 1)
+#define NOTE_D4  	(uint16_t)((_XTAL_FREQ / (293.66 * 1)) - 1)
+#define NOTE_DS4	(uint16_t)((_XTAL_FREQ / (311.13 * 1)) - 1)
+#define NOTE_E4  	(uint16_t)((_XTAL_FREQ / (329.63 * 1)) - 1)
+#define NOTE_F4  	(uint16_t)((_XTAL_FREQ / (349.23 * 1)) - 1)
+#define NOTE_FS4	(uint16_t)((_XTAL_FREQ / (369.99 * 1)) - 1)
+#define NOTE_G4  	(uint16_t)((_XTAL_FREQ / (392.00 * 1)) - 1)
+#define NOTE_GS4	(uint16_t)((_XTAL_FREQ / (415.30 * 1)) - 1)
+#define NOTE_A4  	(uint16_t)((_XTAL_FREQ / (440.00 * 1)) - 1)
+#define NOTE_AS4	(uint16_t)((_XTAL_FREQ / (466.16 * 1)) - 1)
+#define NOTE_B4  	(uint16_t)((_XTAL_FREQ / (493.88 * 1)) - 1)
+
 #define NOTE_C5  	(uint16_t)((_XTAL_FREQ / (523.250 * 1)) - 1)
 #define NOTE_CS5	(uint16_t)((_XTAL_FREQ / (554.370 * 1)) - 1)
 #define NOTE_D5  	(uint16_t)((_XTAL_FREQ / (587.330 * 1)) - 1)
