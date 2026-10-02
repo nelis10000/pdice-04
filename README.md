@@ -4,6 +4,6 @@ All design files for the electronic dice building kit for the "Weekend of the We
 \
 Microprocessor: PIC12F1572 \
 Toolchain: vscode+mplab plugin \
-Programmer: PICkit5
+Programmer: PICkit4 or PICkit5
 
 
