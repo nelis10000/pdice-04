@@ -265,7 +265,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "0.1"
+      "sch_revision": "0.4"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -647,7 +647,7 @@
           "group_by": false,
           "label": "OC_MOUSER",
           "name": "OC_MOUSER",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,

@@ -3,19 +3,19 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "10.0.0"
+      "Version": "10.0.6"
     },
-    "CreationDate": "2026-09-15T12:55:38+02:00"
+    "CreationDate": "2026-10-02T15:37:49+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "pdice-01",
-      "GUID": "70646963-652d-4303-912e-6b696361645f",
+      "Name": "pdice-04",
+      "GUID": "70646963-652d-4303-942e-6b696361645f",
       "Revision": "rev?"
     },
     "Size": {
-      "X": 67.36,
-      "Y": 62.28
+      "X": 40.69,
+      "Y": 55.93
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
@@ -27,24 +27,54 @@
       "PadToPad": 0.2,
       "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
-      "MinLineWidth": 0.5,
+      "MinLineWidth": 0.33,
       "TrackToRegion": 0.75,
       "RegionToRegion": 0.75
     }
   ],
   "FilesAttributes": [
     {
-      "Path": "pdice-01-F_Cu.gbr",
+      "Path": "pdice-04-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "pdice-01-B_Cu.gbr",
+      "Path": "pdice-04-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "pdice-01-Edge_Cuts.gbr",
+      "Path": "pdice-04-F_Paste.gbr",
+      "FileFunction": "SolderPaste,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "pdice-04-B_Paste.gbr",
+      "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "pdice-04-F_Silkscreen.gbr",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "pdice-04-B_Silkscreen.gbr",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "pdice-04-F_Mask.gbr",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "pdice-04-B_Mask.gbr",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "pdice-04-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }

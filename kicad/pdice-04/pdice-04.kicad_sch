@@ -7,7 +7,7 @@
 	(title_block
 		(title "Dobbelsteen met PIC12 microcontroller")
 		(date "2026-09-12")
-		(rev "0.1")
+		(rev "0.4")
 		(company "Elektronica Beta VU")
 		(comment 1 "Vrije Universiteit Amsterdam")
 	)
@@ -4597,7 +4597,7 @@
 		)
 		(uuid "2ac020ee-da33-4e22-a6b2-be366b901587")
 	)
-	(text "Dobbelsteen\nAlle LEDs 2mA type (Low Current),\nRood: WP7113LID\nGeel: LTL2R3KYD-EM\nGroen: LTL2R3KGD-EM "
+	(text "Dobbelsteen\nAlle LEDs 2mA type (Low Current)\nRood: WP7113LID\nGeel: LTL2R3KYD-EM\nGroen: LTL2R3KGD-EM "
 		(exclude_from_sim no)
 		(at 245.745 142.875 0)
 		(effects
@@ -6953,7 +6953,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -7004,6 +7004,72 @@
 			)
 		)
 		(property "Description" ""
+			(at 154.94 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" ""
+			(at 154.94 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 154.94 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OC_MOUSER" ""
+			(at 154.94 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OC_RS" ""
+			(at 154.94 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OC_FARNELL" ""
+			(at 154.94 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OC_CONRAD" ""
 			(at 154.94 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -7394,6 +7460,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 138.43 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OC_MOUSER" "594-MCT06030Z0000ZP5"
+			(at 138.43 116.84 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8359,6 +8436,17 @@
 				)
 			)
 		)
+		(property "OC_MOUSER" "594-MCT06030C4702FP5"
+			(at 72.39 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6ffffdfb-c3fb-4e29-ad39-330cd47d9080")
 		)
@@ -8523,6 +8611,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 87.63 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OC_MOUSER" "81-GCM188R71H104KA7D"
 			(at 87.63 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -8900,7 +8999,7 @@
 		(property "OC_MOUSER" "640-USB4125-GF-A-190 "
 			(at 33.655 55.88 90)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10147,7 +10246,7 @@
 				)
 			)
 		)
-		(property "OC_MOUSER" ""
+		(property "OC_MOUSER" "612-EG1218"
 			(at 74.93 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -10296,7 +10395,7 @@
 				)
 			)
 		)
-		(property "OC_MOUSER" ""
+		(property "OC_MOUSER" "594-MCT06030C5101FP5 "
 			(at 63.5 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -10657,6 +10756,17 @@
 				)
 			)
 		)
+		(property "OC_MOUSER" "594-MCT06030C5101FP5 "
+			(at 69.85 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c249f184-9a94-45ce-8992-843eefe331c8")
 		)
@@ -10759,7 +10869,7 @@
 				)
 			)
 		)
-		(property "OC_MOUSER" ""
+		(property "OC_MOUSER" "612-EG1218"
 			(at 151.13 139.7 0)
 			(hide yes)
 			(show_name no)
